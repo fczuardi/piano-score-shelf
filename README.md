@@ -8,7 +8,7 @@ A small, manually curated collection of piano scores that have entered the publi
 - [Ragtime](ragtime/README.md)
 - [Boogie-woogie](boogie-woogie/README.md)
 
-The shelf is empty for now. Scores will be added one at a time, with source details and personal study notes.
+Scores are added one at a time, with source details and personal study notes.
 
 ## Adding a score
 
