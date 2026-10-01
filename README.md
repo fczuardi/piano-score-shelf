@@ -1,6 +1,6 @@
 # Piano score shelf
 
-A small, manually curated collection of piano scores for my studies, especially blues, boogie-woogie, and ragtime. PDFs are kept here so they can be opened and downloaded without an account.
+A small, manually curated collection of piano scores that have entered the public domain in the United States, for my studies in blues, boogie-woogie, and ragtime. PDFs are kept here so they can be opened and downloaded without an account.
 
 ## Scores
 
@@ -13,7 +13,7 @@ The shelf is empty for now. Scores will be added one at a time, with source deta
 ## Adding a score
 
 1. Download a PDF manually from its source.
-2. Check the specific edition or arrangement and its redistribution status.
+2. Check that the composition and the specific edition or arrangement are in the public domain in the United States.
 3. Put it in the appropriate folder, using a lowercase, hyphenated filename, such as `composer-title-edition.pdf`.
 4. Copy [the score entry template](templates/score-entry.md) into that folder's README and fill in its provenance and study notes.
 5. Include an **Open PDF** link to the file and, if useful, a direct raw-file link.
@@ -26,8 +26,8 @@ Browser settings determine whether a PDF opens inline or downloads.
 
 ## Sources and rights
 
-Each score records its source and the status of the particular edition or file. Inclusion is based on public-domain status in the jurisdictions recorded for the entry, or a license permitting redistribution. Original source credits and notices are preserved.
+Each score records its source and the status of the particular edition or file. Inclusion is based on public-domain status in the United States, with supporting sources recorded for each entry. Original source credits and notices are preserved.
 
-Copyright terms vary by country; an entry should explain the basis for inclusion rather than just say “public domain everywhere.” The composition, arrangement, editorial additions, and file license should be considered separately where applicable.
+Copyright status outside the United States may differ, including in Brazil. This collection does not claim worldwide public-domain status. The composition, arrangement, editorial additions, and any file-specific terms are checked separately where applicable.
 
 There is no repository-wide license for the score PDFs. Each file retains its own applicable status or license. If an entry is incomplete or a file was included incorrectly, please open an issue with the filename and supporting information.
