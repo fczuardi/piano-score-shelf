@@ -9,8 +9,9 @@
 - **Source page:** <!-- Link to the page identifying this exact edition/file -->
 - **Source file identifier:** <!-- For example, IMSLP file number -->
 - **Retrieved:** YYYY-MM-DD
-- **Rights / license:** <!-- Status of the exact edition/file, including license URL if applicable -->
-- **Jurisdictions and basis:** <!-- Record evidence/links; do not infer worldwide status -->
+- **US public-domain status and basis:** <!-- Evidence/links for the composition and this specific edition or arrangement -->
+- **File-specific terms / notices:** <!-- Record any relevant source statements -->
+- **Status elsewhere:** <!-- Optional; no worldwide claim is implied -->
 - **Required attribution / notices:**
 
 **Why I saved it:**
