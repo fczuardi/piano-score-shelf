@@ -28,6 +28,6 @@ Browser settings determine whether a PDF opens inline or downloads.
 
 Each score records its source and the status of the particular edition or file. Inclusion is based on public-domain status in the United States, with supporting sources recorded for each entry. Original source credits and notices are preserved.
 
-Copyright status outside the United States may differ, including in Brazil. This collection does not claim worldwide public-domain status. The composition, arrangement, editorial additions, and any file-specific terms are checked separately where applicable.
+Copyright status outside the United States may differ. This collection does not claim worldwide public-domain status. The composition, arrangement, editorial additions, and any file-specific terms are checked separately where applicable.
 
 There is no repository-wide license for the score PDFs. Each file retains its own applicable status or license. If an entry is incomplete or a file was included incorrectly, please open an issue with the filename and supporting information.
