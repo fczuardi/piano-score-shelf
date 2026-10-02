@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+  <h1>{{ section.title }}</h1>
+  {{ section.content | safe }}
+  {% set songs = get_section(path="songs/_index.md") %}
+  <h2>Scores</h2>
+  <ul>
+  {% for song in songs.pages %}
+    <li><a href="{{ song.permalink }}">{{ song.title }}</a> — {{ song.extra.creators | join(sep=", ") }}</li>
+  {% endfor %}
+  </ul>
+{% endblock content %}

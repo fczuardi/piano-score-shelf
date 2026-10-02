@@ -1,0 +1,788 @@
+[work]
+slug = "st-louis-blues"
+title = "St. Louis Blues"
+creators = ["W. C. Handy"]
+summary = "Sheet music and a historical reference recording for study."
+research_date = "2026-10-02"
+rights_note = "The evidence supports US public-domain use of the score editions and the 1921, 1922, and 1925 recordings listed as reviewed here. IMSLP marks file #716402 and its 1914 Handy Bros. material Public Domain; the downloaded file contains two six-page issues that are displayed separately. Duke marks its six-image Rudy Vallée promotional edition as Free Re-Use and No Copyright - United States, with attribution to Duke University Libraries. The Library of Congress states that US sound recordings published from 1923 through 1946 are protected for 100 years; the 1925 recordings therefore entered the US public domain on January 1, 2026. Project Gutenberg also explicitly identifies the Ferera and Paaluhi recording as public domain in the USA. Recording and publication dates are distinct. The linked Bessie Smith Archive.org transfer has no declared license, so it is linked rather than locally republished. Copyright status may differ outside the United States."
+
+[[score_editions]]
+title = "Handy Bros. scenic-cover issue"
+source = "imslp-score-716402"
+artifacts = ["imslp-716402-page-1", "imslp-716402-page-2", "imslp-716402-page-3", "imslp-716402-page-4", "imslp-716402-page-5", "imslp-716402-page-6"]
+note = "The first six pages of IMSLP #716402: scenic front cover, four score pages, and an advertising back cover. IMSLP catalogs the containing PDF as a 1914 first edition."
+
+[[score_editions]]
+title = "Paul Whiteman promotional issue"
+source = "imslp-score-716402"
+artifacts = ["imslp-716402-page-7", "imslp-716402-page-8", "imslp-716402-page-9", "imslp-716402-page-10", "imslp-716402-page-11", "imslp-716402-page-12"]
+note = "The second six pages bundled in IMSLP #716402: Paul Whiteman front cover, four score pages, and an advertising back cover. It is kept distinct from the scenic-cover issue even though IMSLP distributes both in one PDF."
+
+[[score_editions]]
+title = "Handy Bros. revised edition"
+source = "score-archive"
+artifacts = ["score-pdf-page-1", "score-pdf-page-2", "score-pdf-page-3", "score-pdf-page-4"]
+note = "Four-page revised edition with ukulele arrangement. These JPEGs are display derivatives rendered from the preserved PDF at 150 DPI with Poppler pdftoppm; the PDF remains the canonical downloaded artifact."
+
+[[score_editions]]
+title = "Rudy Vallée promotional edition"
+source = "duke-score"
+artifacts = ["duke-score-page-1", "duke-score-page-2", "duke-score-page-3", "duke-score-page-4", "duke-score-page-5", "duke-score-page-6"]
+note = "Six-page voice, piano, and ukulele edition: illustrated front cover, four score pages, and an advertising back cover. Duke dates the underlying work to 1914; this physical edition is later and remains undated here pending further research."
+
+[[arrangements]]
+title = "St. Louis Blues for piano"
+arranger = "Rube Bloom"
+instrumentation = "solo piano"
+date = "1928"
+source = "imslp-bloom-arrangement"
+artifacts = ["bloom-arrangement-page-1", "bloom-arrangement-page-2", "bloom-arrangement-page-3", "bloom-arrangement-page-4", "bloom-arrangement-page-5", "bloom-arrangement-page-6", "bloom-arrangement-page-7", "bloom-arrangement-page-8"]
+note = "Eight-page piano arrangement published by Alfred & Co. IMSLP marks it Public Domain and Non-PD Canada; this project treats the locally hosted copy as public domain in the United States."
+
+[[creative_commons_works]]
+title = "St. Louis Blues for four recorders"
+creator = "David Edward Kemp"
+date = "2016"
+source = "imslp-kemp-arrangement"
+license_name = "Creative Commons Attribution-ShareAlike 4.0 International"
+license_url = "https://creativecommons.org/licenses/by-sa/4.0/"
+files = ["kemp-recorder-score-pdf", "kemp-recorder-parts-pdf"]
+images = ["kemp-recorder-score-page-1", "kemp-recorder-score-page-2", "kemp-recorder-score-page-3", "kemp-recorder-score-page-4", "kemp-recorder-score-page-5", "kemp-recorder-score-page-6"]
+note = "Arrangement for one soprano, one alto, one tenor, and one bass recorder. The locally hosted PDFs are unmodified; the JPEG page images are display derivatives."
+
+[[creative_commons_works]]
+title = "Synthesized performance of the four-recorder arrangement"
+creator = "Dadvid"
+date = "2020-11-05"
+source = "imslp-kemp-performance"
+license_name = "Creative Commons Attribution 4.0 International"
+license_url = "https://creativecommons.org/licenses/by/4.0/"
+files = ["kemp-recorder-synthesized-mp3"]
+images = []
+audio = "kemp-recorder-synthesized-mp3"
+note = "IMSLP describes this as a synthesized MIDI performance, but the distributed artifact is an MP3. The locally hosted file is unmodified."
+
+[[reviewed_recordings]]
+title = "St. Louis blues"
+performer = "Original Dixieland Jazz Band with Al Bernard"
+date = "1921-05-25"
+source = "recording-catalog"
+local_artifact = "recording-1921-wav"
+
+[[reviewed_recordings]]
+title = "St. Louis blues"
+performer = "Ted Lewis Jazz Band"
+date = "1922-12-07"
+source = "ted-lewis-recording-catalog"
+local_artifact = "recording-1922-wav"
+
+[[reviewed_recordings]]
+title = "St. Louis Blues"
+performer = "Bessie Smith"
+date = "1925-01-14"
+source = "bessie-smith-archive"
+note = "The underlying 1925 recording is public domain in the United States. The linked user-uploaded FLAC has no declared license and is not hosted locally."
+
+[[reviewed_recordings]]
+title = "The St. Louis Blues"
+performer = "Frank Ferera and John Paaluhi"
+date = "1925-09-04"
+source = "ferera-paaluhi-gutenberg"
+local_artifact = "recording-1925-ferera-paaluhi-mp3"
+
+[[external_media]]
+title = "W. C. Handy performs St. Louis Blues on The Ed Sullivan Show"
+provider = "YouTube"
+url = "https://www.youtube.com/watch?v=cSuTTSOctGw"
+source = "ed-sullivan-youtube"
+rights_note = "Copyrighted external media. Linked to the official Ed Sullivan Show YouTube channel; not hosted by this project."
+
+[[external_media]]
+title = "Marion Harris — St. Louis Blues (1920)"
+provider = "YouTube"
+url = "https://www.youtube.com/watch?v=3UmD5Maujxc"
+source = "marion-harris-youtube"
+rights_note = "The underlying 1920 recording is public domain in the United States. This external transfer declares no Creative Commons license and is linked from YouTube rather than hosted by this project."
+
+[[leads]]
+url = "https://en.wikisource.org/wiki/St._Louis_Blues"
+added = "2026-10-01"
+status = "unreviewed"
+
+[listening]
+note = "Recording rights have not been reviewed; the player below is an iframe for the Archive.org page."
+labels = [
+  "W. C. Handy",
+  "Barclay Allen Rhythm Four",
+  "Raymond Burke and his New Orleans Jazz Band",
+  "Brooks Brothers",
+  "Kay Starr and The All Stars",
+  "Esquire Boys",
+  "Jimmy and Mildred Mulcay",
+  "Broadway Broadcasters — Azul de St. Louis",
+  "Minnie Mouse",
+  "F. Weir — Part 2",
+  "Darnell Howard's Frisco Footwarmers",
+  "Maurice Rocco and His Rockin' Rhythm",
+  "Blake Reynolds",
+  "F. Weir — Part 1",
+  "Al Raymond and the Raytones",
+  "W. C. Handy",
+  "Handy / Paul Weston",
+  "Esquire Boys — St. Louie Blues",
+  "Dallas Bartley and the Band That Comes On",
+  "Handy / John Bennett",
+  "Los Bambucos",
+  "Richard Maltby and Orchestra — St. Louis Blues Mambo",
+  "Noro Morales and His Rhythm Sextet — St. Louis Blues Mambo",
+  "Unknown performer",
+  "Art Hodes",
+  "Art Hodes",
+  "Art Hodes",
+  "Judy Canova",
+  "Freeman Clark",
+  "Rosa Linda",
+  "Unknown performer",
+  "Lloyd Sullivan",
+  "Boyd Raeburn and His Orchestra",
+  "Cassino Simpson",
+  "The Gene Krupa Trio",
+  "Bessie Smith — The St. Louis Blues",
+  "Art Tatum",
+  "W. C. Handy and Orchestra — 1939 recording (Philharmonic FR-81)",
+]
+urls = [
+  "https://archive.org/details/78_st-louis-blues_wc-handy_gbia0376191a",
+  "https://archive.org/details/78_st-louis-blues_barclay-allen-rhythm-four-handy-b-allen-s-black-s-fridkin-m-mah_gbia0037081b",
+  "https://archive.org/details/78_st.-louis-blues_raymond-burke-and-his-new-orleans-jazz-band-thomas-jefferson-handy_gbia0003777b",
+  "https://archive.org/details/78_st-louis-blues_brooks-brothers-handy_gbia0353901a",
+  "https://archive.org/details/78_st.-louis-blues_kay-starr-and-the-all-stars-kay-starr-w.-c.-handy_gbia0007050b",
+  "https://archive.org/details/78_st-louis-blues_esquire-boys-wc-handy_gbia0321827b",
+  "https://archive.org/details/78_st-louis-blues_jimmy-and-mildred-mulcay-murray-kellner-w-c-handy_gbia0321746a",
+  "https://archive.org/details/78_st-louis-blues-azul-de-st-louis_broadway-broadcasters-wc-handy_gbia0349331a",
+  "https://archive.org/details/78_st-louis-blues_minnie-mouse-mickey-mouse_gbia0381449a",
+  "https://archive.org/details/78_st-louis-blues-part-2_f-weir-billy-munn-j-sasson-m-burman-l-hutchinson-w-phil_gbia0210887b",
+  "https://archive.org/details/78_st-louis-blues_darnell-howards-frisco-footwarmers-bob-scobey-jack-buck-darnell-ho_gbia0210894b",
+  "https://archive.org/details/78_st-louis-blues_maurice-rocco-and-his-rockin-rhythm-cozy-cole-and-billy-taylor-han_gbia0206655b",
+  "https://archive.org/details/78_st-louis-blues_blake-reynolds-wc-handy_gbia0208716b",
+  "https://archive.org/details/78_st-louis-blues-part-1_f-weir-billy-munn-j-sasson-m-burman-l-hutchinson-w-phil_gbia0210887a",
+  "https://archive.org/details/78_st-louis-blues_al-raymond-and-the-raytones-w-c-handy_gbia0458267a",
+  "https://archive.org/details/78_st-louis-blues_w-c-handy-w-c-handy_gbia0561918a",
+  "https://archive.org/details/78_st-louis-blues_handy-paul-weston_gbia0532985a",
+  "https://archive.org/details/78_st-louie-blues_esquire-boys-w-c-handy_gbia0363282b",
+  "https://archive.org/details/78_st-louis-blues_dallas-bartley-and-the-band-that-comes-on-annie-laurie-w-c-hand_gbia0447962b",
+  "https://archive.org/details/78_st-louis-blues_handy-john-bennett_gbia0016659a",
+  "https://archive.org/details/78_st-louis-blues_los-bambucos-william-c-handy_gbia0038284b",
+  "https://archive.org/details/78_st.-louis-blues-mambo_richard-maltby-and-orchestra-w.-c.-handy_gbia0008119a",
+  "https://archive.org/details/noro-morales-and-his-rhythm-sextet-st.-louis-blues-mambo-columbia-39601-co-47057",
+  "https://archive.org/details/78_st-louis-blues_gbia0420733a",
+  "https://archive.org/details/78_st-louis-blues_art-hodes-handy_gbia0191622b",
+  "https://archive.org/details/78_st-louis-blues_art-hodes-handy_gbia0022770b",
+  "https://archive.org/details/78_st-louis-blues_art-hodes-handy_gbia0388488b",
+  "https://archive.org/details/78_st-louis-blues_judy-canova_gbia0340717b",
+  "https://archive.org/details/78_st-louis-blues_freeman-clark-w-c-handy_gbia0220921a",
+  "https://archive.org/details/78_st-louis-blues_rosa-linda-w-c-handy_gbia0168046a",
+  "https://archive.org/details/78_st-louis-blues_gbia0454780a",
+  "https://archive.org/details/78_st-louis-blues_lloyd-sullivan-handy_gbia0036692b",
+  "https://archive.org/details/78_st-louis-blues_boyd-raeburn-and-his-orchestra-ginnie-powell-ginnie-powell-w-c-ha_gbia0447296b",
+  "https://archive.org/details/78_st-louis-blues_cassino-simpson-laura-rucker-handy_gbia0387048b",
+  "https://archive.org/details/78_st-louis-blues_the-gene-krupa-trio-teddy-napoleon-charlie-venture-norman-granz-hand_gbia7036598a",
+  "https://archive.org/details/the-st-louis-blues",
+  "https://archive.org/details/9433stlouisbluesarttatum",
+  "https://archive.org/details/78_st-louis-blues_w-c-handy_gbia0030859a",
+]
+
+[[artifacts]]
+id = "score"
+label = "Sheet music (PDF)"
+file = "handy-st-louis-blues.pdf"
+sha256 = "5eca837a94e7f242613246e7dd5b6d21820ca4f54bdffb3cf7729db8c9184e85"
+acquired_from = "score-archive"
+
+[[artifacts]]
+id = "imslp-716402-pdf"
+label = "IMSLP #716402 complete score (PDF)"
+file = "imslp-716402-first-edition-1914.pdf"
+sha256 = "3cee8621f3b990215d84ee419ff57230ddbec0ddf712a5b420621f59aaa01624"
+acquired_from = "imslp-score-716402"
+download_url = "https://s9.imslp.org/files/imglnks/usimg/8/8f/IMSLP716402-PMLP67902-SheetMusic_31198.pdf"
+
+[[artifacts]]
+id = "imslp-716402-page-1"
+label = "IMSLP #716402 — scenic front cover"
+file = "imslp-716402-first-edition-1914-01.jpg"
+sha256 = "93ac6f8393c4e5c8cd81a0cd3d4a946b35cdad283a29f13c164258d3049372bf"
+acquired_from = "imslp-score-716402"
+derived_from = "imslp-716402-pdf"
+derivation = "Poppler pdftoppm 26.08.0; page 1; JPEG; 150 DPI; quality 90; progressive and optimized"
+
+[[artifacts]]
+id = "imslp-716402-page-2"
+label = "IMSLP #716402 — scenic issue score page 2"
+file = "imslp-716402-first-edition-1914-02.jpg"
+sha256 = "3b6e6ab92df47a463401b2ae5c632542f2dec2b8ae16dd06f113cda94e7f7226"
+acquired_from = "imslp-score-716402"
+derived_from = "imslp-716402-pdf"
+derivation = "Poppler pdftoppm 26.08.0; page 2; JPEG; 150 DPI; quality 90; progressive and optimized"
+
+[[artifacts]]
+id = "imslp-716402-page-3"
+label = "IMSLP #716402 — scenic issue score page 3"
+file = "imslp-716402-first-edition-1914-03.jpg"
+sha256 = "225ae08731bdbba2c1db91741a132a57a282bf74de047cd0f188fd44fa776f9a"
+acquired_from = "imslp-score-716402"
+derived_from = "imslp-716402-pdf"
+derivation = "Poppler pdftoppm 26.08.0; page 3; JPEG; 150 DPI; quality 90; progressive and optimized"
+
+[[artifacts]]
+id = "imslp-716402-page-4"
+label = "IMSLP #716402 — scenic issue score page 4"
+file = "imslp-716402-first-edition-1914-04.jpg"
+sha256 = "79e2d600a25f815d60460511163ed590e50cfdcf462c2db9052719ce6a9df519"
+acquired_from = "imslp-score-716402"
+derived_from = "imslp-716402-pdf"
+derivation = "Poppler pdftoppm 26.08.0; page 4; JPEG; 150 DPI; quality 90; progressive and optimized"
+
+[[artifacts]]
+id = "imslp-716402-page-5"
+label = "IMSLP #716402 — scenic issue score page 5"
+file = "imslp-716402-first-edition-1914-05.jpg"
+sha256 = "8f414393ba5dd1b3cfbccc3120ffff0dc1fb250d757e0ac090e5be993f00350a"
+acquired_from = "imslp-score-716402"
+derived_from = "imslp-716402-pdf"
+derivation = "Poppler pdftoppm 26.08.0; page 5; JPEG; 150 DPI; quality 90; progressive and optimized"
+
+[[artifacts]]
+id = "imslp-716402-page-6"
+label = "IMSLP #716402 — scenic issue advertising back cover"
+file = "imslp-716402-first-edition-1914-06.jpg"
+sha256 = "4b30e3ff2fe7a2561e4b0c1def27f1ee1eb7f18a2429d5d134478832aff362f4"
+acquired_from = "imslp-score-716402"
+derived_from = "imslp-716402-pdf"
+derivation = "Poppler pdftoppm 26.08.0; page 6; JPEG; 150 DPI; quality 90; progressive and optimized"
+
+[[artifacts]]
+id = "imslp-716402-page-7"
+label = "IMSLP #716402 — Paul Whiteman front cover"
+file = "imslp-716402-first-edition-1914-07.jpg"
+sha256 = "86f530e66d8f188b7afcc4d26f60822b8a9c30264dc799da6819a0e118b49cf4"
+acquired_from = "imslp-score-716402"
+derived_from = "imslp-716402-pdf"
+derivation = "Poppler pdftoppm 26.08.0; page 7; JPEG; 150 DPI; quality 90; progressive and optimized"
+
+[[artifacts]]
+id = "imslp-716402-page-8"
+label = "IMSLP #716402 — Paul Whiteman issue score page 2"
+file = "imslp-716402-first-edition-1914-08.jpg"
+sha256 = "cc3edebbdb4af67e0a91bf0d1223d4a130f7291cb332a226fae57dec27ee2637"
+acquired_from = "imslp-score-716402"
+derived_from = "imslp-716402-pdf"
+derivation = "Poppler pdftoppm 26.08.0; page 8; JPEG; 150 DPI; quality 90; progressive and optimized"
+
+[[artifacts]]
+id = "imslp-716402-page-9"
+label = "IMSLP #716402 — Paul Whiteman issue score page 3"
+file = "imslp-716402-first-edition-1914-09.jpg"
+sha256 = "a4edb76a4d4028a7005437937fc595036f09148663311af9f49ba410e47be026"
+acquired_from = "imslp-score-716402"
+derived_from = "imslp-716402-pdf"
+derivation = "Poppler pdftoppm 26.08.0; page 9; JPEG; 150 DPI; quality 90; progressive and optimized"
+
+[[artifacts]]
+id = "imslp-716402-page-10"
+label = "IMSLP #716402 — Paul Whiteman issue score page 4"
+file = "imslp-716402-first-edition-1914-10.jpg"
+sha256 = "f45576b0f560b14f59c7459c2f5087a3fabff2c59d573f086bb51557dd093ade"
+acquired_from = "imslp-score-716402"
+derived_from = "imslp-716402-pdf"
+derivation = "Poppler pdftoppm 26.08.0; page 10; JPEG; 150 DPI; quality 90; progressive and optimized"
+
+[[artifacts]]
+id = "imslp-716402-page-11"
+label = "IMSLP #716402 — Paul Whiteman issue score page 5"
+file = "imslp-716402-first-edition-1914-11.jpg"
+sha256 = "9fbfd73ac063f647bd4246c69a2c0dbbe7a2d654d8de15828deba067dc4fb3a4"
+acquired_from = "imslp-score-716402"
+derived_from = "imslp-716402-pdf"
+derivation = "Poppler pdftoppm 26.08.0; page 11; JPEG; 150 DPI; quality 90; progressive and optimized"
+
+[[artifacts]]
+id = "imslp-716402-page-12"
+label = "IMSLP #716402 — Paul Whiteman issue advertising back cover"
+file = "imslp-716402-first-edition-1914-12.jpg"
+sha256 = "7e6b1d6237e23fb9fe49469692192f27ffcd7fbdc497266cbdbdf4efaeee9d60"
+acquired_from = "imslp-score-716402"
+derived_from = "imslp-716402-pdf"
+derivation = "Poppler pdftoppm 26.08.0; page 12; JPEG; 150 DPI; quality 90; progressive and optimized"
+
+[[artifacts]]
+id = "score-pdf-page-1"
+label = "Handy Bros. revised edition — cover"
+file = "internet-archive-revised-edition-01.jpg"
+sha256 = "f5b2168b5a9a41abb76bfc066b7785c1aef12f044dba56d0d21af3524322dee6"
+acquired_from = "score-archive"
+derived_from = "score"
+derivation = "Poppler pdftoppm 26.08.0; page 1; JPEG; 150 DPI; quality 90; progressive and optimized"
+
+[[artifacts]]
+id = "bloom-arrangement-pdf"
+label = "Rube Bloom piano arrangement (PDF)"
+file = "rube-bloom-piano-arrangement-1928.pdf"
+sha256 = "38483056762802583eaf6b01fb49aa67397bd223d58f82d0f275be4132bafc8c"
+acquired_from = "imslp-bloom-arrangement"
+download_url = "https://www.petruccilibrary.us/files/imglnks/music_files/PMLUS06573-Handy%2C_Bloom_arranger%2C_St_Louis_Blues.pdf"
+
+[[artifacts]]
+id = "bloom-arrangement-page-1"
+label = "Rube Bloom piano arrangement — page 1"
+file = "rube-bloom-piano-arrangement-1928-1.jpg"
+sha256 = "dfae32bef9be5a4f3e1a3852a5db43d0601dbdb94f324466844a704df367987e"
+acquired_from = "imslp-bloom-arrangement"
+derived_from = "bloom-arrangement-pdf"
+derivation = "Poppler pdftoppm 26.08.0; page 1; JPEG; 150 DPI; quality 90; progressive and optimized"
+
+[[artifacts]]
+id = "bloom-arrangement-page-2"
+label = "Rube Bloom piano arrangement — page 2"
+file = "rube-bloom-piano-arrangement-1928-2.jpg"
+sha256 = "0d913c977f9079bdf9eb8bbf60a00399b962523f2e1bfeb6faf8a1b11b82d59b"
+acquired_from = "imslp-bloom-arrangement"
+derived_from = "bloom-arrangement-pdf"
+derivation = "Poppler pdftoppm 26.08.0; page 2; JPEG; 150 DPI; quality 90; progressive and optimized"
+
+[[artifacts]]
+id = "bloom-arrangement-page-3"
+label = "Rube Bloom piano arrangement — page 3"
+file = "rube-bloom-piano-arrangement-1928-3.jpg"
+sha256 = "31a4929efb6f06d6e7f0d89334c6a33a9b795d1a680292c601da69b256ea7ad6"
+acquired_from = "imslp-bloom-arrangement"
+derived_from = "bloom-arrangement-pdf"
+derivation = "Poppler pdftoppm 26.08.0; page 3; JPEG; 150 DPI; quality 90; progressive and optimized"
+
+[[artifacts]]
+id = "bloom-arrangement-page-4"
+label = "Rube Bloom piano arrangement — page 4"
+file = "rube-bloom-piano-arrangement-1928-4.jpg"
+sha256 = "485fa4dce2ac8f8e27d3fdf88cc39c2150c9b70f2a2c5133fb1fe550f4e9de16"
+acquired_from = "imslp-bloom-arrangement"
+derived_from = "bloom-arrangement-pdf"
+derivation = "Poppler pdftoppm 26.08.0; page 4; JPEG; 150 DPI; quality 90; progressive and optimized"
+
+[[artifacts]]
+id = "bloom-arrangement-page-5"
+label = "Rube Bloom piano arrangement — page 5"
+file = "rube-bloom-piano-arrangement-1928-5.jpg"
+sha256 = "4fad47b966a3a9844f258c70475cb17ac023e61c580cd0fb83d4a6edfdfb7452"
+acquired_from = "imslp-bloom-arrangement"
+derived_from = "bloom-arrangement-pdf"
+derivation = "Poppler pdftoppm 26.08.0; page 5; JPEG; 150 DPI; quality 90; progressive and optimized"
+
+[[artifacts]]
+id = "bloom-arrangement-page-6"
+label = "Rube Bloom piano arrangement — page 6"
+file = "rube-bloom-piano-arrangement-1928-6.jpg"
+sha256 = "1ec63a0f29c4602141e5a883bd21b0b16d86a1c4532d7f9129c46d6192c51d86"
+acquired_from = "imslp-bloom-arrangement"
+derived_from = "bloom-arrangement-pdf"
+derivation = "Poppler pdftoppm 26.08.0; page 6; JPEG; 150 DPI; quality 90; progressive and optimized"
+
+[[artifacts]]
+id = "bloom-arrangement-page-7"
+label = "Rube Bloom piano arrangement — page 7"
+file = "rube-bloom-piano-arrangement-1928-7.jpg"
+sha256 = "7da06e5e57d06dfe48472fa10a81ba64e5db985f65e58bf9146a386d9b4fc6d7"
+acquired_from = "imslp-bloom-arrangement"
+derived_from = "bloom-arrangement-pdf"
+derivation = "Poppler pdftoppm 26.08.0; page 7; JPEG; 150 DPI; quality 90; progressive and optimized"
+
+[[artifacts]]
+id = "bloom-arrangement-page-8"
+label = "Rube Bloom piano arrangement — page 8"
+file = "rube-bloom-piano-arrangement-1928-8.jpg"
+sha256 = "a20a451650b35b13306caf5ed63c249cb1baae2c7db28703621865fce472ff2c"
+acquired_from = "imslp-bloom-arrangement"
+derived_from = "bloom-arrangement-pdf"
+derivation = "Poppler pdftoppm 26.08.0; page 8; JPEG; 150 DPI; quality 90; progressive and optimized"
+
+[[artifacts]]
+id = "kemp-recorder-score-pdf"
+label = "David Kemp four-recorder arrangement — complete score (PDF)"
+file = "kemp-recorder-arrangement-score.pdf"
+sha256 = "812e7cacfcd06b1e31f942e959964eb5b916ea1137f6eecf0d55c1f0c82da230"
+acquired_from = "imslp-kemp-arrangement"
+download_url = "https://s9.imslp.org/files/imglnks/usimg/8/85/IMSLP619130-PMLP67902-St._Louis_Blues-score.pdf"
+
+[[artifacts]]
+id = "kemp-recorder-parts-pdf"
+label = "David Kemp four-recorder arrangement — complete parts (PDF)"
+file = "kemp-recorder-arrangement-parts.pdf"
+sha256 = "8e4f3ae151fef96861ec64909c8748af7cd58ff894196fdfbf5a9fd354c1a9d1"
+acquired_from = "imslp-kemp-arrangement"
+download_url = "https://s9.imslp.org/files/imglnks/usimg/f/f0/IMSLP619131-PMLP67902-St._Louis_Blues_-_Parts.pdf"
+
+[[artifacts]]
+id = "kemp-recorder-score-page-1"
+label = "David Kemp four-recorder arrangement — score page 1"
+file = "kemp-recorder-arrangement-score-1.jpg"
+sha256 = "b2d5ced68df1366d90368ea9445a0ab9c684cd3ef2c25d8b7b52fba358efed1e"
+acquired_from = "imslp-kemp-arrangement"
+derived_from = "kemp-recorder-score-pdf"
+derivation = "Poppler pdftoppm 26.08.0; page 1; JPEG; 150 DPI; quality 90; progressive and optimized"
+
+[[artifacts]]
+id = "kemp-recorder-score-page-2"
+label = "David Kemp four-recorder arrangement — score page 2"
+file = "kemp-recorder-arrangement-score-2.jpg"
+sha256 = "afdac107b35c08a8a8e21e6b49b7519d4de2d2cf056b07809b28df43e43929e6"
+acquired_from = "imslp-kemp-arrangement"
+derived_from = "kemp-recorder-score-pdf"
+derivation = "Poppler pdftoppm 26.08.0; page 2; JPEG; 150 DPI; quality 90; progressive and optimized"
+
+[[artifacts]]
+id = "kemp-recorder-score-page-3"
+label = "David Kemp four-recorder arrangement — score page 3"
+file = "kemp-recorder-arrangement-score-3.jpg"
+sha256 = "65fcedebc2abac85f69e7a7e71c5176bf560894f52e9891e936d7c1c839e5b8b"
+acquired_from = "imslp-kemp-arrangement"
+derived_from = "kemp-recorder-score-pdf"
+derivation = "Poppler pdftoppm 26.08.0; page 3; JPEG; 150 DPI; quality 90; progressive and optimized"
+
+[[artifacts]]
+id = "kemp-recorder-score-page-4"
+label = "David Kemp four-recorder arrangement — score page 4"
+file = "kemp-recorder-arrangement-score-4.jpg"
+sha256 = "9336ebdd9c18c0710560e8e93ecee6aa0b9f472627031e06368cda5b21313805"
+acquired_from = "imslp-kemp-arrangement"
+derived_from = "kemp-recorder-score-pdf"
+derivation = "Poppler pdftoppm 26.08.0; page 4; JPEG; 150 DPI; quality 90; progressive and optimized"
+
+[[artifacts]]
+id = "kemp-recorder-score-page-5"
+label = "David Kemp four-recorder arrangement — score page 5"
+file = "kemp-recorder-arrangement-score-5.jpg"
+sha256 = "70b3a8beb469d7eb32fb8eaff0819b32e4faa96bd1ad18a65b850b8aad8a149d"
+acquired_from = "imslp-kemp-arrangement"
+derived_from = "kemp-recorder-score-pdf"
+derivation = "Poppler pdftoppm 26.08.0; page 5; JPEG; 150 DPI; quality 90; progressive and optimized"
+
+[[artifacts]]
+id = "kemp-recorder-score-page-6"
+label = "David Kemp four-recorder arrangement — score page 6"
+file = "kemp-recorder-arrangement-score-6.jpg"
+sha256 = "5e8792c32c77d335e2fb4b776af03afaa523cae3da830afae3d94585b2647d50"
+acquired_from = "imslp-kemp-arrangement"
+derived_from = "kemp-recorder-score-pdf"
+derivation = "Poppler pdftoppm 26.08.0; page 6; JPEG; 150 DPI; quality 90; progressive and optimized"
+
+[[artifacts]]
+id = "kemp-recorder-synthesized-mp3"
+label = "Dadvid synthesized performance of David Kemp's arrangement (MP3)"
+file = "dadvid-kemp-recorder-arrangement-synthesized.mp3"
+sha256 = "4e8e68bcbc29365c00973c5bd5f73e848ea733b9c0e8bb60b7ef0a98ef3a3760"
+acquired_from = "imslp-kemp-performance"
+download_url = "https://s9.imslp.org/files/imglnks/usimg/8/8c/IMSLP656239-PMLP67902-St._Louis_Blues.mp3"
+
+[[artifacts]]
+id = "score-pdf-page-2"
+label = "Handy Bros. revised edition — score page 2"
+file = "internet-archive-revised-edition-02.jpg"
+sha256 = "2bae1ab681aedc231b3786985f9a9bd2a7fbf4018c3d09c6bc179cb162ab5170"
+acquired_from = "score-archive"
+derived_from = "score"
+derivation = "Poppler pdftoppm 26.08.0; page 2; JPEG; 150 DPI; quality 90; progressive and optimized"
+
+[[artifacts]]
+id = "score-pdf-page-3"
+label = "Handy Bros. revised edition — score page 3"
+file = "internet-archive-revised-edition-03.jpg"
+sha256 = "dd05792808deddf1b593e566a28da6daadc201409190796f9725a2bb83ed2e61"
+acquired_from = "score-archive"
+derived_from = "score"
+derivation = "Poppler pdftoppm 26.08.0; page 3; JPEG; 150 DPI; quality 90; progressive and optimized"
+
+[[artifacts]]
+id = "score-pdf-page-4"
+label = "Handy Bros. revised edition — score page 4"
+file = "internet-archive-revised-edition-04.jpg"
+sha256 = "3bb8af3b30db6d7965ab18695c66631586229bcdaecef022be4c1a5a2aa72f2e"
+acquired_from = "score-archive"
+derived_from = "score"
+derivation = "Poppler pdftoppm 26.08.0; page 4; JPEG; 150 DPI; quality 90; progressive and optimized"
+
+[[artifacts]]
+id = "duke-score-manifest"
+label = "Duke Rudy Vallée edition (IIIF manifest)"
+file = "duke-rudy-vallee-edition-iiif-manifest.json"
+sha256 = "9dd1ca4ff7d30971c717286bc48e9c58b1ba0f4ca99c94958822a7c09914fd68"
+acquired_from = "duke-score"
+download_url = "https://repository.duke.edu/iiif/ark%3A%2F87924%2Fr4wd3vc15/manifest"
+
+[[artifacts]]
+id = "duke-score-page-1"
+label = "Duke Rudy Vallée edition — front cover"
+file = "duke-rudy-vallee-edition-01.jpg"
+sha256 = "5738210e0c815e24be32391d3a97f4e49880690b5a6440afcba14c043ad19afa"
+acquired_from = "duke-score"
+download_url = "https://repository.duke.edu/iiif/ark%3A%2F87924%2Fr47p8zq81/full/full/0/default.jpg"
+
+[[artifacts]]
+id = "duke-score-page-2"
+label = "Duke Rudy Vallée edition — score page 2"
+file = "duke-rudy-vallee-edition-02.jpg"
+sha256 = "2add0bdf1f843f691b519dd45881cbbe42335796e0fbb437e6132547d4b3d5d9"
+acquired_from = "duke-score"
+download_url = "https://repository.duke.edu/iiif/ark%3A%2F87924%2Fr4mw2dr44/full/full/0/default.jpg"
+
+[[artifacts]]
+id = "duke-score-page-3"
+label = "Duke Rudy Vallée edition — score page 3"
+file = "duke-rudy-vallee-edition-03.jpg"
+sha256 = "8e1d7fe79bea50a18fd96514d6ff53ee8c03199585654984a4d3dd9c6dedecec"
+acquired_from = "duke-score"
+download_url = "https://repository.duke.edu/iiif/ark%3A%2F87924%2Fr4cf9ph9q/full/full/0/default.jpg"
+
+[[artifacts]]
+id = "duke-score-page-4"
+label = "Duke Rudy Vallée edition — score page 4"
+file = "duke-rudy-vallee-edition-04.jpg"
+sha256 = "2027e503d1498c6c90c93f8d11ebc14fd9407ab1dd61ad0f11bce2410c4574a4"
+acquired_from = "duke-score"
+download_url = "https://repository.duke.edu/iiif/ark%3A%2F87924%2Fr4h41pz3r/full/full/0/default.jpg"
+
+[[artifacts]]
+id = "duke-score-page-5"
+label = "Duke Rudy Vallée edition — score page 5"
+file = "duke-rudy-vallee-edition-05.jpg"
+sha256 = "ffb141b6f35c32c0b874a15d5872e1aed307af2ceb0ecd5070a170307d3e6e62"
+acquired_from = "duke-score"
+download_url = "https://repository.duke.edu/iiif/ark%3A%2F87924%2Fr43x87x1t/full/full/0/default.jpg"
+
+[[artifacts]]
+id = "duke-score-page-6"
+label = "Duke Rudy Vallée edition — advertising back cover"
+file = "duke-rudy-vallee-edition-06.jpg"
+sha256 = "4174715a4fbeadb33956b310cfdbdc5ba71c916d4a043e4adcc126d30da46b8f"
+acquired_from = "duke-score"
+download_url = "https://repository.duke.edu/iiif/ark%3A%2F87924%2Fr4rn34j7s/full/full/0/default.jpg"
+
+[[artifacts]]
+id = "recording-1921-wav"
+label = "Original Dixieland Jazz Band with Al Bernard (LOC WAV)"
+file = "original-dixieland-jazz-band-st-louis-blues-1921.wav"
+sha256 = "808f119cf86d6d9533b616e9bb3c58025b6e2ccd05434527c85914e17d66638d"
+acquired_from = "recording-catalog"
+download_url = "https://tile.loc.gov/storage-services/master/mbrsrs/mbrsjukebox/dlc_victor_18772_01_b25412_02/dlc_victor_18772_01_b25412_02.wav"
+
+[[artifacts]]
+id = "recording-1921-mp3"
+label = "Original Dixieland Jazz Band with Al Bernard (LOC MP3)"
+file = "original-dixieland-jazz-band-st-louis-blues-1921-loc.mp3"
+sha256 = "01203bf2e379e1988114b2b93ab0fcc21721f179b99336d73d3fe154b2203b7a"
+acquired_from = "recording-catalog"
+download_url = "https://tile.loc.gov/image-services/iiif/service:mbrsrs:mbrsjukebox:dlc_victor_18772_01_b25412_02:dlc_victor_18772_01_b25412_02/full/full/0/full/default.mp3"
+
+[[artifacts]]
+id = "recording-1922-wav"
+label = "Ted Lewis Jazz Band (LOC WAV)"
+file = "ted-lewis-jazz-band-st-louis-blues-1922.wav"
+sha256 = "2415c38f5f4ac782d5865db53d24f9a56f0875e79064ea8e31f3271b00b6b605"
+acquired_from = "ted-lewis-recording-catalog"
+download_url = "https://tile.loc.gov/storage-services/master/mbrsrs/mbrsjukebox/ucsb_col_a3790_01_80711_02/ucsb_col_a3790_01_80711_02.wav"
+
+[[artifacts]]
+id = "recording-1922-mp3"
+label = "Ted Lewis Jazz Band (LOC MP3)"
+file = "ted-lewis-jazz-band-st-louis-blues-1922-loc.mp3"
+sha256 = "68fb9ae116e277d31eda50be5b64d74e2db5ec623f999c0c4a2ccf63af0019b3"
+acquired_from = "ted-lewis-recording-catalog"
+download_url = "https://tile.loc.gov/image-services/iiif/service:mbrsrs:mbrsjukebox:ucsb_col_a3790_01_80711_02:ucsb_col_a3790_01_80711_02/full/full/0/full/default.mp3"
+
+[[artifacts]]
+id = "recording-1925-ferera-paaluhi-mp3"
+label = "Frank Ferera and John Paaluhi (Project Gutenberg MP3)"
+file = "ferera-paaluhi-st-louis-blues-1925-gutenberg.mp3"
+sha256 = "46e8049358ebf63ab8e9a5e3e5947ce20dfeec9315a40202535a308acae1541c"
+acquired_from = "ferera-paaluhi-gutenberg"
+download_url = "https://www.gutenberg.org/files/10249/10249-m/10249-m-001.mp3"
+
+[[facts]]
+text = "W. C. Handy is the composer and lyricist."
+sources = ["score-archive", "score-rights", "recording-catalog"]
+
+[[facts]]
+text = "The score was published by Handy Bros. Music Co. in 1914."
+sources = ["score-archive", "score-rights"]
+
+[[facts]]
+text = "IMSLP file #716402 is a 12-page scan containing a scenic-cover issue and a Paul Whiteman promotional issue, each followed by four score pages and an advertising back cover."
+sources = ["imslp-score-716402"]
+
+[[facts]]
+text = "Rube Bloom arranged St. Louis Blues for solo piano; Alfred & Co. published the eight-page arrangement in 1928."
+sources = ["imslp-bloom-arrangement"]
+
+[[facts]]
+text = "David Edward Kemp arranged St. Louis Blues for soprano, alto, tenor, and bass recorders and licensed the score and parts under CC BY-SA 4.0."
+sources = ["imslp-kemp-arrangement"]
+
+[[facts]]
+text = "Dadvid published a synthesized performance of David Kemp's recorder arrangement under CC BY 4.0 on November 5, 2020."
+sources = ["imslp-kemp-performance"]
+
+[[facts]]
+text = "Duke University Libraries preserves a six-image Rudy Vallée promotional edition for voice, piano, and ukulele and marks it No Copyright - United States."
+sources = ["duke-score"]
+
+[[facts]]
+text = "The reference recording features the Original Dixieland Jazz Band and vocalist Al Bernard and was recorded on May 25, 1921."
+sources = ["recording-catalog"]
+
+[[facts]]
+text = "The recording was issued by Victor as catalog number 18772 from matrix B-25412, take 2."
+sources = ["recording-catalog"]
+
+[[facts]]
+text = "The Library of Congress states that US sound recordings published before 1923 entered the public domain on January 1, 2022."
+sources = ["jukebox-rights"]
+
+[[facts]]
+text = "Ted Lewis Jazz Band recorded an instrumental St. Louis blues on December 7, 1922; Columbia issued it as catalog A3790 from matrix 80711, take 2."
+sources = ["ted-lewis-recording-catalog"]
+
+[[facts]]
+text = "Bessie Smith recorded St. Louis Blues on January 14, 1925; Columbia released it in 1925 as catalog 14064-D."
+sources = ["bessie-smith-archive", "bessie-smith-smithsonian"]
+
+[[facts]]
+text = "Frank Ferera and John Paaluhi recorded The St. Louis Blues as a Hawaiian guitar duet on September 4, 1925."
+sources = ["ferera-paaluhi-gutenberg"]
+
+[[facts]]
+text = "W. C. Handy performed St. Louis Blues on The Ed Sullivan Show on February 6, 1949."
+sources = ["ed-sullivan-youtube"]
+
+[[facts]]
+text = "Marion Harris recorded St. Louis Blues with an orchestra conducted by Charles Prince in New York City on April 16, 1920; Columbia issued it as A2944."
+sources = ["marion-harris-youtube"]
+
+[[sources]]
+id = "score-archive"
+title = "Internet Archive: St. Louis Blues"
+url = "https://archive.org/details/stlouisblues00hand"
+retrieved = "2026-10-01"
+
+[[sources]]
+id = "score-rights"
+title = "Wikimedia Commons file record for the 1914 score"
+url = "https://commons.wikimedia.org/wiki/File:W._C._Handy_-_St._Louis_Blues_(1914,_Handy_Bros.).pdf"
+retrieved = "2026-10-01"
+
+[[sources]]
+id = "imslp-score-716402"
+title = "IMSLP #716402: St. Louis Blues complete score"
+url = "https://imslp.org/wiki/St._Louis_Blues_(Handy,_W._C.)"
+retrieved = "2026-10-02"
+download_url = "https://s9.imslp.org/files/imglnks/usimg/8/8f/IMSLP716402-PMLP67902-SheetMusic_31198.pdf"
+rights = "Public Domain"
+snapshot_note = "IMSLP describes #716402 as a 12-page first-edition scan from Mississippi State University, published by Handy Bros. Music Co. in 1914. Visual inspection shows two separately covered six-page issues bundled in the PDF; they are presented as separate galleries here."
+
+[[sources]]
+id = "imslp-bloom-arrangement"
+title = "IMSLP #957518: St. Louis Blues for piano, arranged by Rube Bloom"
+url = "https://imslp.org/wiki/St._Louis_Blues_(Handy,_W._C.)"
+retrieved = "2026-10-02"
+download_url = "https://www.petruccilibrary.us/files/imglnks/music_files/PMLUS06573-Handy%2C_Bloom_arranger%2C_St_Louis_Blues.pdf"
+rights = "Public Domain in the United States; Non-PD Canada"
+snapshot_note = "IMSLP identifies Rube Bloom as arranger, Alfred & Co. as the New York publisher, and 1928 as the publication year. IMSLP labels the file Public Domain and Non-PD Canada."
+
+[[sources]]
+id = "imslp-kemp-arrangement"
+title = "IMSLP #619130 and #619131: St. Louis Blues for four recorders, arranged by David Edward Kemp"
+url = "https://imslp.org/wiki/St._Louis_Blues_(Handy,_W._C.)"
+retrieved = "2026-10-02"
+download_url = "https://s9.imslp.org/files/imglnks/usimg/8/85/IMSLP619130-PMLP67902-St._Louis_Blues-score.pdf"
+rights = "Creative Commons Attribution-ShareAlike 4.0 International"
+rights_url = "https://creativecommons.org/licenses/by-sa/4.0/"
+attribution = "St. Louis Blues for four recorders, arranged by David Edward Kemp"
+snapshot_note = "IMSLP lists a six-page complete score and eight-page complete parts for soprano, alto, tenor, and bass recorders. Both locally hosted PDFs are unmodified."
+
+[[sources]]
+id = "imslp-kemp-performance"
+title = "IMSLP #656239: synthesized performance of David Kemp's four-recorder arrangement"
+url = "https://imslp.org/wiki/St._Louis_Blues_(Handy,_W._C.)"
+retrieved = "2026-10-02"
+download_url = "https://s9.imslp.org/files/imglnks/usimg/8/8c/IMSLP656239-PMLP67902-St._Louis_Blues.mp3"
+rights = "Creative Commons Attribution 4.0 International"
+rights_url = "https://creativecommons.org/licenses/by/4.0/"
+attribution = "Synthesized performance by Dadvid of David Edward Kemp's recorder arrangement"
+snapshot_note = "IMSLP describes the performance as Synthesized MIDI and distributes it as a 3:30 MP3. The locally hosted MP3 is unmodified."
+
+[[sources]]
+id = "duke-score"
+title = "Duke University Libraries: Saint Louis blues (Historic American Sheet Music A-1311)"
+url = "https://idn.duke.edu/ark:/87924/r4wd3vc15"
+retrieved = "2026-10-02"
+download_url = "https://repository.duke.edu/iiif/ark%3A%2F87924%2Fr4wd3vc15/manifest"
+rights_url = "http://rightsstatements.org/vocab/NoC-US/1.0/"
+rights = "No Copyright - United States"
+attribution = "Provided by Duke University Libraries"
+snapshot_note = "Duke labels the item Free Re-Use. The saved IIIF manifest records the item metadata, rights URI, required attribution, six canvas identifiers, image dimensions, and image-service URLs."
+
+[[sources]]
+id = "recording-catalog"
+title = "Library of Congress: St. Louis blues (jukebox-41556)"
+url = "https://www.loc.gov/item/jukebox-41556/"
+retrieved = "2026-10-01"
+download_url = "https://tile.loc.gov/storage-services/master/mbrsrs/mbrsjukebox/dlc_victor_18772_01_b25412_02/dlc_victor_18772_01_b25412_02.wav"
+wayback_url = "https://web.archive.org/web/20250203024929/https://www.loc.gov/item/jukebox-41556/"
+snapshot_note = "Wayback snapshot captured on 2025-02-03."
+
+[[sources]]
+id = "jukebox-rights"
+title = "Library of Congress: National Jukebox rights and access"
+url = "https://www.loc.gov/collections/national-jukebox/about-this-collection/rights-and-access/"
+retrieved = "2026-10-01"
+wayback_url = "https://web.archive.org/web/20250108090700/https://www.loc.gov/collections/national-jukebox/about-this-collection/rights-and-access/"
+snapshot_note = "Wayback snapshot captured on 2025-01-08."
+
+[[sources]]
+id = "ted-lewis-recording-catalog"
+title = "Library of Congress: St. Louis blues — Ted Lewis Jazz Band (jukebox-669595)"
+url = "https://www.loc.gov/item/jukebox-669595/"
+retrieved = "2026-10-02"
+download_url = "https://tile.loc.gov/storage-services/master/mbrsrs/mbrsjukebox/ucsb_col_a3790_01_80711_02/ucsb_col_a3790_01_80711_02.wav"
+
+[[sources]]
+id = "bessie-smith-archive"
+title = "Internet Archive: Bessie Smith — St. Louis Blues (1925), Niven Jazz Collection transfer"
+url = "https://archive.org/details/BessieSmithNivenJazzCollection_tracked/22-08+St+Louis+Blues+1925-01-14.flac"
+retrieved = "2026-10-02"
+snapshot_note = "The item metadata declares no license or rights statement; retained as a link rather than a local artifact."
+
+[[sources]]
+id = "bessie-smith-smithsonian"
+title = "Smithsonian National Museum of American History: St. Louis Blues; Cold in Hand Blues"
+url = "https://americanhistory.si.edu/collections/object/nmah_1055145"
+retrieved = "2026-10-02"
+
+[[sources]]
+id = "ed-sullivan-youtube"
+title = "The Ed Sullivan Show: W. C. Handy — St. Louis Blues"
+url = "https://www.youtube.com/watch?v=cSuTTSOctGw"
+retrieved = "2026-10-02"
+snapshot_note = "Official-channel upload; no Creative Commons license declared. Linked only."
+
+[[sources]]
+id = "marion-harris-youtube"
+title = "The78Prof: Marion Harris — St. Louis Blues (1920)"
+url = "https://www.youtube.com/watch?v=3UmD5Maujxc"
+retrieved = "2026-10-02"
+snapshot_note = "Uploader identifies the source as Columbia A2944, recorded April 16, 1920. No Creative Commons license declared; linked only."
+
+[[sources]]
+id = "ferera-paaluhi-gutenberg"
+title = "Project Gutenberg eBook 10249: The St. Louis Blues — Ferera and Paaluhi"
+url = "https://www.gutenberg.org/ebooks/10249"
+retrieved = "2026-10-02"
+download_url = "https://www.gutenberg.org/files/10249/10249-m/10249-m-001.mp3"
+snapshot_note = "Project Gutenberg identifies the recording as public domain in the USA; provenance and redistribution terms are documented in its linked readme."

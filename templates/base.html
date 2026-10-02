@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{% block description %}{{ config.description }}{% endblock description %}">
+  <title>{% block title %}{{ config.title }}{% endblock title %}</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body {
+      max-width: 48rem;
+      margin: 0 auto;
+      padding: 2rem 1.25rem 4rem;
+      font: 1rem/1.6 system-ui, sans-serif;
+      color: CanvasText;
+      background: Canvas;
+    }
+    header, footer { color: GrayText; }
+    header { border-bottom: 1px solid GrayText; margin-bottom: 2rem; }
+    footer { border-top: 1px solid GrayText; margin-top: 3rem; padding-top: 1rem; }
+    a { color: inherit; text-decoration-thickness: .08em; text-underline-offset: .15em; }
+    h1, h2, h3 { line-height: 1.25; }
+    h2 { margin-top: 2rem; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border-bottom: 1px solid GrayText; padding: .5rem; text-align: left; vertical-align: top; }
+    code { overflow-wrap: anywhere; }
+    audio, iframe { width: 100%; margin: .5rem 0 1rem; }
+    iframe { height: 2.25rem; border: 1px solid GrayText; background: #111; }
+    select { max-width: 100%; font: inherit; padding: .35rem; }
+    .archive-recording { display: grid; grid-template-columns: 8rem 1fr; gap: 1rem; align-items: start; }
+    .archive-recording img { width: 8rem; height: 8rem; object-fit: contain; background: white; border: 1px solid GrayText; }
+    .archive-recording p:first-child { margin-top: 0; }
+    .score-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+      gap: 1.25rem;
+      padding: 0;
+      list-style: none;
+    }
+    .score-gallery img { display: block; width: 100%; height: auto; border: 1px solid GrayText; }
+    .score-gallery p { margin-top: .35rem; color: GrayText; }
+    @media (max-width: 32rem) {
+      .archive-recording { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header><p><a href="{{ get_url(path='/') }}">Piano score shelf</a></p></header>
+  <main>{% block content %}{% endblock content %}</main>
+  <footer><small>Built from documented, checksummed source material.</small></footer>
+</body>
+</html>

@@ -1,0 +1,157 @@
+{% extends "base.html" %}
+{% block title %}{{ page.title }} — {{ config.title }}{% endblock title %}
+{% block description %}{{ page.description }}{% endblock description %}
+{% block content %}
+  <article>
+    <h1>{{ page.title }}</h1>
+    <p>{{ page.extra.creators | join(sep=", ") }}</p>
+    {% if page.extra.score_editions %}
+      <section aria-labelledby="scores">
+        <h2 id="scores">Scores</h2>
+        {% for edition in page.extra.score_editions %}
+          <h3>{{ edition.title }}</h3>
+          <p>{{ edition.note }} <a href="#source-s{{ edition.source_number }}">Source S{{ edition.source_number }}</a>.</p>
+          <ol class="score-gallery">
+            {% for image in edition.images %}
+              <li>
+                <a href="{{ get_url(path=image.path) }}">
+                  <img src="{{ get_url(path=image.path) }}" alt="{{ image.label }}" loading="lazy">
+                </a>
+                <p>{{ image.label }}</p>
+              </li>
+            {% endfor %}
+          </ol>
+        {% endfor %}
+      </section>
+    {% endif %}
+    {% if page.extra.arrangements %}
+      <section aria-labelledby="arrangements">
+        <h2 id="arrangements">Arrangements and transcriptions</h2>
+        {% for arrangement in page.extra.arrangements %}
+          <h3>{{ arrangement.title }} ({{ arrangement.date }})</h3>
+          <p>Arranged by {{ arrangement.arranger }} for {{ arrangement.instrumentation }}.</p>
+          <p>{{ arrangement.note }} <a href="#source-s{{ arrangement.source_number }}">Source S{{ arrangement.source_number }}</a>.</p>
+          <ol class="score-gallery">
+            {% for image in arrangement.images %}
+              <li>
+                <a href="{{ get_url(path=image.path) }}">
+                  <img src="{{ get_url(path=image.path) }}" alt="{{ image.label }}" loading="lazy">
+                </a>
+                <p>{{ image.label }}</p>
+              </li>
+            {% endfor %}
+          </ol>
+        {% endfor %}
+      </section>
+    {% endif %}
+    {% if page.extra.creative_commons_works %}
+      <section aria-labelledby="creative-commons">
+        <h2 id="creative-commons">Creative Commons adaptations</h2>
+        {% for work in page.extra.creative_commons_works %}
+          <h3>{{ work.title }} ({{ work.date }})</h3>
+          <p>By {{ work.creator }}. Licensed under <a href="{{ work.license_url }}">{{ work.license_name }}</a>.</p>
+          <p>{{ work.note }} <a href="#source-s{{ work.source_number }}">Source S{{ work.source_number }}</a>.</p>
+          {% if work.audio_path %}
+            <audio controls preload="metadata">
+              <source src="{{ get_url(path=work.audio_path) }}" type="audio/mpeg">
+              <a href="{{ get_url(path=work.audio_path) }}">Download {{ work.title }}</a>
+            </audio>
+          {% endif %}
+          <ul>
+            {% for file in work.files %}
+              <li><a href="{{ get_url(path=file.path) }}">{{ file.label }}</a></li>
+            {% endfor %}
+          </ul>
+          {% if work.images %}
+            <ol class="score-gallery">
+              {% for image in work.images %}
+                <li>
+                  <a href="{{ get_url(path=image.path) }}">
+                    <img src="{{ get_url(path=image.path) }}" alt="{{ image.label }}" loading="lazy">
+                  </a>
+                  <p>{{ image.label }}</p>
+                </li>
+              {% endfor %}
+            </ol>
+          {% endif %}
+        {% endfor %}
+      </section>
+    {% endif %}
+    {% if page.extra.audio_items %}
+      <h2>Listen</h2>
+      {% for recording in page.extra.audio_items %}
+        <p>{{ recording.label }}</p>
+        <audio controls preload="metadata">
+          {% if recording.wav_path %}<source src="{{ get_url(path=recording.wav_path) }}" type="audio/wav">{% endif %}
+          {% if recording.mp3_path %}<source src="{{ get_url(path=recording.mp3_path) }}" type="audio/mpeg">{% endif %}
+          {% if recording.wav_path %}
+            <a href="{{ get_url(path=recording.wav_path) }}">Download {{ recording.label }}</a>
+          {% else %}
+            <a href="{{ get_url(path=recording.mp3_path) }}">Download {{ recording.label }}</a>
+          {% endif %}
+        </audio>
+      {% endfor %}
+    {% endif %}
+    {% if page.extra.external_media %}
+      <section aria-labelledby="watch-performance">
+        <h2 id="watch-performance">Watch a performance</h2>
+        {% for media in page.extra.external_media %}
+          <h3><a href="{{ media.url }}">{{ media.title }}</a></h3>
+          <p>{{ media.rights_note }}</p>
+        {% endfor %}
+      </section>
+    {% endif %}
+    {% if page.extra.listening_items %}
+      {% set content_parts = page.content | split(pat="<p>ARCHIVE_PLAYER_INSERTION_POINT_7D3E</p>") %}
+      {% set first_recording = page.extra.listening_items | first %}
+      {{ content_parts[0] | safe }}
+      <section aria-labelledby="other-recordings">
+        <h2 id="other-recordings">Hear other recordings</h2>
+        <p>{{ page.extra.listening_note }}</p>
+        <div class="archive-recording">
+          <img
+            id="archive-thumbnail"
+            src="https://archive.org/services/img/{{ first_recording.identifier }}"
+            alt="Cover image for {{ first_recording.label }}"
+            loading="lazy"
+          >
+          <div>
+            <p>
+              <label for="recording-select">Archive.org item</label><br>
+              <select id="recording-select">
+              {% for item in page.extra.listening_items %}
+                <option value="{{ item.identifier }}">{{ item.label }}</option>
+              {% endfor %}
+              </select>
+            </p>
+            <iframe
+              id="archive-player"
+              title="Selected recording hosted by Internet Archive"
+              src="https://archive.org/embed/{{ first_recording.identifier }}"
+              loading="lazy"
+              allow="autoplay"
+            ></iframe>
+            <p><a id="archive-item-link" href="https://archive.org/details/{{ first_recording.identifier }}">Open this item on Internet Archive</a></p>
+          </div>
+        </div>
+      </section>
+      <script>
+        const recordingSelect = document.getElementById("recording-select");
+        const archivePlayer = document.getElementById("archive-player");
+        const archiveItemLink = document.getElementById("archive-item-link");
+        const archiveThumbnail = document.getElementById("archive-thumbnail");
+        recordingSelect.addEventListener("change", () => {
+          const identifier = recordingSelect.value;
+          const label = recordingSelect.options[recordingSelect.selectedIndex].text;
+          archivePlayer.src = "https://archive.org/embed/" + encodeURIComponent(identifier);
+          archiveItemLink.href = "https://archive.org/details/" + encodeURIComponent(identifier);
+          archiveThumbnail.src = "https://archive.org/services/img/" + encodeURIComponent(identifier);
+          archiveThumbnail.alt = "Cover image for " + label;
+        });
+      </script>
+      {{ content_parts[1] | safe }}
+    {% else %}
+      {{ page.content | safe }}
+    {% endif %}
+  </article>
+{% endblock content %}

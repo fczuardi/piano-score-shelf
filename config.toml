@@ -1,0 +1,10 @@
+base_url = "https://fczuardi.github.io/piano-score-shelf"
+title = "Piano score shelf"
+description = "A small, source-traceable shelf of piano scores and reference recordings."
+compile_sass = false
+build_search_index = false
+generate_feeds = false
+
+[markdown]
+external_links_target_blank = false
+smart_punctuation = true

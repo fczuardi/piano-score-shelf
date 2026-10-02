@@ -1,0 +1,40 @@
+[work]
+slug = "title-slug"
+title = "Title"
+creators = ["Composer"]
+summary = "Why this entry belongs on the shelf."
+research_date = "YYYY-MM-DD"
+rights_note = "Jurisdiction-specific assessment and caveats."
+
+# URLs can be collected here before they are reviewed and promoted to sources.
+[[leads]]
+url = "https://example.org/research-lead"
+added = "YYYY-MM-DD"
+status = "unreviewed"
+
+[listening]
+note = "Link-only listening references whose recording rights have not been reviewed."
+labels = ["Example performer"]
+urls = [
+  "https://archive.org/details/example-recording",
+]
+
+[[artifacts]]
+id = "score"
+label = "Sheet music (PDF)"
+file = "local-file.pdf"
+sha256 = "SHA256_OF_LOCAL_FILE"
+acquired_from = "source-id"
+
+[[facts]]
+text = "A precise, source-supported statement."
+sources = ["source-id"]
+
+[[sources]]
+id = "source-id"
+title = "Human-readable source title"
+url = "https://example.org/original-page"
+retrieved = "YYYY-MM-DD"
+# wayback_url = "https://web.archive.org/web/TIMESTAMP/https://example.org/original-page"
+# archive_today_url = "https://archive.ph/EXAMPLE"
+# snapshot_note = "Optional retrieval or preservation context."
