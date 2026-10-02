@@ -3,7 +3,7 @@ slug = "st-louis-blues"
 title = "St. Louis Blues"
 creators = ["W. C. Handy"]
 summary = "Sheet music and a historical reference recording for study."
-research_date = "2026-10-02"
+research_date = "2026-10-03"
 rights_note = "The evidence supports US public-domain use of the score editions and the 1921, 1922, 1925, and 1997 recordings listed as reviewed here. IMSLP marks file #716402 and its 1914 Handy Bros. material Public Domain; the downloaded file contains two six-page issues that are displayed separately. Brown marks its 1918 Pace & Handy issue No Copyright - United States. Duke marks its six-image Rudy Vallée promotional edition as Free Re-Use and No Copyright - United States, with attribution to Duke University Libraries. Wikimedia Commons identifies J. Lawrence Cook's 1930 arrangement as public domain in the United States because its copyright was not renewed. The Library of Congress states that US sound recordings published from 1923 through 1946 are protected for 100 years; the 1925 recordings therefore entered the US public domain on January 1, 2026. Project Gutenberg also explicitly identifies the Ferera and Paaluhi recording as public domain in the USA. The 1997 Air Force arrangement, performance, and recording are identified as US federal-government works. Recording and publication dates are distinct. Copyright status may differ outside the United States."
 
 [[score_editions]]
@@ -112,7 +112,7 @@ performer = "United States Air Force Band of Mid-America, Shades of Blue"
 date = "1997-01-28"
 source = "usaf-band-commons"
 local_artifact = "recording-1997-usaf-band-mp3"
-note = "Recorded January 28–31, 1997. Wikimedia Commons documents the arrangement, performance, and recording as works created in the official duties of US Air Force personnel."
+note = "Recorded January 28–31, 1997. Wikimedia Commons documents the arrangement, performance, and recording as works created in the official duties of US Air Force personnel. The local file is Commons' 2022 fixed revision (SHA-256 e57e500bea9c1eedbfdd2fb2879aed657bbab5c94aa83911210da499d0797f90). The Defense.gov file is byte-identical to Commons' original 2021 upload (SHA-256 e4ed79423feb70445a681a516f9706ce925d5b4a2e5110c39a8f72749f6ff349). In an uploader-supplied YouTube Studio screenshot dated 2026-10-03, Content ID identifies a 14-second use of this track (video time 2:41:23–2:41:37) as St. Louis Blues March by Glenn Miller Orchestra, claimed by PONYCANYON, UMG on behalf of GRP; the uploader's dispute is under review. That automated claim does not change the documented identity or US federal-work provenance of the recording preserved here."
 
 [[external_media]]
 title = "W. C. Handy performs St. Louis Blues on The Ed Sullivan Show"
@@ -813,6 +813,10 @@ text = "W. C. Handy is the composer and lyricist."
 sources = ["score-archive", "score-rights", "recording-catalog"]
 
 [[facts]]
+text = "The locally preserved 1997 Air Force recording is Wikimedia Commons' fixed 2022 revision. The Defense.gov MP3 (SHA-256 e4ed79423feb70445a681a516f9706ce925d5b4a2e5110c39a8f72749f6ff349) matches Commons' original 2021 upload byte for byte; the local fixed revision has SHA-256 e57e500bea9c1eedbfdd2fb2879aed657bbab5c94aa83911210da499d0797f90."
+sources = ["usaf-band-defense", "usaf-band-commons"]
+
+[[facts]]
 text = "The score was published by Handy Bros. Music Co. on September 11, 1914."
 sources = ["score-archive", "score-rights", "copyright-catalog-1914"]
 
@@ -1021,6 +1025,17 @@ rights_url = "https://commons.wikimedia.org/wiki/Template:PD-US-not_renewed"
 snapshot_note = "Commons describes an eleven-page 1930 arrangement by J. Lawrence Cook, scanned at Richmond Public Library's Memory Lab, and identifies the arrangement's US copyright as not renewed. The locally hosted PDF is unchanged; JPEGs are display derivatives."
 
 [[sources]]
+id = "usaf-band-defense"
+title = "US Department of Defense: St. Louis Blues March — United States Air Force Band of Mid-America"
+url = "https://media.defense.gov/2017/Oct/23/2001831211/-1/-1/1/05_ST._LOUIS_BLUES_MARCH.MP3"
+retrieved = "2026-10-03"
+download_url = "https://media.defense.gov/2017/Oct/23/2001831211/-1/-1/1/05_ST._LOUIS_BLUES_MARCH.MP3"
+rights = "Public domain in the United States — work of the US Air Force"
+rights_url = "https://www.copyright.gov/title17/92chap1.html#105"
+attribution = "Composition by W. C. Handy; arrangement by Richard Hayman; performed by the United States Air Force Band of Mid-America, Concert Band"
+snapshot_note = "Defense.gov supplies track 5 of Heroes, Lost & Fallen (1997). The downloaded MP3 has SHA-256 e4ed79423feb70445a681a516f9706ce925d5b4a2e5110c39a8f72749f6ff349 and is byte-identical to the original 20 July 2021 Wikimedia Commons upload. It is retained as upstream provenance; the repository hosts Commons' later fixed revision."
+
+[[sources]]
 id = "usaf-band-commons"
 title = "Wikimedia Commons: St. Louis Blues March — United States Air Force Band of Mid-America"
 url = "https://commons.wikimedia.org/wiki/File:St._Louis_Blues_March_-_Shades_of_Blue_-_United_States_Air_Force_Band_of_Mid-America.mp3"
@@ -1029,7 +1044,7 @@ download_url = "https://commons.wikimedia.org/wiki/Special:Redirect/file/St.%20L
 rights = "Public domain in the United States — work of the US Air Force"
 rights_url = "https://commons.wikimedia.org/wiki/Template:PD-USGov-Military-Air_Force"
 attribution = "Composition by W. C. Handy; transcription by Cecil T. Pomeroy; performed by the United States Air Force Band of Mid-America, Shades of Blue; Major Sam Pohl conducting"
-snapshot_note = "Commons records this as track 5 of Heroes Lost And Fallen, recorded January 28–31, 1997, and documents the arrangement, performance, and recording as US federal-government works. The locally hosted MP3 is preserved unchanged."
+snapshot_note = "Commons records this as track 5 of Heroes Lost And Fallen, recorded January 28–31, 1997, and documents the arrangement, performance, and recording as US federal-government works. Its file history shows the original 20 July 2021 upload and a fixed revision dated 28 February 2022. The locally hosted MP3 is preserved unchanged from that fixed revision."
 
 [[sources]]
 id = "copyright-catalog-1914"

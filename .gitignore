@@ -6,3 +6,4 @@ Thumbs.db
 /content/songs/*/
 /songs/*/editions/*/build/
 /songs/*/editions/*/.mscbackup/
+*.mscz.autosave
