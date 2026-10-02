@@ -5,6 +5,25 @@
   <article>
     <h1>{{ page.title }}</h1>
     <p>{{ page.extra.creators | join(sep=", ") }}</p>
+    <nav aria-labelledby="contents-heading">
+      <h2 id="contents-heading">Contents</h2>
+      <ul>
+        {% if page.extra.score_editions %}<li><a href="#scores">Scores</a></li>{% endif %}
+        {% if page.extra.arrangements %}<li><a href="#arrangements">Arrangements and transcriptions</a></li>{% endif %}
+        {% if page.extra.creative_commons_works %}<li><a href="#creative-commons">Creative Commons adaptations</a></li>{% endif %}
+        {% if page.extra.audio_items %}<li><a href="#listen">Listen</a></li>{% endif %}
+        {% if page.extra.external_media %}<li><a href="#watch-performance">Watch a performance</a></li>{% endif %}
+        <li><a href="#research-record">Research record</a></li>
+        <li><a href="#documented-facts">Documented facts</a></li>
+        {% if page.extra.has_reviewed_recordings %}<li><a href="#reviewed-public-domain-recordings">Reviewed public-domain recordings</a></li>{% endif %}
+        <li><a href="#rights-note">Rights note</a></li>
+        {% if page.extra.listening_items %}<li><a href="#other-recordings">Hear other recordings</a></li>{% endif %}
+        <li><a href="#files">Files</a></li>
+        <li><a href="#sources">Sources</a></li>
+        {% if page.extra.has_unreviewed_leads %}<li><a href="#unreviewed-research-leads">Unreviewed research leads</a></li>{% endif %}
+        <li><a href="#provenance">Provenance</a></li>
+      </ul>
+    </nav>
     {% if page.extra.score_editions %}
       <section aria-labelledby="scores">
         <h2 id="scores">Scores</h2>
@@ -78,7 +97,7 @@
       </section>
     {% endif %}
     {% if page.extra.audio_items %}
-      <h2>Listen</h2>
+      <h2 id="listen">Listen</h2>
       {% for recording in page.extra.audio_items %}
         <p>{{ recording.label }}</p>
         <audio controls preload="metadata">

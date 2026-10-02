@@ -207,6 +207,8 @@ def render_site_song(data):
         f"path = {json.dumps('songs/' + slug)}",
         "[extra]",
         f"creators = {json.dumps(data['creators'])}",
+        f"has_reviewed_recordings = {'true' if data.get('reviewed_recordings') else 'false'}",
+        f"has_unreviewed_leads = {'true' if data.get('leads') else 'false'}",
         "score_editions = [",
         *[
             "  { title = "
