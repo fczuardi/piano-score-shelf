@@ -4,7 +4,7 @@ title = "St. Louis Blues"
 creators = ["W. C. Handy"]
 summary = "Sheet music and a historical reference recording for study."
 research_date = "2026-10-02"
-rights_note = "The evidence supports US public-domain use of the score editions and the 1921, 1922, and 1925 recordings listed as reviewed here. IMSLP marks file #716402 and its 1914 Handy Bros. material Public Domain; the downloaded file contains two six-page issues that are displayed separately. Duke marks its six-image Rudy Vallée promotional edition as Free Re-Use and No Copyright - United States, with attribution to Duke University Libraries. The Library of Congress states that US sound recordings published from 1923 through 1946 are protected for 100 years; the 1925 recordings therefore entered the US public domain on January 1, 2026. Project Gutenberg also explicitly identifies the Ferera and Paaluhi recording as public domain in the USA. Recording and publication dates are distinct. The linked Bessie Smith Archive.org transfer has no declared license, so it is linked rather than locally republished. Copyright status may differ outside the United States."
+rights_note = "The evidence supports US public-domain use of the score editions and the 1921, 1922, 1925, and 1997 recordings listed as reviewed here. IMSLP marks file #716402 and its 1914 Handy Bros. material Public Domain; the downloaded file contains two six-page issues that are displayed separately. Brown marks its 1918 Pace & Handy issue No Copyright - United States. Duke marks its six-image Rudy Vallée promotional edition as Free Re-Use and No Copyright - United States, with attribution to Duke University Libraries. Wikimedia Commons identifies J. Lawrence Cook's 1930 arrangement as public domain in the United States because its copyright was not renewed. The Library of Congress states that US sound recordings published from 1923 through 1946 are protected for 100 years; the 1925 recordings therefore entered the US public domain on January 1, 2026. Project Gutenberg also explicitly identifies the Ferera and Paaluhi recording as public domain in the USA. The 1997 Air Force arrangement, performance, and recording are identified as US federal-government works. Recording and publication dates are distinct. Copyright status may differ outside the United States."
 
 [[score_editions]]
 title = "Handy Bros. scenic-cover issue"
@@ -17,6 +17,12 @@ title = "Paul Whiteman promotional issue"
 source = "imslp-score-716402"
 artifacts = ["imslp-716402-page-7", "imslp-716402-page-8", "imslp-716402-page-9", "imslp-716402-page-10", "imslp-716402-page-11", "imslp-716402-page-12"]
 note = "The second six pages bundled in IMSLP #716402: Paul Whiteman front cover, four score pages, and an advertising back cover. It is kept distinct from the scenic-cover issue even though IMSLP distributes both in one PDF."
+
+[[score_editions]]
+title = "Pace & Handy issue"
+source = "brown-score"
+artifacts = ["brown-score-page-1", "brown-score-page-2", "brown-score-page-3", "brown-score-page-4", "brown-score-page-5", "brown-score-page-6"]
+note = "Six-page 1918 voice-and-piano issue published by Pace & Handy Music Co. Brown's record describes it as played by Handy's orchestra and marks it No Copyright - United States."
 
 [[score_editions]]
 title = "Handy Bros. revised edition"
@@ -38,6 +44,15 @@ date = "1928"
 source = "imslp-bloom-arrangement"
 artifacts = ["bloom-arrangement-page-1", "bloom-arrangement-page-2", "bloom-arrangement-page-3", "bloom-arrangement-page-4", "bloom-arrangement-page-5", "bloom-arrangement-page-6", "bloom-arrangement-page-7", "bloom-arrangement-page-8"]
 note = "Eight-page piano arrangement published by Alfred & Co. IMSLP marks it Public Domain and Non-PD Canada; this project treats the locally hosted copy as public domain in the United States."
+
+[[arrangements]]
+title = "St. Louis Blues"
+arranger = "J. Lawrence Cook"
+instrumentation = "piano"
+date = "1930"
+source = "commons-cook-arrangement"
+artifacts = ["cook-arrangement-page-1", "cook-arrangement-page-2", "cook-arrangement-page-3", "cook-arrangement-page-4", "cook-arrangement-page-5", "cook-arrangement-page-6", "cook-arrangement-page-7", "cook-arrangement-page-8", "cook-arrangement-page-9", "cook-arrangement-page-10", "cook-arrangement-page-11"]
+note = "Eleven-page arrangement scanned at the Richmond Public Library Memory Lab. Wikimedia Commons identifies the US copyright as not renewed. The original PDF is preserved unchanged and the gallery images are display derivatives."
 
 [[creative_commons_works]]
 title = "St. Louis Blues for four recorders"
@@ -78,10 +93,11 @@ local_artifact = "recording-1922-wav"
 
 [[reviewed_recordings]]
 title = "St. Louis Blues"
-performer = "Bessie Smith"
+performer = "Bessie Smith with Louis Armstrong"
 date = "1925-01-14"
-source = "bessie-smith-archive"
-note = "The underlying 1925 recording is public domain in the United States. The linked user-uploaded FLAC has no declared license and is not hosted locally."
+source = "bessie-smith-commons"
+local_artifact = "recording-1925-bessie-smith-mp3"
+note = "Louis Armstrong accompanies Smith on cornet. Wikimedia Commons identifies this recording as public domain in the United States under the Classics Protection and Access Act."
 
 [[reviewed_recordings]]
 title = "The St. Louis Blues"
@@ -89,6 +105,14 @@ performer = "Frank Ferera and John Paaluhi"
 date = "1925-09-04"
 source = "ferera-paaluhi-gutenberg"
 local_artifact = "recording-1925-ferera-paaluhi-mp3"
+
+[[reviewed_recordings]]
+title = "St. Louis Blues March"
+performer = "United States Air Force Band of Mid-America, Shades of Blue"
+date = "1997-01-28"
+source = "usaf-band-commons"
+local_artifact = "recording-1997-usaf-band-mp3"
+note = "Recorded January 28–31, 1997. Wikimedia Commons documents the arrangement, performance, and recording as works created in the official duties of US Air Force personnel."
 
 [[external_media]]
 title = "W. C. Handy performs St. Louis Blues on The Ed Sullivan Show"
@@ -566,6 +590,62 @@ acquired_from = "duke-score"
 download_url = "https://repository.duke.edu/iiif/ark%3A%2F87924%2Fr4rn34j7s/full/full/0/default.jpg"
 
 [[artifacts]]
+id = "brown-score-manifest"
+label = "Brown 1918 Pace & Handy issue (IIIF manifest)"
+file = "brown-pace-handy-edition-1918-iiif-manifest.json"
+sha256 = "f508451808c151130985bc7979f8e2c8a22af0e303f763e72fcc0c4565f08940"
+acquired_from = "brown-score"
+download_url = "https://repository.library.brown.edu/iiif/presentation/bdr:18423/manifest.json"
+
+[[artifacts]]
+id = "brown-score-page-1"
+label = "Brown 1918 Pace & Handy issue — front cover"
+file = "brown-pace-handy-edition-1918-01.jpg"
+sha256 = "d5a113931ccd57e2d18f2fd23a1e63119a0534ad0263bd3dd6f43b20d27d8ace"
+acquired_from = "brown-score"
+download_url = "https://repository.library.brown.edu/iiif/image/bdr:18424/full/full/0/default.jpg"
+
+[[artifacts]]
+id = "brown-score-page-2"
+label = "Brown 1918 Pace & Handy issue — score page 2"
+file = "brown-pace-handy-edition-1918-02.jpg"
+sha256 = "42d30ef58d45d3943b3bb0cabd7093b7bae4e913f5d9e29da5c47b95b3d46a4e"
+acquired_from = "brown-score"
+download_url = "https://repository.library.brown.edu/iiif/image/bdr:18426/full/full/0/default.jpg"
+
+[[artifacts]]
+id = "brown-score-page-3"
+label = "Brown 1918 Pace & Handy issue — score page 3"
+file = "brown-pace-handy-edition-1918-03.jpg"
+sha256 = "2e513a5bae13b74184845a93d64a6751ed4e35076cd94c0e1075dcdcf4077b41"
+acquired_from = "brown-score"
+download_url = "https://repository.library.brown.edu/iiif/image/bdr:18425/full/full/0/default.jpg"
+
+[[artifacts]]
+id = "brown-score-page-4"
+label = "Brown 1918 Pace & Handy issue — score page 4"
+file = "brown-pace-handy-edition-1918-04.jpg"
+sha256 = "5c1596bbc48e2bd852e653f27aa87fdc6bc06f05b77324f2ac340c6bc72a327d"
+acquired_from = "brown-score"
+download_url = "https://repository.library.brown.edu/iiif/image/bdr:18428/full/full/0/default.jpg"
+
+[[artifacts]]
+id = "brown-score-page-5"
+label = "Brown 1918 Pace & Handy issue — score page 5"
+file = "brown-pace-handy-edition-1918-05.jpg"
+sha256 = "95052890a58890a8d0e55900bdb9deb9aa5139bd896b08587cc2055eb2619043"
+acquired_from = "brown-score"
+download_url = "https://repository.library.brown.edu/iiif/image/bdr:18427/full/full/0/default.jpg"
+
+[[artifacts]]
+id = "brown-score-page-6"
+label = "Brown 1918 Pace & Handy issue — advertising back cover"
+file = "brown-pace-handy-edition-1918-06.jpg"
+sha256 = "77d4b35e1ed7d32f4512b04a540e84225cae35558a796f3573ddb0533d971de0"
+acquired_from = "brown-score"
+download_url = "https://repository.library.brown.edu/iiif/image/bdr:18429/full/full/0/default.jpg"
+
+[[artifacts]]
 id = "recording-1921-wav"
 label = "Original Dixieland Jazz Band with Al Bernard (LOC WAV)"
 file = "original-dixieland-jazz-band-st-louis-blues-1921.wav"
@@ -605,13 +685,136 @@ sha256 = "46e8049358ebf63ab8e9a5e3e5947ce20dfeec9315a40202535a308acae1541c"
 acquired_from = "ferera-paaluhi-gutenberg"
 download_url = "https://www.gutenberg.org/files/10249/10249-m/10249-m-001.mp3"
 
+[[artifacts]]
+id = "cook-arrangement-pdf"
+label = "J. Lawrence Cook 1930 piano arrangement (PDF)"
+file = "j-lawrence-cook-piano-arrangement-1930.pdf"
+sha256 = "b7a8a8bb44ba3820566610e360ce527f755db01e23d0dca59e222a0ddca11af0"
+acquired_from = "commons-cook-arrangement"
+download_url = "https://commons.wikimedia.org/wiki/Special:Redirect/file/St.%20Louis%20Blues%20(1914)%20(1930%20arrangement).pdf"
+
+[[artifacts]]
+id = "cook-arrangement-page-1"
+label = "J. Lawrence Cook 1930 arrangement — cover"
+file = "j-lawrence-cook-piano-arrangement-1930-01.jpg"
+sha256 = "dda60356080371ad8d33ebfd39349a9e5ff4650cb5176cc36334a1347035e24a"
+acquired_from = "commons-cook-arrangement"
+derived_from = "cook-arrangement-pdf"
+derivation = "Poppler pdftoppm 26.08.0; page 1; JPEG; 150 DPI; quality 90; progressive and optimized"
+
+[[artifacts]]
+id = "cook-arrangement-page-2"
+label = "J. Lawrence Cook 1930 arrangement — page 2"
+file = "j-lawrence-cook-piano-arrangement-1930-02.jpg"
+sha256 = "01f6fe40365d55ebe3ddc79ddfc2483bbcfc44ebb9a9ea48c4b94c72389293a5"
+acquired_from = "commons-cook-arrangement"
+derived_from = "cook-arrangement-pdf"
+derivation = "Poppler pdftoppm 26.08.0; page 2; JPEG; 150 DPI; quality 90; progressive and optimized"
+
+[[artifacts]]
+id = "cook-arrangement-page-3"
+label = "J. Lawrence Cook 1930 arrangement — page 3"
+file = "j-lawrence-cook-piano-arrangement-1930-03.jpg"
+sha256 = "e468dc934d219630201ac99a37ae3d9adcfb839393655347d68db8ef5f48fd49"
+acquired_from = "commons-cook-arrangement"
+derived_from = "cook-arrangement-pdf"
+derivation = "Poppler pdftoppm 26.08.0; page 3; JPEG; 150 DPI; quality 90; progressive and optimized"
+
+[[artifacts]]
+id = "cook-arrangement-page-4"
+label = "J. Lawrence Cook 1930 arrangement — page 4"
+file = "j-lawrence-cook-piano-arrangement-1930-04.jpg"
+sha256 = "19ebf82e64caa34a4825350c73e1379cf3fb499cecd886fa9668fd0312cbc74e"
+acquired_from = "commons-cook-arrangement"
+derived_from = "cook-arrangement-pdf"
+derivation = "Poppler pdftoppm 26.08.0; page 4; JPEG; 150 DPI; quality 90; progressive and optimized"
+
+[[artifacts]]
+id = "cook-arrangement-page-5"
+label = "J. Lawrence Cook 1930 arrangement — page 5"
+file = "j-lawrence-cook-piano-arrangement-1930-05.jpg"
+sha256 = "9f7e47f095cae9050ff2d06ff941f5d4151b6171df4d502a9c582e23c4d90e44"
+acquired_from = "commons-cook-arrangement"
+derived_from = "cook-arrangement-pdf"
+derivation = "Poppler pdftoppm 26.08.0; page 5; JPEG; 150 DPI; quality 90; progressive and optimized"
+
+[[artifacts]]
+id = "cook-arrangement-page-6"
+label = "J. Lawrence Cook 1930 arrangement — page 6"
+file = "j-lawrence-cook-piano-arrangement-1930-06.jpg"
+sha256 = "c3ca4daa6c3e693d79479bc52f2a884c620345b786ffe2f808ad3d81785a0b43"
+acquired_from = "commons-cook-arrangement"
+derived_from = "cook-arrangement-pdf"
+derivation = "Poppler pdftoppm 26.08.0; page 6; JPEG; 150 DPI; quality 90; progressive and optimized"
+
+[[artifacts]]
+id = "cook-arrangement-page-7"
+label = "J. Lawrence Cook 1930 arrangement — page 7"
+file = "j-lawrence-cook-piano-arrangement-1930-07.jpg"
+sha256 = "af3ae69f5635ab14ba3ff80456df78885ade714ebbf4dd27592b2ca9796e6e21"
+acquired_from = "commons-cook-arrangement"
+derived_from = "cook-arrangement-pdf"
+derivation = "Poppler pdftoppm 26.08.0; page 7; JPEG; 150 DPI; quality 90; progressive and optimized"
+
+[[artifacts]]
+id = "cook-arrangement-page-8"
+label = "J. Lawrence Cook 1930 arrangement — page 8"
+file = "j-lawrence-cook-piano-arrangement-1930-08.jpg"
+sha256 = "b191f54a287803350d71d1a5dfbec58f8a5e8b122f9d7279f20d7bd5001d3976"
+acquired_from = "commons-cook-arrangement"
+derived_from = "cook-arrangement-pdf"
+derivation = "Poppler pdftoppm 26.08.0; page 8; JPEG; 150 DPI; quality 90; progressive and optimized"
+
+[[artifacts]]
+id = "cook-arrangement-page-9"
+label = "J. Lawrence Cook 1930 arrangement — page 9"
+file = "j-lawrence-cook-piano-arrangement-1930-09.jpg"
+sha256 = "037d15548ac0259ab6a406bb0b7a98c856b1cf38b0a5a733af9b1f136abc53cb"
+acquired_from = "commons-cook-arrangement"
+derived_from = "cook-arrangement-pdf"
+derivation = "Poppler pdftoppm 26.08.0; page 9; JPEG; 150 DPI; quality 90; progressive and optimized"
+
+[[artifacts]]
+id = "cook-arrangement-page-10"
+label = "J. Lawrence Cook 1930 arrangement — page 10"
+file = "j-lawrence-cook-piano-arrangement-1930-10.jpg"
+sha256 = "4f3ce79e5586a4997c2885ee99314104a75720ea8a69b12e92b177462bb1d2ff"
+acquired_from = "commons-cook-arrangement"
+derived_from = "cook-arrangement-pdf"
+derivation = "Poppler pdftoppm 26.08.0; page 10; JPEG; 150 DPI; quality 90; progressive and optimized"
+
+[[artifacts]]
+id = "cook-arrangement-page-11"
+label = "J. Lawrence Cook 1930 arrangement — page 11"
+file = "j-lawrence-cook-piano-arrangement-1930-11.jpg"
+sha256 = "548b002986e02803518ee00f2fc0978fd27250de4cc03982ec14c233ad1d290c"
+acquired_from = "commons-cook-arrangement"
+derived_from = "cook-arrangement-pdf"
+derivation = "Poppler pdftoppm 26.08.0; page 11; JPEG; 150 DPI; quality 90; progressive and optimized"
+
+[[artifacts]]
+id = "recording-1925-bessie-smith-mp3"
+label = "Bessie Smith with Louis Armstrong (Wikimedia Commons MP3)"
+file = "bessie-smith-louis-armstrong-st-louis-blues-1925.mp3"
+sha256 = "69ba59d6fda3a2da27f458f22b58593a3afbefd0744347825b2aff24f7fe33e0"
+acquired_from = "bessie-smith-commons"
+download_url = "https://commons.wikimedia.org/wiki/Special:Redirect/file/Bessie%20Smith%20and%20Louis%20Armstrong%20-%20The%20St.%20Louis%20Blues%20(1925).mp3"
+
+[[artifacts]]
+id = "recording-1997-usaf-band-mp3"
+label = "US Air Force Band of Mid-America — St. Louis Blues March (MP3)"
+file = "usaf-band-st-louis-blues-march-1997.mp3"
+sha256 = "e57e500bea9c1eedbfdd2fb2879aed657bbab5c94aa83911210da499d0797f90"
+acquired_from = "usaf-band-commons"
+download_url = "https://commons.wikimedia.org/wiki/Special:Redirect/file/St.%20Louis%20Blues%20March%20-%20Shades%20of%20Blue%20-%20United%20States%20Air%20Force%20Band%20of%20Mid-America.mp3"
+
 [[facts]]
 text = "W. C. Handy is the composer and lyricist."
 sources = ["score-archive", "score-rights", "recording-catalog"]
 
 [[facts]]
-text = "The score was published by Handy Bros. Music Co. in 1914."
-sources = ["score-archive", "score-rights"]
+text = "The score was published by Handy Bros. Music Co. on September 11, 1914."
+sources = ["score-archive", "score-rights", "copyright-catalog-1914"]
 
 [[facts]]
 text = "IMSLP file #716402 is a 12-page scan containing a scenic-cover issue and a Paul Whiteman promotional issue, each followed by four score pages and an advertising back cover."
@@ -729,6 +932,17 @@ attribution = "Provided by Duke University Libraries"
 snapshot_note = "Duke labels the item Free Re-Use. The saved IIIF manifest records the item metadata, rights URI, required attribution, six canvas identifiers, image dimensions, and image-service URLs."
 
 [[sources]]
+id = "brown-score"
+title = "Brown University Library: The St. Louis blues (African American Sheet Music, bdr:18423)"
+url = "https://repository.library.brown.edu/studio/item/bdr:18423/"
+retrieved = "2026-10-02"
+download_url = "https://repository.library.brown.edu/iiif/presentation/bdr:18423/manifest.json"
+rights = "No Copyright - United States"
+rights_url = "http://rightsstatements.org/vocab/NoC-US/1.0/"
+attribution = "Brown University Library"
+snapshot_note = "Brown identifies this as a six-page 1918 issue for voice and piano, published by Pace & Handy Music Co. The saved IIIF manifest records the page order, dimensions, stable canvas identifiers, and image-service URLs; the full metadata API supplies the rights statement and catalog description."
+
+[[sources]]
 id = "recording-catalog"
 title = "Library of Congress: St. Louis blues (jukebox-41556)"
 url = "https://www.loc.gov/item/jukebox-41556/"
@@ -760,6 +974,16 @@ retrieved = "2026-10-02"
 snapshot_note = "The item metadata declares no license or rights statement; retained as a link rather than a local artifact."
 
 [[sources]]
+id = "bessie-smith-commons"
+title = "Wikimedia Commons: Bessie Smith and Louis Armstrong — The St. Louis Blues (1925)"
+url = "https://commons.wikimedia.org/wiki/File:Bessie_Smith_and_Louis_Armstrong_-_The_St._Louis_Blues_(1925).mp3"
+retrieved = "2026-10-02"
+download_url = "https://commons.wikimedia.org/wiki/Special:Redirect/file/Bessie%20Smith%20and%20Louis%20Armstrong%20-%20The%20St.%20Louis%20Blues%20(1925).mp3"
+rights = "Public domain in the United States"
+rights_url = "https://commons.wikimedia.org/wiki/Template:PD-US-record-expired"
+snapshot_note = "Commons identifies the recording as published before January 1, 1926 and therefore public domain in the United States under the Classics Protection and Access Act. The locally hosted MP3 is preserved unchanged."
+
+[[sources]]
 id = "bessie-smith-smithsonian"
 title = "Smithsonian National Museum of American History: St. Louis Blues; Cold in Hand Blues"
 url = "https://americanhistory.si.edu/collections/object/nmah_1055145"
@@ -778,6 +1002,43 @@ title = "The78Prof: Marion Harris — St. Louis Blues (1920)"
 url = "https://www.youtube.com/watch?v=3UmD5Maujxc"
 retrieved = "2026-10-02"
 snapshot_note = "Uploader identifies the source as Columbia A2944, recorded April 16, 1920. No Creative Commons license declared; linked only."
+
+[[sources]]
+id = "wikipedia-song"
+title = "Wikipedia: Saint Louis Blues (song)"
+url = "https://en.wikipedia.org/wiki/Saint_Louis_Blues_(song)"
+retrieved = "2026-10-02"
+snapshot_note = "Consulted as an overview and lead index. Its Brown University sheet-music citation led to the separately reviewed Brown source above; facts are attributed to their underlying institutional records where available."
+
+[[sources]]
+id = "commons-cook-arrangement"
+title = "Wikimedia Commons: St. Louis Blues, arranged by J. Lawrence Cook (1930)"
+url = "https://commons.wikimedia.org/wiki/File:St._Louis_Blues_(1914)_(1930_arrangement).pdf"
+retrieved = "2026-10-02"
+download_url = "https://commons.wikimedia.org/wiki/Special:Redirect/file/St.%20Louis%20Blues%20(1914)%20(1930%20arrangement).pdf"
+rights = "Public domain in the United States — copyright not renewed"
+rights_url = "https://commons.wikimedia.org/wiki/Template:PD-US-not_renewed"
+snapshot_note = "Commons describes an eleven-page 1930 arrangement by J. Lawrence Cook, scanned at Richmond Public Library's Memory Lab, and identifies the arrangement's US copyright as not renewed. The locally hosted PDF is unchanged; JPEGs are display derivatives."
+
+[[sources]]
+id = "usaf-band-commons"
+title = "Wikimedia Commons: St. Louis Blues March — United States Air Force Band of Mid-America"
+url = "https://commons.wikimedia.org/wiki/File:St._Louis_Blues_March_-_Shades_of_Blue_-_United_States_Air_Force_Band_of_Mid-America.mp3"
+retrieved = "2026-10-02"
+download_url = "https://commons.wikimedia.org/wiki/Special:Redirect/file/St.%20Louis%20Blues%20March%20-%20Shades%20of%20Blue%20-%20United%20States%20Air%20Force%20Band%20of%20Mid-America.mp3"
+rights = "Public domain in the United States — work of the US Air Force"
+rights_url = "https://commons.wikimedia.org/wiki/Template:PD-USGov-Military-Air_Force"
+attribution = "Composition by W. C. Handy; transcription by Cecil T. Pomeroy; performed by the United States Air Force Band of Mid-America, Shades of Blue; Major Sam Pohl conducting"
+snapshot_note = "Commons records this as track 5 of Heroes Lost And Fallen, recorded January 28–31, 1997, and documents the arrangement, performance, and recording as US federal-government works. The locally hosted MP3 is preserved unchanged."
+
+[[sources]]
+id = "copyright-catalog-1914"
+title = "US Copyright Office: Catalog of Copyright Entries, Musical Compositions, July–December 1914"
+url = "https://archive.org/details/catalogofcopyrig92libr"
+retrieved = "2026-10-02"
+rights = "Public domain — US government work"
+rights_url = "https://www.copyright.gov/title17/92chap1.html#105"
+snapshot_note = "Primary registration evidence for the September 11, 1914 publication date. The digitized volume was contributed by the Library of Congress."
 
 [[sources]]
 id = "ferera-paaluhi-gutenberg"

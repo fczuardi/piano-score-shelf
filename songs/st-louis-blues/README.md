@@ -49,11 +49,32 @@ Sheet music and a historical reference recording for study.
 - [Duke Rudy Vallée edition — score page 4](./inputs/duke-rudy-vallee-edition-04.jpg) — SHA-256 `2027e503d1498c6c90c93f8d11ebc14fd9407ab1dd61ad0f11bce2410c4574a4`; acquired from [S7](#source-s7).
 - [Duke Rudy Vallée edition — score page 5](./inputs/duke-rudy-vallee-edition-05.jpg) — SHA-256 `ffb141b6f35c32c0b874a15d5872e1aed307af2ceb0ecd5070a170307d3e6e62`; acquired from [S7](#source-s7).
 - [Duke Rudy Vallée edition — advertising back cover](./inputs/duke-rudy-vallee-edition-06.jpg) — SHA-256 `4174715a4fbeadb33956b310cfdbdc5ba71c916d4a043e4adcc126d30da46b8f`; acquired from [S7](#source-s7).
-- [Original Dixieland Jazz Band with Al Bernard (LOC WAV)](./inputs/original-dixieland-jazz-band-st-louis-blues-1921.wav) — SHA-256 `808f119cf86d6d9533b616e9bb3c58025b6e2ccd05434527c85914e17d66638d`; acquired from [S8](#source-s8).
-- [Original Dixieland Jazz Band with Al Bernard (LOC MP3)](./inputs/original-dixieland-jazz-band-st-louis-blues-1921-loc.mp3) — SHA-256 `01203bf2e379e1988114b2b93ab0fcc21721f179b99336d73d3fe154b2203b7a`; acquired from [S8](#source-s8).
-- [Ted Lewis Jazz Band (LOC WAV)](./inputs/ted-lewis-jazz-band-st-louis-blues-1922.wav) — SHA-256 `2415c38f5f4ac782d5865db53d24f9a56f0875e79064ea8e31f3271b00b6b605`; acquired from [S10](#source-s10).
-- [Ted Lewis Jazz Band (LOC MP3)](./inputs/ted-lewis-jazz-band-st-louis-blues-1922-loc.mp3) — SHA-256 `68fb9ae116e277d31eda50be5b64d74e2db5ec623f999c0c4a2ccf63af0019b3`; acquired from [S10](#source-s10).
-- [Frank Ferera and John Paaluhi (Project Gutenberg MP3)](./inputs/ferera-paaluhi-st-louis-blues-1925-gutenberg.mp3) — SHA-256 `46e8049358ebf63ab8e9a5e3e5947ce20dfeec9315a40202535a308acae1541c`; acquired from [S15](#source-s15).
+- [Brown 1918 Pace & Handy issue (IIIF manifest)](./inputs/brown-pace-handy-edition-1918-iiif-manifest.json) — SHA-256 `f508451808c151130985bc7979f8e2c8a22af0e303f763e72fcc0c4565f08940`; acquired from [S8](#source-s8).
+- [Brown 1918 Pace & Handy issue — front cover](./inputs/brown-pace-handy-edition-1918-01.jpg) — SHA-256 `d5a113931ccd57e2d18f2fd23a1e63119a0534ad0263bd3dd6f43b20d27d8ace`; acquired from [S8](#source-s8).
+- [Brown 1918 Pace & Handy issue — score page 2](./inputs/brown-pace-handy-edition-1918-02.jpg) — SHA-256 `42d30ef58d45d3943b3bb0cabd7093b7bae4e913f5d9e29da5c47b95b3d46a4e`; acquired from [S8](#source-s8).
+- [Brown 1918 Pace & Handy issue — score page 3](./inputs/brown-pace-handy-edition-1918-03.jpg) — SHA-256 `2e513a5bae13b74184845a93d64a6751ed4e35076cd94c0e1075dcdcf4077b41`; acquired from [S8](#source-s8).
+- [Brown 1918 Pace & Handy issue — score page 4](./inputs/brown-pace-handy-edition-1918-04.jpg) — SHA-256 `5c1596bbc48e2bd852e653f27aa87fdc6bc06f05b77324f2ac340c6bc72a327d`; acquired from [S8](#source-s8).
+- [Brown 1918 Pace & Handy issue — score page 5](./inputs/brown-pace-handy-edition-1918-05.jpg) — SHA-256 `95052890a58890a8d0e55900bdb9deb9aa5139bd896b08587cc2055eb2619043`; acquired from [S8](#source-s8).
+- [Brown 1918 Pace & Handy issue — advertising back cover](./inputs/brown-pace-handy-edition-1918-06.jpg) — SHA-256 `77d4b35e1ed7d32f4512b04a540e84225cae35558a796f3573ddb0533d971de0`; acquired from [S8](#source-s8).
+- [Original Dixieland Jazz Band with Al Bernard (LOC WAV)](./inputs/original-dixieland-jazz-band-st-louis-blues-1921.wav) — SHA-256 `808f119cf86d6d9533b616e9bb3c58025b6e2ccd05434527c85914e17d66638d`; acquired from [S9](#source-s9).
+- [Original Dixieland Jazz Band with Al Bernard (LOC MP3)](./inputs/original-dixieland-jazz-band-st-louis-blues-1921-loc.mp3) — SHA-256 `01203bf2e379e1988114b2b93ab0fcc21721f179b99336d73d3fe154b2203b7a`; acquired from [S9](#source-s9).
+- [Ted Lewis Jazz Band (LOC WAV)](./inputs/ted-lewis-jazz-band-st-louis-blues-1922.wav) — SHA-256 `2415c38f5f4ac782d5865db53d24f9a56f0875e79064ea8e31f3271b00b6b605`; acquired from [S11](#source-s11).
+- [Ted Lewis Jazz Band (LOC MP3)](./inputs/ted-lewis-jazz-band-st-louis-blues-1922-loc.mp3) — SHA-256 `68fb9ae116e277d31eda50be5b64d74e2db5ec623f999c0c4a2ccf63af0019b3`; acquired from [S11](#source-s11).
+- [Frank Ferera and John Paaluhi (Project Gutenberg MP3)](./inputs/ferera-paaluhi-st-louis-blues-1925-gutenberg.mp3) — SHA-256 `46e8049358ebf63ab8e9a5e3e5947ce20dfeec9315a40202535a308acae1541c`; acquired from [S21](#source-s21).
+- [J. Lawrence Cook 1930 piano arrangement (PDF)](./inputs/j-lawrence-cook-piano-arrangement-1930.pdf) — SHA-256 `b7a8a8bb44ba3820566610e360ce527f755db01e23d0dca59e222a0ddca11af0`; acquired from [S18](#source-s18).
+- [J. Lawrence Cook 1930 arrangement — cover](./inputs/j-lawrence-cook-piano-arrangement-1930-01.jpg) — SHA-256 `dda60356080371ad8d33ebfd39349a9e5ff4650cb5176cc36334a1347035e24a`; acquired from [S18](#source-s18); derived from `cook-arrangement-pdf` (Poppler pdftoppm 26.08.0; page 1; JPEG; 150 DPI; quality 90; progressive and optimized).
+- [J. Lawrence Cook 1930 arrangement — page 2](./inputs/j-lawrence-cook-piano-arrangement-1930-02.jpg) — SHA-256 `01f6fe40365d55ebe3ddc79ddfc2483bbcfc44ebb9a9ea48c4b94c72389293a5`; acquired from [S18](#source-s18); derived from `cook-arrangement-pdf` (Poppler pdftoppm 26.08.0; page 2; JPEG; 150 DPI; quality 90; progressive and optimized).
+- [J. Lawrence Cook 1930 arrangement — page 3](./inputs/j-lawrence-cook-piano-arrangement-1930-03.jpg) — SHA-256 `e468dc934d219630201ac99a37ae3d9adcfb839393655347d68db8ef5f48fd49`; acquired from [S18](#source-s18); derived from `cook-arrangement-pdf` (Poppler pdftoppm 26.08.0; page 3; JPEG; 150 DPI; quality 90; progressive and optimized).
+- [J. Lawrence Cook 1930 arrangement — page 4](./inputs/j-lawrence-cook-piano-arrangement-1930-04.jpg) — SHA-256 `19ebf82e64caa34a4825350c73e1379cf3fb499cecd886fa9668fd0312cbc74e`; acquired from [S18](#source-s18); derived from `cook-arrangement-pdf` (Poppler pdftoppm 26.08.0; page 4; JPEG; 150 DPI; quality 90; progressive and optimized).
+- [J. Lawrence Cook 1930 arrangement — page 5](./inputs/j-lawrence-cook-piano-arrangement-1930-05.jpg) — SHA-256 `9f7e47f095cae9050ff2d06ff941f5d4151b6171df4d502a9c582e23c4d90e44`; acquired from [S18](#source-s18); derived from `cook-arrangement-pdf` (Poppler pdftoppm 26.08.0; page 5; JPEG; 150 DPI; quality 90; progressive and optimized).
+- [J. Lawrence Cook 1930 arrangement — page 6](./inputs/j-lawrence-cook-piano-arrangement-1930-06.jpg) — SHA-256 `c3ca4daa6c3e693d79479bc52f2a884c620345b786ffe2f808ad3d81785a0b43`; acquired from [S18](#source-s18); derived from `cook-arrangement-pdf` (Poppler pdftoppm 26.08.0; page 6; JPEG; 150 DPI; quality 90; progressive and optimized).
+- [J. Lawrence Cook 1930 arrangement — page 7](./inputs/j-lawrence-cook-piano-arrangement-1930-07.jpg) — SHA-256 `af3ae69f5635ab14ba3ff80456df78885ade714ebbf4dd27592b2ca9796e6e21`; acquired from [S18](#source-s18); derived from `cook-arrangement-pdf` (Poppler pdftoppm 26.08.0; page 7; JPEG; 150 DPI; quality 90; progressive and optimized).
+- [J. Lawrence Cook 1930 arrangement — page 8](./inputs/j-lawrence-cook-piano-arrangement-1930-08.jpg) — SHA-256 `b191f54a287803350d71d1a5dfbec58f8a5e8b122f9d7279f20d7bd5001d3976`; acquired from [S18](#source-s18); derived from `cook-arrangement-pdf` (Poppler pdftoppm 26.08.0; page 8; JPEG; 150 DPI; quality 90; progressive and optimized).
+- [J. Lawrence Cook 1930 arrangement — page 9](./inputs/j-lawrence-cook-piano-arrangement-1930-09.jpg) — SHA-256 `037d15548ac0259ab6a406bb0b7a98c856b1cf38b0a5a733af9b1f136abc53cb`; acquired from [S18](#source-s18); derived from `cook-arrangement-pdf` (Poppler pdftoppm 26.08.0; page 9; JPEG; 150 DPI; quality 90; progressive and optimized).
+- [J. Lawrence Cook 1930 arrangement — page 10](./inputs/j-lawrence-cook-piano-arrangement-1930-10.jpg) — SHA-256 `4f3ce79e5586a4997c2885ee99314104a75720ea8a69b12e92b177462bb1d2ff`; acquired from [S18](#source-s18); derived from `cook-arrangement-pdf` (Poppler pdftoppm 26.08.0; page 10; JPEG; 150 DPI; quality 90; progressive and optimized).
+- [J. Lawrence Cook 1930 arrangement — page 11](./inputs/j-lawrence-cook-piano-arrangement-1930-11.jpg) — SHA-256 `548b002986e02803518ee00f2fc0978fd27250de4cc03982ec14c233ad1d290c`; acquired from [S18](#source-s18); derived from `cook-arrangement-pdf` (Poppler pdftoppm 26.08.0; page 11; JPEG; 150 DPI; quality 90; progressive and optimized).
+- [Bessie Smith with Louis Armstrong (Wikimedia Commons MP3)](./inputs/bessie-smith-louis-armstrong-st-louis-blues-1925.mp3) — SHA-256 `69ba59d6fda3a2da27f458f22b58593a3afbefd0744347825b2aff24f7fe33e0`; acquired from [S13](#source-s13).
+- [US Air Force Band of Mid-America — St. Louis Blues March (MP3)](./inputs/usaf-band-st-louis-blues-march-1997.mp3) — SHA-256 `e57e500bea9c1eedbfdd2fb2879aed657bbab5c94aa83911210da499d0797f90`; acquired from [S19](#source-s19).
 
 ## Research record
 
@@ -61,35 +82,36 @@ Research conducted: 2026-10-02. Every URL used as evidence is listed below with 
 
 ## Documented facts
 
-- W. C. Handy is the composer and lyricist. [S1](#source-s1) [S2](#source-s2) [S8](#source-s8)
-- The score was published by Handy Bros. Music Co. in 1914. [S1](#source-s1) [S2](#source-s2)
+- W. C. Handy is the composer and lyricist. [S1](#source-s1) [S2](#source-s2) [S9](#source-s9)
+- The score was published by Handy Bros. Music Co. on September 11, 1914. [S1](#source-s1) [S2](#source-s2) [S20](#source-s20)
 - IMSLP file #716402 is a 12-page scan containing a scenic-cover issue and a Paul Whiteman promotional issue, each followed by four score pages and an advertising back cover. [S3](#source-s3)
 - Rube Bloom arranged St. Louis Blues for solo piano; Alfred & Co. published the eight-page arrangement in 1928. [S4](#source-s4)
 - David Edward Kemp arranged St. Louis Blues for soprano, alto, tenor, and bass recorders and licensed the score and parts under CC BY-SA 4.0. [S5](#source-s5)
 - Dadvid published a synthesized performance of David Kemp's recorder arrangement under CC BY 4.0 on November 5, 2020. [S6](#source-s6)
 - Duke University Libraries preserves a six-image Rudy Vallée promotional edition for voice, piano, and ukulele and marks it No Copyright - United States. [S7](#source-s7)
-- The reference recording features the Original Dixieland Jazz Band and vocalist Al Bernard and was recorded on May 25, 1921. [S8](#source-s8)
-- The recording was issued by Victor as catalog number 18772 from matrix B-25412, take 2. [S8](#source-s8)
-- The Library of Congress states that US sound recordings published before 1923 entered the public domain on January 1, 2022. [S9](#source-s9)
-- Ted Lewis Jazz Band recorded an instrumental St. Louis blues on December 7, 1922; Columbia issued it as catalog A3790 from matrix 80711, take 2. [S10](#source-s10)
-- Bessie Smith recorded St. Louis Blues on January 14, 1925; Columbia released it in 1925 as catalog 14064-D. [S11](#source-s11) [S12](#source-s12)
-- Frank Ferera and John Paaluhi recorded The St. Louis Blues as a Hawaiian guitar duet on September 4, 1925. [S15](#source-s15)
-- W. C. Handy performed St. Louis Blues on The Ed Sullivan Show on February 6, 1949. [S13](#source-s13)
-- Marion Harris recorded St. Louis Blues with an orchestra conducted by Charles Prince in New York City on April 16, 1920; Columbia issued it as A2944. [S14](#source-s14)
+- The reference recording features the Original Dixieland Jazz Band and vocalist Al Bernard and was recorded on May 25, 1921. [S9](#source-s9)
+- The recording was issued by Victor as catalog number 18772 from matrix B-25412, take 2. [S9](#source-s9)
+- The Library of Congress states that US sound recordings published before 1923 entered the public domain on January 1, 2022. [S10](#source-s10)
+- Ted Lewis Jazz Band recorded an instrumental St. Louis blues on December 7, 1922; Columbia issued it as catalog A3790 from matrix 80711, take 2. [S11](#source-s11)
+- Bessie Smith recorded St. Louis Blues on January 14, 1925; Columbia released it in 1925 as catalog 14064-D. [S12](#source-s12) [S14](#source-s14)
+- Frank Ferera and John Paaluhi recorded The St. Louis Blues as a Hawaiian guitar duet on September 4, 1925. [S21](#source-s21)
+- W. C. Handy performed St. Louis Blues on The Ed Sullivan Show on February 6, 1949. [S15](#source-s15)
+- Marion Harris recorded St. Louis Blues with an orchestra conducted by Charles Prince in New York City on April 16, 1920; Columbia issued it as A2944. [S16](#source-s16)
 
 ## Reviewed public-domain recordings
 
 These recordings are documented as public domain in the United States.
 
-- **Original Dixieland Jazz Band with Al Bernard** — 1921-05-25 — [local audio](./inputs/original-dixieland-jazz-band-st-louis-blues-1921.wav) · [source record](#source-s8)
-- **Ted Lewis Jazz Band** — 1922-12-07 — [local audio](./inputs/ted-lewis-jazz-band-st-louis-blues-1922.wav) · [source record](#source-s10)
-- **Bessie Smith** — 1925-01-14 — [source record](#source-s11) — The underlying 1925 recording is public domain in the United States. The linked user-uploaded FLAC has no declared license and is not hosted locally.
-- **Frank Ferera and John Paaluhi** — 1925-09-04 — [local audio](./inputs/ferera-paaluhi-st-louis-blues-1925-gutenberg.mp3) · [source record](#source-s15)
+- **Original Dixieland Jazz Band with Al Bernard** — 1921-05-25 — [local audio](./inputs/original-dixieland-jazz-band-st-louis-blues-1921.wav) · [source record](#source-s9)
+- **Ted Lewis Jazz Band** — 1922-12-07 — [local audio](./inputs/ted-lewis-jazz-band-st-louis-blues-1922.wav) · [source record](#source-s11)
+- **Bessie Smith with Louis Armstrong** — 1925-01-14 — [local audio](./inputs/bessie-smith-louis-armstrong-st-louis-blues-1925.mp3) · [source record](#source-s13) — Louis Armstrong accompanies Smith on cornet. Wikimedia Commons identifies this recording as public domain in the United States under the Classics Protection and Access Act.
+- **Frank Ferera and John Paaluhi** — 1925-09-04 — [local audio](./inputs/ferera-paaluhi-st-louis-blues-1925-gutenberg.mp3) · [source record](#source-s21)
+- **United States Air Force Band of Mid-America, Shades of Blue** — 1997-01-28 — [local audio](./inputs/usaf-band-st-louis-blues-march-1997.mp3) · [source record](#source-s19) — Recorded January 28–31, 1997. Wikimedia Commons documents the arrangement, performance, and recording as works created in the official duties of US Air Force personnel.
 
 ## Watch a performance
 
-- [W. C. Handy performs St. Louis Blues on The Ed Sullivan Show](https://www.youtube.com/watch?v=cSuTTSOctGw) — Copyrighted external media. Linked to the official Ed Sullivan Show YouTube channel; not hosted by this project. [S13](#source-s13)
-- [Marion Harris — St. Louis Blues (1920)](https://www.youtube.com/watch?v=3UmD5Maujxc) — The underlying 1920 recording is public domain in the United States. This external transfer declares no Creative Commons license and is linked from YouTube rather than hosted by this project. [S14](#source-s14)
+- [W. C. Handy performs St. Louis Blues on The Ed Sullivan Show](https://www.youtube.com/watch?v=cSuTTSOctGw) — Copyrighted external media. Linked to the official Ed Sullivan Show YouTube channel; not hosted by this project. [S15](#source-s15)
+- [Marion Harris — St. Louis Blues (1920)](https://www.youtube.com/watch?v=3UmD5Maujxc) — The underlying 1920 recording is public domain in the United States. This external transfer declares no Creative Commons license and is linked from YouTube rather than hosted by this project. [S16](#source-s16)
 
 ## Creative Commons adaptations
 
@@ -98,7 +120,7 @@ These recordings are documented as public domain in the United States.
 
 ## Rights note
 
-The evidence supports US public-domain use of the score editions and the 1921, 1922, and 1925 recordings listed as reviewed here. IMSLP marks file #716402 and its 1914 Handy Bros. material Public Domain; the downloaded file contains two six-page issues that are displayed separately. Duke marks its six-image Rudy Vallée promotional edition as Free Re-Use and No Copyright - United States, with attribution to Duke University Libraries. The Library of Congress states that US sound recordings published from 1923 through 1946 are protected for 100 years; the 1925 recordings therefore entered the US public domain on January 1, 2026. Project Gutenberg also explicitly identifies the Ferera and Paaluhi recording as public domain in the USA. Recording and publication dates are distinct. The linked Bessie Smith Archive.org transfer has no declared license, so it is linked rather than locally republished. Copyright status may differ outside the United States.
+The evidence supports US public-domain use of the score editions and the 1921, 1922, 1925, and 1997 recordings listed as reviewed here. IMSLP marks file #716402 and its 1914 Handy Bros. material Public Domain; the downloaded file contains two six-page issues that are displayed separately. Brown marks its 1918 Pace & Handy issue No Copyright - United States. Duke marks its six-image Rudy Vallée promotional edition as Free Re-Use and No Copyright - United States, with attribution to Duke University Libraries. Wikimedia Commons identifies J. Lawrence Cook's 1930 arrangement as public domain in the United States because its copyright was not renewed. The Library of Congress states that US sound recordings published from 1923 through 1946 are protected for 100 years; the 1925 recordings therefore entered the US public domain on January 1, 2026. Project Gutenberg also explicitly identifies the Ferera and Paaluhi recording as public domain in the USA. The 1997 Air Force arrangement, performance, and recording are identified as US federal-government works. Recording and publication dates are distinct. Copyright status may differ outside the United States.
 
 ## Sources
 
@@ -171,63 +193,122 @@ The evidence supports US public-domain use of the score editions and the 1921, 1
 
 <a id="source-s8"></a>
 
-### S8. Library of Congress: St. Louis blues (jukebox-41556)
+### S8. Brown University Library: The St. Louis blues (African American Sheet Music, bdr:18423)
+
+- [live page](https://repository.library.brown.edu/studio/item/bdr:18423/)
+- Retrieved: 2026-10-02
+- [Artifact download URL](https://repository.library.brown.edu/iiif/presentation/bdr:18423/manifest.json) · [saved artifact](./inputs/brown-pace-handy-edition-1918-iiif-manifest.json)
+- Rights: [No Copyright - United States](http://rightsstatements.org/vocab/NoC-US/1.0/)
+- Attribution: Brown University Library
+- Note: Brown identifies this as a six-page 1918 issue for voice and piano, published by Pace & Handy Music Co. The saved IIIF manifest records the page order, dimensions, stable canvas identifiers, and image-service URLs; the full metadata API supplies the rights statement and catalog description.
+
+<a id="source-s9"></a>
+
+### S9. Library of Congress: St. Louis blues (jukebox-41556)
 
 - [live page](https://www.loc.gov/item/jukebox-41556/) · [Wayback snapshot](https://web.archive.org/web/20250203024929/https://www.loc.gov/item/jukebox-41556/)
 - Retrieved: 2026-10-01
 - [Artifact download URL](https://tile.loc.gov/storage-services/master/mbrsrs/mbrsjukebox/dlc_victor_18772_01_b25412_02/dlc_victor_18772_01_b25412_02.wav) · [saved artifact](./inputs/original-dixieland-jazz-band-st-louis-blues-1921.wav)
 - Note: Wayback snapshot captured on 2025-02-03.
 
-<a id="source-s9"></a>
+<a id="source-s10"></a>
 
-### S9. Library of Congress: National Jukebox rights and access
+### S10. Library of Congress: National Jukebox rights and access
 
 - [live page](https://www.loc.gov/collections/national-jukebox/about-this-collection/rights-and-access/) · [Wayback snapshot](https://web.archive.org/web/20250108090700/https://www.loc.gov/collections/national-jukebox/about-this-collection/rights-and-access/)
 - Retrieved: 2026-10-01
 - Note: Wayback snapshot captured on 2025-01-08.
 
-<a id="source-s10"></a>
+<a id="source-s11"></a>
 
-### S10. Library of Congress: St. Louis blues — Ted Lewis Jazz Band (jukebox-669595)
+### S11. Library of Congress: St. Louis blues — Ted Lewis Jazz Band (jukebox-669595)
 
 - [live page](https://www.loc.gov/item/jukebox-669595/)
 - Retrieved: 2026-10-02
 - [Artifact download URL](https://tile.loc.gov/storage-services/master/mbrsrs/mbrsjukebox/ucsb_col_a3790_01_80711_02/ucsb_col_a3790_01_80711_02.wav) · [saved artifact](./inputs/ted-lewis-jazz-band-st-louis-blues-1922.wav)
 
-<a id="source-s11"></a>
+<a id="source-s12"></a>
 
-### S11. Internet Archive: Bessie Smith — St. Louis Blues (1925), Niven Jazz Collection transfer
+### S12. Internet Archive: Bessie Smith — St. Louis Blues (1925), Niven Jazz Collection transfer
 
 - [live page](https://archive.org/details/BessieSmithNivenJazzCollection_tracked/22-08+St+Louis+Blues+1925-01-14.flac)
 - Retrieved: 2026-10-02
 - Note: The item metadata declares no license or rights statement; retained as a link rather than a local artifact.
 
-<a id="source-s12"></a>
+<a id="source-s13"></a>
 
-### S12. Smithsonian National Museum of American History: St. Louis Blues; Cold in Hand Blues
+### S13. Wikimedia Commons: Bessie Smith and Louis Armstrong — The St. Louis Blues (1925)
+
+- [live page](https://commons.wikimedia.org/wiki/File:Bessie_Smith_and_Louis_Armstrong_-_The_St._Louis_Blues_(1925).mp3)
+- Retrieved: 2026-10-02
+- [Artifact download URL](https://commons.wikimedia.org/wiki/Special:Redirect/file/Bessie%20Smith%20and%20Louis%20Armstrong%20-%20The%20St.%20Louis%20Blues%20(1925).mp3) · [saved artifact](./inputs/bessie-smith-louis-armstrong-st-louis-blues-1925.mp3)
+- Rights: [Public domain in the United States](https://commons.wikimedia.org/wiki/Template:PD-US-record-expired)
+- Note: Commons identifies the recording as published before January 1, 1926 and therefore public domain in the United States under the Classics Protection and Access Act. The locally hosted MP3 is preserved unchanged.
+
+<a id="source-s14"></a>
+
+### S14. Smithsonian National Museum of American History: St. Louis Blues; Cold in Hand Blues
 
 - [live page](https://americanhistory.si.edu/collections/object/nmah_1055145)
 - Retrieved: 2026-10-02
 
-<a id="source-s13"></a>
+<a id="source-s15"></a>
 
-### S13. The Ed Sullivan Show: W. C. Handy — St. Louis Blues
+### S15. The Ed Sullivan Show: W. C. Handy — St. Louis Blues
 
 - [live page](https://www.youtube.com/watch?v=cSuTTSOctGw)
 - Retrieved: 2026-10-02
 - Note: Official-channel upload; no Creative Commons license declared. Linked only.
 
-<a id="source-s14"></a>
+<a id="source-s16"></a>
 
-### S14. The78Prof: Marion Harris — St. Louis Blues (1920)
+### S16. The78Prof: Marion Harris — St. Louis Blues (1920)
 
 - [live page](https://www.youtube.com/watch?v=3UmD5Maujxc)
 - Retrieved: 2026-10-02
 - Note: Uploader identifies the source as Columbia A2944, recorded April 16, 1920. No Creative Commons license declared; linked only.
 
-<a id="source-s15"></a>
+<a id="source-s17"></a>
 
-### S15. Project Gutenberg eBook 10249: The St. Louis Blues — Ferera and Paaluhi
+### S17. Wikipedia: Saint Louis Blues (song)
+
+- [live page](https://en.wikipedia.org/wiki/Saint_Louis_Blues_(song))
+- Retrieved: 2026-10-02
+- Note: Consulted as an overview and lead index. Its Brown University sheet-music citation led to the separately reviewed Brown source above; facts are attributed to their underlying institutional records where available.
+
+<a id="source-s18"></a>
+
+### S18. Wikimedia Commons: St. Louis Blues, arranged by J. Lawrence Cook (1930)
+
+- [live page](https://commons.wikimedia.org/wiki/File:St._Louis_Blues_(1914)_(1930_arrangement).pdf)
+- Retrieved: 2026-10-02
+- [Artifact download URL](https://commons.wikimedia.org/wiki/Special:Redirect/file/St.%20Louis%20Blues%20(1914)%20(1930%20arrangement).pdf) · [saved artifact](./inputs/j-lawrence-cook-piano-arrangement-1930.pdf)
+- Rights: [Public domain in the United States — copyright not renewed](https://commons.wikimedia.org/wiki/Template:PD-US-not_renewed)
+- Note: Commons describes an eleven-page 1930 arrangement by J. Lawrence Cook, scanned at Richmond Public Library's Memory Lab, and identifies the arrangement's US copyright as not renewed. The locally hosted PDF is unchanged; JPEGs are display derivatives.
+
+<a id="source-s19"></a>
+
+### S19. Wikimedia Commons: St. Louis Blues March — United States Air Force Band of Mid-America
+
+- [live page](https://commons.wikimedia.org/wiki/File:St._Louis_Blues_March_-_Shades_of_Blue_-_United_States_Air_Force_Band_of_Mid-America.mp3)
+- Retrieved: 2026-10-02
+- [Artifact download URL](https://commons.wikimedia.org/wiki/Special:Redirect/file/St.%20Louis%20Blues%20March%20-%20Shades%20of%20Blue%20-%20United%20States%20Air%20Force%20Band%20of%20Mid-America.mp3) · [saved artifact](./inputs/usaf-band-st-louis-blues-march-1997.mp3)
+- Rights: [Public domain in the United States — work of the US Air Force](https://commons.wikimedia.org/wiki/Template:PD-USGov-Military-Air_Force)
+- Attribution: Composition by W. C. Handy; transcription by Cecil T. Pomeroy; performed by the United States Air Force Band of Mid-America, Shades of Blue; Major Sam Pohl conducting
+- Note: Commons records this as track 5 of Heroes Lost And Fallen, recorded January 28–31, 1997, and documents the arrangement, performance, and recording as US federal-government works. The locally hosted MP3 is preserved unchanged.
+
+<a id="source-s20"></a>
+
+### S20. US Copyright Office: Catalog of Copyright Entries, Musical Compositions, July–December 1914
+
+- [live page](https://archive.org/details/catalogofcopyrig92libr)
+- Retrieved: 2026-10-02
+- Rights: [Public domain — US government work](https://www.copyright.gov/title17/92chap1.html#105)
+- Note: Primary registration evidence for the September 11, 1914 publication date. The digitized volume was contributed by the Library of Congress.
+
+<a id="source-s21"></a>
+
+### S21. Project Gutenberg eBook 10249: The St. Louis Blues — Ferera and Paaluhi
 
 - [live page](https://www.gutenberg.org/ebooks/10249)
 - Retrieved: 2026-10-02
