@@ -8,19 +8,19 @@ A small, manually curated collection of piano scores that have entered the publi
 - [Ragtime](ragtime/README.md)
 - [Boogie-woogie](boogie-woogie/README.md)
 
-Scores are added one at a time, with source details and personal study notes.
+Each song has its own directory for scores, reference recordings, research, and personal study notes. Songs are added one at a time.
 
 ## Adding a score
 
 1. Download a PDF manually from its source.
 2. Check that the composition and the specific edition or arrangement are in the public domain in the United States.
-3. Put it in the appropriate folder, using a lowercase, hyphenated filename, such as `composer-title-edition.pdf`.
-4. Copy [the score entry template](templates/score-entry.md) into that folder's README and fill in its provenance and study notes.
+3. Create a song directory inside the appropriate genre folder, such as `blues/st-louis-blues/`, and put the PDF there using a lowercase, hyphenated filename.
+4. Copy [the score entry template](templates/score-entry.md) into that song directory's README and fill in its provenance and study notes.
 5. Include an **Open PDF** link to the file and, if useful, a direct raw-file link.
 
 For this repository, a direct file URL has this form:
 
-`https://raw.githubusercontent.com/fczuardi/piano-score-shelf/main/blues/composer-title-edition.pdf`
+`https://raw.githubusercontent.com/fczuardi/piano-score-shelf/main/blues/st-louis-blues/composer-title-edition.pdf`
 
 Browser settings determine whether a PDF opens inline or downloads.
 
