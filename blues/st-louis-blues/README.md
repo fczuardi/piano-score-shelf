@@ -19,7 +19,7 @@
 - Credit: Library of Congress, National Jukebox.
 - Source advisory: inclusion in the National Jukebox courtesy of Sony Music Entertainment or EMI Music.
 - Retrieved: October 1, 2026.
-- Local MP3 copy: pending upload.
+- [Local MP3 copy](./original-dixieland-jazz-band-st-louis-blues-1921.mp3).
 
 The Library's [collection rights statement](https://www.loc.gov/collections/national-jukebox/about-this-collection/rights-and-access/) says recordings published before 1923 entered the US public domain on January 1, 2022. The item catalog gives a 1921 recording date; recording date and publication date are distinct. The API also retains a rights-restricted flag and the courtesy advisory above. These source notices are recorded here rather than treated as a blanket license for every National Jukebox recording.
 
