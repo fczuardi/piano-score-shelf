@@ -4,6 +4,14 @@
 
 Sheet music and a historical reference recording for study.
 
+## Modern editions
+
+### St. Louis Blues — modern study edition
+
+**Work In Progress** — transcribed and engraved by Fabricio C Zuardi. Current scope: Piano introduction, pickup through measure 8. Dedicated under [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/).
+
+[MusicXML](./editions/modern-1914/st-louis-blues.musicxml) · [MuseScore](./editions/modern-1914/st-louis-blues.mscz) · [edition manifest](./editions/modern-1914/EDITION.toml)
+
 ## Files
 
 - [Sheet music (PDF)](./inputs/handy-st-louis-blues.pdf) — SHA-256 `5eca837a94e7f242613246e7dd5b6d21820ca4f54bdffb3cf7729db8c9184e85`; acquired from [S1](#source-s1).

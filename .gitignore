@@ -4,3 +4,5 @@ Thumbs.db
 /public/
 /static/songs/
 /content/songs/*/
+/songs/*/editions/*/build/
+/songs/*/editions/*/.mscbackup/

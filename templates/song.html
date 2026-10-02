@@ -8,6 +8,7 @@
     <nav aria-labelledby="contents-heading">
       <h2 id="contents-heading">Contents</h2>
       <ul>
+        {% if page.extra.modern_editions %}<li><a href="#modern-editions">Modern editions</a></li>{% endif %}
         {% if page.extra.score_editions %}<li><a href="#scores">Scores</a></li>{% endif %}
         {% if page.extra.arrangements %}<li><a href="#arrangements">Arrangements and transcriptions</a></li>{% endif %}
         {% if page.extra.creative_commons_works %}<li><a href="#creative-commons">Creative Commons adaptations</a></li>{% endif %}
@@ -24,6 +25,21 @@
         <li><a href="#provenance">Provenance</a></li>
       </ul>
     </nav>
+    {% if page.extra.modern_editions %}
+      <section aria-labelledby="modern-editions">
+        <h2 id="modern-editions">Modern editions</h2>
+        {% for edition in page.extra.modern_editions %}
+          <h3>{{ edition.title }}</h3>
+          <p><strong>{{ edition.status }}</strong> — transcribed and engraved by {{ edition.transcriber }}.</p>
+          <p>Current scope: {{ edition.scope }}. Dedicated under <a href="{{ edition.license_url }}">{{ edition.license }}</a>.</p>
+          <ul>
+            <li><a href="{{ get_url(path=edition.musicxml_path) }}">MusicXML</a></li>
+            <li><a href="{{ get_url(path=edition.musescore_path) }}">MuseScore source</a></li>
+            <li><a href="{{ get_url(path=edition.manifest_path) }}">Edition manifest and provenance</a></li>
+          </ul>
+        {% endfor %}
+      </section>
+    {% endif %}
     {% if page.extra.score_editions %}
       <section aria-labelledby="scores">
         <h2 id="scores">Scores</h2>

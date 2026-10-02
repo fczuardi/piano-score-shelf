@@ -76,6 +76,24 @@ def load_entries():
         for media in data.get("external_media", []):
             if media["source"] not in source_ids:
                 raise SystemExit(f"unknown external media source: {media['source']}")
+        modern_editions = []
+        for edition_record in sorted((directory / "editions").glob("*/EDITION.toml")):
+            edition = tomllib.loads(edition_record.read_text())
+            for witness in edition.get("witnesses", []):
+                if witness["source_id"] not in source_ids:
+                    raise SystemExit(
+                        f"unknown source in {edition_record.relative_to(ROOT)} witness {witness['id']}: "
+                        f"{witness['source_id']}"
+                    )
+                unknown = set(witness["artifact_ids"]) - artifact_ids
+                if unknown:
+                    raise SystemExit(
+                        f"unknown artifact(s) in {edition_record.relative_to(ROOT)} witness {witness['id']}: "
+                        f"{', '.join(sorted(unknown))}"
+                    )
+            edition["directory"] = edition_record.parent
+            modern_editions.append(edition)
+        data["modern_editions"] = modern_editions
         entries.append((directory, data))
     return entries
 
@@ -84,7 +102,25 @@ def render_song(data):
     source_number = {source["id"]: index for index, source in enumerate(data["sources"], 1)}
     source_by_id = {source["id"]: source for source in data["sources"]}
     artifact_by_id = {artifact["id"]: artifact for artifact in data["artifacts"]}
-    lines = [GENERATED, "", f"# {data['title']} — {', '.join(data['creators'])}", "", data["summary"], "", "## Files", ""]
+    lines = [GENERATED, "", f"# {data['title']} — {', '.join(data['creators'])}", "", data["summary"]]
+    if data.get("modern_editions"):
+        lines += ["", "## Modern editions", ""]
+        for record in data["modern_editions"]:
+            edition = record["edition"]
+            outputs = record["outputs"]
+            edition_path = f"./editions/{edition['id']}"
+            lines += [
+                f"### {edition['title']}",
+                "",
+                f"**{edition['status'].replace('-', ' ').title()}** — transcribed and engraved by {edition['transcriber']}. "
+                f"Current scope: {edition['current_scope']}. "
+                f"Dedicated under [{edition['license']}]({edition['license_url']}).",
+                "",
+                f"[MusicXML]({edition_path}/{outputs['musicxml']}) · "
+                f"[MuseScore]({edition_path}/{outputs['musescore']}) · "
+                f"[edition manifest]({edition_path}/EDITION.toml)",
+            ]
+    lines += ["", "## Files", ""]
     for artifact in data["artifacts"]:
         source = source_number[artifact["acquired_from"]]
         relationship = f"; derived from `{artifact['derived_from']}` ({artifact['derivation']})" if artifact.get("derived_from") else ""
@@ -199,6 +235,24 @@ def render_site_song(data):
         images = [artifact_by_id[artifact_id] for artifact_id in work.get("images", [])]
         audio = artifact_by_id[work["audio"]] if work.get("audio") else None
         cc_works.append((work, files, images, audio))
+    modern_editions = []
+    for record in data.get("modern_editions", []):
+        edition = record["edition"]
+        outputs = record["outputs"]
+        base = f"songs/{slug}/editions/{edition['id']}"
+        modern_editions.append(
+            {
+                "title": edition["title"],
+                "status": edition["status"].replace("-", " ").title(),
+                "transcriber": edition["transcriber"],
+                "scope": edition["current_scope"],
+                "license": edition["license"],
+                "license_url": edition["license_url"],
+                "musicxml_path": f"{base}/{outputs['musicxml']}",
+                "musescore_path": f"{base}/{outputs['musescore']}",
+                "manifest_path": f"{base}/EDITION.toml",
+            }
+        )
     lines = [
         "+++",
         f"title = {json.dumps(data['title'])}",
@@ -209,6 +263,12 @@ def render_site_song(data):
         f"creators = {json.dumps(data['creators'])}",
         f"has_reviewed_recordings = {'true' if data.get('reviewed_recordings') else 'false'}",
         f"has_unreviewed_leads = {'true' if data.get('leads') else 'false'}",
+        "modern_editions = [",
+        *[
+            "  { " + ", ".join(f"{key} = {json.dumps(value)}" for key, value in edition.items()) + " },"
+            for edition in modern_editions
+        ],
+        "]",
         "score_editions = [",
         *[
             "  { title = "
@@ -376,6 +436,18 @@ def build_site_inputs(entries, check):
             shutil.copytree(directory / "inputs", target)
         elif not target.exists():
             raise SystemExit(f"generated site inputs are missing: {target.relative_to(ROOT)}")
+        for record in data.get("modern_editions", []):
+            edition = record["edition"]
+            outputs = record["outputs"]
+            source = record["directory"]
+            edition_target = static_songs / slug / "editions" / edition["id"]
+            expected = ["EDITION.toml", outputs["musicxml"], outputs["musescore"]]
+            if not check:
+                edition_target.mkdir(parents=True, exist_ok=True)
+                for filename in expected:
+                    shutil.copy2(source / filename, edition_target / filename)
+            elif any(not (edition_target / filename).exists() for filename in expected):
+                raise SystemExit(f"generated site edition files are missing: {edition_target.relative_to(ROOT)}")
 
 
 def write_or_check(path, content, check):
