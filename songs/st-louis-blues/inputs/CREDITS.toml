@@ -4,7 +4,7 @@ title = "St. Louis Blues"
 creators = ["W. C. Handy"]
 summary = "Sheet music and a historical reference recording for study."
 research_date = "2026-10-03"
-rights_note = "The evidence supports US public-domain use of the score editions and the 1921, 1922, 1925, and 1997 recordings listed as reviewed here. IMSLP marks file #716402 and its 1914 Handy Bros. material Public Domain; the downloaded file contains two six-page issues that are displayed separately. Brown marks its 1918 Pace & Handy issue No Copyright - United States. Duke marks its six-image Rudy Vallée promotional edition as Free Re-Use and No Copyright - United States, with attribution to Duke University Libraries. Wikimedia Commons identifies J. Lawrence Cook's 1930 arrangement as public domain in the United States because its copyright was not renewed. The Library of Congress states that US sound recordings published from 1923 through 1946 are protected for 100 years; the 1925 recordings therefore entered the US public domain on January 1, 2026. Project Gutenberg also explicitly identifies the Ferera and Paaluhi recording as public domain in the USA. Strong evidence supports US public-domain status for the 1997 Air Force track: the Air Force distributes it through its Public Domain Music collection, while Commons records the Air Force's representation that its transcription, performance, and recording are official-duty federal works. This is not an unconditional legal guarantee, and Commons notes that the Air Force-supplied metadata was not necessarily independently verified. Recording and publication dates are distinct. Copyright status may differ outside the United States."
+rights_note = "The evidence supports US public-domain use of the score editions and the 1921, 1922, 1925, 1994, 1996, and 1997 recordings listed as reviewed here. IMSLP marks file #716402 and its 1914 Handy Bros. material Public Domain; the downloaded file contains two six-page issues that are displayed separately. Brown marks its 1918 Pace & Handy issue No Copyright - United States. Duke marks its six-image Rudy Vallée promotional edition as Free Re-Use and No Copyright - United States, with attribution to Duke University Libraries. Wikimedia Commons identifies J. Lawrence Cook's 1930 arrangement as public domain in the United States because its copyright was not renewed. The Library of Congress states that US sound recordings published from 1923 through 1946 are protected for 100 years; the 1925 recordings therefore entered the US public domain on January 1, 2026. Project Gutenberg also explicitly identifies the Ferera and Paaluhi recording as public domain in the USA. Strong evidence supports US public-domain status for the three Air Force tracks because the Air Force distributes them through its Public Domain Music collection. For the 1997 track, Commons additionally records the Air Force's representation that its transcription, performance, and recording are official-duty federal works. These are evidence-based conclusions, not unconditional legal guarantees; Commons notes that the Air Force-supplied metadata was not necessarily independently verified. Recording and publication dates are distinct. Copyright status may differ outside the United States."
 
 [[score_editions]]
 title = "Handy Bros. scenic-cover issue"
@@ -105,6 +105,22 @@ performer = "Frank Ferera and John Paaluhi"
 date = "1925-09-04"
 source = "ferera-paaluhi-gutenberg"
 local_artifact = "recording-1925-ferera-paaluhi-mp3"
+
+[[reviewed_recordings]]
+title = "The St. Louis Blues March"
+performer = "United States Air Force Band"
+date = "1994"
+source = "usaf-band-1994-defense"
+local_artifact = "recording-1994-usaf-band-mp3"
+note = "Track 10 of We Remember, Disc 2. The embedded metadata credits W. C. Handy and identifies the performer, album, track number, and year. Strong evidence supports US public-domain status because the Air Force distributes this recording through its Public Domain Music collection; this is not an unconditional legal guarantee or a claim about other jurisdictions."
+
+[[reviewed_recordings]]
+title = "St. Louis Blues"
+performer = "The Falconaires"
+date = "1996"
+source = "usaf-falconaires-1996-defense"
+local_artifact = "recording-1996-usaf-falconaires-mp3"
+note = "Track 1 of That Long Long Road. The embedded metadata identifies the performer, album, track number, and year. Strong evidence supports US public-domain status because the Air Force distributes this recording through its Public Domain Music collection; this is not an unconditional legal guarantee or a claim about other jurisdictions."
 
 [[reviewed_recordings]]
 title = "St. Louis Blues March"
@@ -801,6 +817,22 @@ acquired_from = "bessie-smith-commons"
 download_url = "https://commons.wikimedia.org/wiki/Special:Redirect/file/Bessie%20Smith%20and%20Louis%20Armstrong%20-%20The%20St.%20Louis%20Blues%20(1925).mp3"
 
 [[artifacts]]
+id = "recording-1994-usaf-band-mp3"
+label = "United States Air Force Band — The St. Louis Blues March (1994 MP3)"
+file = "usaf-band-st-louis-blues-march-1994.mp3"
+sha256 = "a80ecebc85155097c7d6e08c4520373d7f7a3379dab4464d71a7ea0dc407e4a0"
+acquired_from = "usaf-band-1994-defense"
+download_url = "https://media.defense.gov/2020/Mar/17/2002265595/-1/-1/1/10%20-%20USAF%20BAND%20-%20THE%20ST.%20LOUIS%20BLUES%20MARCH%20(1994).MP3"
+
+[[artifacts]]
+id = "recording-1996-usaf-falconaires-mp3"
+label = "The Falconaires — St. Louis Blues (1996 MP3)"
+file = "usaf-falconaires-st-louis-blues-1996.mp3"
+sha256 = "92c4c498a92b08dc46d9dfa317ac0bdf7ae582fab5f50ee6fd647e09e5927acc"
+acquired_from = "usaf-falconaires-1996-defense"
+download_url = "https://media.defense.gov/2017/Nov/29/2001849942/-1/-1/1/01%20ST.%20LOUIS%20BLUES.MP3"
+
+[[artifacts]]
 id = "recording-1997-usaf-band-mp3"
 label = "US Air Force Band of Mid-America — St. Louis Blues March (MP3)"
 file = "usaf-band-st-louis-blues-march-1997.mp3"
@@ -1023,6 +1055,28 @@ download_url = "https://commons.wikimedia.org/wiki/Special:Redirect/file/St.%20L
 rights = "Public domain in the United States — copyright not renewed"
 rights_url = "https://commons.wikimedia.org/wiki/Template:PD-US-not_renewed"
 snapshot_note = "Commons describes an eleven-page 1930 arrangement by J. Lawrence Cook, scanned at Richmond Public Library's Memory Lab, and identifies the arrangement's US copyright as not renewed. The locally hosted PDF is unchanged; JPEGs are display derivatives."
+
+[[sources]]
+id = "usaf-band-1994-defense"
+title = "US Air Force Public Domain Music: The St. Louis Blues March — United States Air Force Band (1994)"
+url = "https://www.music.af.mil/Multimedia/Music/Public-Domain-Music/"
+retrieved = "2026-10-03"
+download_url = "https://media.defense.gov/2020/Mar/17/2002265595/-1/-1/1/10%20-%20USAF%20BAND%20-%20THE%20ST.%20LOUIS%20BLUES%20MARCH%20(1994).MP3"
+rights = "Strong evidence supports public-domain status in the United States — distributed through the US Air Force Public Domain Music collection"
+rights_url = "https://www.copyright.gov/title17/92chap1.html#105"
+attribution = "Composition by W. C. Handy; performed by the United States Air Force Band"
+snapshot_note = "The Air Force download's embedded metadata identifies this as track 10 of We Remember, Disc 2, performed by USAF Band in 1994. The preserved MP3 has SHA-256 a80ecebc85155097c7d6e08c4520373d7f7a3379dab4464d71a7ea0dc407e4a0. The collection label and federal source are strong supporting evidence, not by themselves an unconditional legal guarantee."
+
+[[sources]]
+id = "usaf-falconaires-1996-defense"
+title = "US Air Force Public Domain Music: St. Louis Blues — The Falconaires (1996)"
+url = "https://www.music.af.mil/Multimedia/Music/Public-Domain-Music/"
+retrieved = "2026-10-03"
+download_url = "https://media.defense.gov/2017/Nov/29/2001849942/-1/-1/1/01%20ST.%20LOUIS%20BLUES.MP3"
+rights = "Strong evidence supports public-domain status in the United States — distributed through the US Air Force Public Domain Music collection"
+rights_url = "https://www.copyright.gov/title17/92chap1.html#105"
+attribution = "Performed by The Falconaires"
+snapshot_note = "The Air Force download's embedded metadata identifies this as track 1 of That Long Long Road, performed by The Falconaires in 1996. The preserved MP3 has SHA-256 92c4c498a92b08dc46d9dfa317ac0bdf7ae582fab5f50ee6fd647e09e5927acc. The collection label and federal source are strong supporting evidence, not by themselves an unconditional legal guarantee."
 
 [[sources]]
 id = "usaf-band-defense"
