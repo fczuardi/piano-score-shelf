@@ -6,7 +6,7 @@ kind = "faithful modern engraving"
 status = "work-in-progress"
 started = "2026-10-02"
 transcriber = "Fabricio C Zuardi"
-current_scope = "Reviewed piano introduction through measure 8; preliminary draft of measures 9–12"
+current_scope = "Reviewed piano introduction through measure 8; preliminary draft through measure 16"
 canonical_format = "MusicXML 4.0"
 canonical_file = "st-louis-blues.musicxml"
 working_file = "st-louis-blues.mscz"
@@ -71,6 +71,14 @@ status = "preliminary-draft"
 scope = "Voice and piano, measures 9–12"
 witness = "A"
 note = "Drafted from the primary witness with three historical lyric verses and ukulele harmony labels; requires note-by-note review in MuseScore."
+
+[[revisions]]
+date = "2026-10-03"
+editor = "Fabricio C Zuardi"
+status = "preliminary-draft"
+scope = "Voice and piano, measures 13–16"
+witness = "A"
+note = "Manual WIP transcription in MuseScore; not yet marked as reviewed."
 
 # Add one table for every intervention or uncertain reading.
 # [[decisions]]
