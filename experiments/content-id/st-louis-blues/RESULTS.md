@@ -41,6 +41,10 @@ Use one video per case. Retain dated observations rather than replacing an earli
 
 Status values: No automatic claim reported; Not uploaded; Checks pending; No claim observed; Claimed; Processing failed; Taken down. Use “No claim observed” only after checking Studio and recording when the check occurred.
 
+## Pending recording candidates
+
+- **Jimmy Joy and St. Anthony Hotel Orchestra (1925)** — OKeh 40539, matrix 9377, take A. [UCSB catalog record](https://adp.library.ucsb.edu/index.php/matrix/detail/2000201513); [UCSB’s U.S. public-domain assessment](https://www.library.ucsb.edu/1925-recordings-digitized-ucsb-entering-public-domain-january-1-2026). Audio currently unavailable: UCSB’s player and direct MP3 returned HTTP 403 on October 5, 2026. No audio obtained, video prepared, or upload made. Pending acquisition of the recording before creating a test case.
+
 ## Results reported so far
 
 As reported by the uploader in conversation on 2026-10-05, **6 of 11 videos received automatic claims**. All eleven were uploaded on 2026-10-05, as reported by the uploader. The other five have no automatic claim reported; exact check times and completion of checks have not been documented. The six claimed videos have been matched to URLs using uploader-supplied yt-dlp title output. Exact upload/check times, claim coverage outside blocked territories, and individual dispute submission dates remain to be recorded.

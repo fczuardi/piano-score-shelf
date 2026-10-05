@@ -135,8 +135,7 @@ title = "St. Louis blues"
 performer = "Jimmy Joy and St. Anthony Hotel Orchestra"
 date = "1925-09"
 source = "jimmy-joy-ucsb"
-embed_url = "https://adp.library.ucsb.edu/index.php/take/embed/862014"
-note = "Recorded in Dallas in September 1925; OKeh 40539, matrix 9377, take A. UCSB Library explicitly lists this recording as public domain in the United States as of January 1, 2026. [Listen at UCSB Library](https://adp.library.ucsb.edu/index.php/matrix/detail/2000201513)."
+note = "Recorded in Dallas in September 1925; OKeh 40539, matrix 9377, take A. UCSB Library explicitly lists this recording as public domain in the United States as of January 1, 2026. [Catalog record at UCSB Library](https://adp.library.ucsb.edu/index.php/matrix/detail/2000201513). Audio currently unavailable; UCSB returned HTTP 403 on October 5, 2026."
 
 [[external_media]]
 title = "W. C. Handy performs St. Louis Blues on The Ed Sullivan Show"
@@ -1135,7 +1134,7 @@ title = "UCSB Library DAHR: St. Louis blues — Jimmy Joy and St. Anthony Hotel 
 url = "https://adp.library.ucsb.edu/index.php/matrix/detail/2000201513"
 retrieved = "2026-10-05"
 attribution = "Audio from the UCSB Library; performed by Jimmy Joy and St. Anthony Hotel Orchestra; composition by W. C. Handy"
-snapshot_note = "DAHR identifies OKeh 40539, matrix 9377, take A, recorded in Dallas in September 1925. The record supplies an embeddable UCSB player for take 862014. Its cached page still displays a Sony Music Entertainment notice; the separate UCSB 2026 public-domain list supplies the dated rights assessment. Audio is embedded from UCSB rather than downloaded locally."
+snapshot_note = "DAHR identifies OKeh 40539, matrix 9377, take A, recorded in Dallas in September 1925. The record supplies an embeddable UCSB player for take 862014. Its cached page still displays a Sony Music Entertainment notice; the separate UCSB 2026 public-domain list supplies the dated rights assessment. Audio currently unavailable: the player and direct MP3 returned HTTP 403 on October 5, 2026. No local audio copy has been obtained; the catalog and rights evidence are retained."
 
 [[sources]]
 id = "ucsb-1925-public-domain"
