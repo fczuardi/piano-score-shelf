@@ -8,7 +8,7 @@ Sheet music and a historical reference recording for study.
 
 ### St. Louis Blues — modern study edition
 
-**Work In Progress** — transcribed and engraved by Fabricio C Zuardi. Current scope: Reviewed piano introduction through measure 8; preliminary draft through measure 16. Dedicated under [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/).
+**Work In Progress** — transcribed and engraved by Fabricio C Zuardi. Current scope: Piano entered through measure 48, with chorus piano in progress; vocal, lyric, and harmony work extends to the ending. Dedicated under [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/).
 
 [MusicXML](./editions/modern-1914/st-louis-blues.musicxml) · [MuseScore](./editions/modern-1914/st-louis-blues.mscz) · [edition manifest](./editions/modern-1914/EDITION.toml)
 
