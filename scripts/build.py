@@ -458,6 +458,25 @@ def write_or_check(path, content, check):
         path.write_text(content)
 
 
+def build_experiment_pages(check):
+    for record in sorted((ROOT / "experiments" / "content-id").glob("*/RESULTS.md")):
+        text = record.read_text()
+        lines = text.splitlines()
+        if not lines or not lines[0].startswith("# "):
+            raise SystemExit(f"experiment page needs an opening title: {record}")
+        title = lines[0][2:]
+        page = ROOT / "content" / "experiments" / "content-id" / record.parent.name / "index.md"
+        content = "\n".join([
+            "+++", f"title = {json.dumps(title)}", 'template = "experiment.html"',
+            'description = "Dated observations of YouTube claims on recordings and synthesized playback."',
+            "+++", "", "<!-- Generated from " + str(record.relative_to(ROOT)) + "; edit that source. -->",
+            "", "\n".join(lines[1:]).lstrip(), "",
+        ])
+        if not check:
+            page.parent.mkdir(parents=True, exist_ok=True)
+        write_or_check(page, content, check)
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--check", action="store_true")
@@ -467,6 +486,7 @@ def main():
         write_or_check(directory / "README.md", render_song(data), args.check)
     write_or_check(ROOT / "README.md", render_index(entries), args.check)
     build_site_inputs(entries, args.check)
+    build_experiment_pages(args.check)
 
 
 if __name__ == "__main__":

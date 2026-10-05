@@ -7,3 +7,6 @@ Thumbs.db
 /songs/*/editions/*/build/
 /songs/*/editions/*/.mscbackup/
 *.mscz.autosave
+/experiments/content-id/*/build/
+/scripts/__pycache__/
+/content/experiments/content-id/*/

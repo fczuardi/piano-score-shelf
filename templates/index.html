@@ -9,4 +9,13 @@
     <li><a href="{{ song.permalink }}">{{ song.title }}</a> — {{ song.extra.creators | join(sep=", ") }}</li>
   {% endfor %}
   </ul>
+  {% set experiments = get_section(path="experiments/content-id/_index.md") %}
+  {% if experiments.pages %}
+  <h2>Experiments</h2>
+  <ul>
+    {% for experiment in experiments.pages %}
+    <li><a href="{{ experiment.permalink }}">{{ experiment.title }}</a></li>
+    {% endfor %}
+  </ul>
+  {% endif %}
 {% endblock content %}
