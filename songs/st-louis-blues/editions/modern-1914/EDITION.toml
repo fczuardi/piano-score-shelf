@@ -6,7 +6,7 @@ kind = "faithful modern engraving"
 status = "work-in-progress"
 started = "2026-10-02"
 transcriber = "Fabricio C Zuardi"
-current_scope = "Piano entered through measure 48, with chorus piano in progress; vocal, lyric, and harmony work extends to the ending"
+current_scope = "Piano entered and reviewed through measure 52, with chorus piano in progress; vocal, lyric, and harmony work extends to the ending"
 canonical_format = "MusicXML 4.0"
 canonical_file = "st-louis-blues.musicxml"
 working_file = "st-louis-blues.mscz"
@@ -112,3 +112,27 @@ status = "work-in-progress"
 scope = "Piano through measure 48; vocals, lyrics, and harmony through the ending"
 witness = "A"
 note = "Saved transcription includes corrected piano pitches in measures 41–44 and reviewed pitches, rhythms, ties, slurs, arpeggio, and fermatas in measures 45–48. Overlapping left-hand voices in measures 47–48 retain visible rests for clarity. Chorus piano remains in progress. Separate Codex draft artifacts removed at the transcriber's request."
+
+[[revisions]]
+date = "2026-10-05"
+editor = "Fabricio C Zuardi; reviewed by Codex"
+status = "reviewed"
+scope = "Voice and piano, measures 49–52"
+witness = "A; B consulted for collation"
+note = "Compared the chorus pickup and first three full measures with the primary witness. Transcriber corrected the lower right-hand note on beat 4 of measure 50 to C-sharp4 and added the short upper slur on beat 2. Both corrections verified in the saved MuseScore file and synced MusicXML. Notes, rhythms, vocal lyrics and harmony labels, bass patterns, and sustained G ties checked; printed ukulele diagrams remain outside this review."
+
+[[decisions]]
+measure = 50
+location = "piano, right hand, first eighth note on beat 4"
+witness = "A, score page 4, first system"
+reading = "Lower note C4, inheriting the earlier C-sharp accidental; upper note A-sharp4."
+action = "Transcriber corrected B3 to C-sharp4; saved and synced correction verified."
+rationale = "The primary witness places the lower eighth note above the preceding beat-3 B3. The quarter-note B3 on beat 3 remains correct."
+
+[[decisions]]
+measure = 50
+location = "piano, right hand, beat 2"
+witness = "A, score page 4, first system"
+reading = "Short upper slur from A-sharp4 to B4, alongside the longer lower slur."
+action = "Transcriber added the short upper slur; saved and synced correction verified."
+rationale = "Both arcs appear in the primary witness; the longer lower slur is retained."
