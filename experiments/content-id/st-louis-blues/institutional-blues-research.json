@@ -95,6 +95,19 @@
       "assessment": "Additional institutional provenance; compare to existing Gutenberg 1925 case."
     }
   ],
+  "next_study_page": {
+    "title": "Joe Turner Blues",
+    "composer": "W. C. Handy",
+    "radar_priority": 1,
+    "planned_study_page_number": 2,
+    "after": "St. Louis Blues",
+    "status": "Prioritized for a future study page; page not created.",
+    "selected_by_user_on": "2026-10-05",
+    "composition_source_url": "https://digitalcollections.libraries.ua.edu/digital/collection/p17336coll5/id/294/",
+    "composition_publication": "Pace & Handy Music Co., 1915",
+    "recording_lead_url": "https://www.loc.gov/item/jukebox-19795/",
+    "note": "Start with the 1915 sheet music and the 1916 Victor Military Band medley already acquired for the St. Louis Blues research. Review composition and arrangement evidence when preparing the study page."
+  },
   "next_song_radar_ucsb_explicit_pd_list": [
     {
       "description": "Coal cart blues / Clarence Williams’ Blue Five ; Eva Taylor. (OKeh 8245)",
@@ -164,6 +177,7 @@
     "metadata_url": "https://data.labs.loc.gov/jukebox/metadata.json",
     "manifest_url": "https://data.labs.loc.gov/jukebox/manifest.json",
     "priority_titles": [
+      "Joe Turner Blues",
       "The Memphis blues",
       "Yellow dog blues",
       "Hesitation blues",
