@@ -30,7 +30,14 @@
       "take": "5",
       "catalog_url": "https://www.loc.gov/item/jukebox-19795/",
       "audio_url": "https://data.labs.loc.gov/jukebox/audio/jukebox-19795_1.mp3",
-      "assessment": "Strong US evidence: LOC public-domain-assessed dataset. New medley performance absent from existing credits. Download size and MD5 verified against LOC manifest."
+      "assessment": "Strong US evidence: LOC public-domain-assessed dataset. New medley performance absent from existing credits. Download size and MD5 verified against LOC manifest.",
+      "follow_up": {
+        "date": "2026-10-05",
+        "status": "Downloaded and added to reviewed recordings and local song player. Uploader reported video uploaded on October 5, 2026 with no automatic triggers so far; video URL, exact upload/check times, and Checks completion remain undocumented.",
+        "local_audio": "songs/st-louis-blues/inputs/victor-military-band-joe-turner-blues-medley-1916-loc.mp3",
+        "case_id": "victor-military-band-joe-turner-blues-medley-1916-loc-979f383efedf",
+        "manifest": "build/victor-military-band-1916/manifest.json"
+      }
     },
     {
       "performer": "Handy's Memphis Blues Band",
@@ -38,7 +45,17 @@
       "title": "St. Louis Blues",
       "source_url": "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/St-Louis-Blues_Freeland.pdf",
       "listening_source_url": "https://www.loc.gov/programs/national-recording-preservation-board/recording-registry/listen-to-registry-titles/?loclr=blognsh",
-      "assessment": "Strong historical candidate: LOC Registry identifies 1922 recording and lists MP3. Distinct from listed 1939 Handy performance. Direct MP3 retrieval, transfer identity, original issue/publication documentation remain to be checked."
+      "assessment": "Strong historical candidate: LOC Registry identifies 1922 recording and lists MP3. Distinct from listed 1939 Handy performance. Direct MP3 retrieval, transfer identity, original issue/publication documentation remain to be checked.",
+      "follow_up": {
+        "date": "2026-10-05",
+        "status": "LOC 30-second Registry excerpt retrieved from Wayback, added to song page; excerpt video prepared, not uploaded. Full recording not obtained.",
+        "original_audio_url": "https://tile.loc.gov/storage-services/media/recordedsound/St-Louis-Blues_Handys-Memphis-Blues-Band.mp3",
+        "wayback_capture": "20250405113647",
+        "local_audio": "songs/st-louis-blues/inputs/handys-memphis-blues-band-st-louis-blues-1922-loc-excerpt.mp3",
+        "case_id": "handys-memphis-blues-band-st-louis-blues-1922-loc-excerpt-b33238fb3abd",
+        "manifest": "build/handy-1922-excerpt/manifest.json",
+        "publication_evidence": "Black Swan 2053 first known mention May 20, 1922; matrix 970 take 2, corresponding to Paramount 20098. LOC excerpt take unspecified."
+      }
     },
     {
       "performer": "Jimmy Joy and St. Anthony Hotel Orchestra",

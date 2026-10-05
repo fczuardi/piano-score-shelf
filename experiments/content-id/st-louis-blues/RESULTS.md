@@ -5,6 +5,8 @@ This experiment records which recordings and synthesized performances receive Yo
 ## Experiment setup
 
 - Prepared batch and manifest: `build/manifest.json`
+- Victor Military Band 1916 follow-up batch: `build/victor-military-band-1916/manifest.json`; prepared October 5, 2026; upload reported by the uploader on October 5, 2026, with no automatic claim reported so far.
+- Handy 1922 excerpt follow-up batch: `build/handy-1922-excerpt/manifest.json`; prepared October 5, 2026, not uploaded.
 - Channel: To fill in
 - Upload date: 2026-10-05, as reported by the uploader; local timezone America/Sao_Paulo. Exact times not recorded.
 - Visibility: Private
@@ -18,6 +20,10 @@ The manifest and individual JSON records preserve audio/video hashes, duration, 
 The modern WIP case uses the combined `/var/home/fcz/Music/st-louis-blues.flac` export (136.404 seconds). Its metadata contains placeholder artist and year tags; these are not evidence of authorship or date. Playback soundfont, tempo, and repeat settings have not yet been recorded. The preparation record includes the current working score hash, without assuming it proves the exact export revision.
 
 ## Source decoding observations
+
+The Handy 1922 case uses LOC’s 30-second Registry excerpt, obtained from Wayback capture `20250405113647` after the live MP3 returned HTTP 403. The complete archived payload is 535,486 bytes; FFmpeg reported no decoding errors. The rendered audio duration agrees with the source within 0.05 seconds. This tests only the supplied excerpt; the full performance and exact take have not been verified.
+
+The Victor Military Band 1916 follow-up video contains the full medley. Its source MP3 matches LOC’s manifest size and MD5. FFmpeg reported no source decoding errors for this case.
 
 FFmpeg reported invalid MP3 packets in `usaf-band-st-louis-blues-march-1997.mp3` and `usaf-falconaires-st-louis-blues-1996.mp3`. Their individual JSON records retain the diagnostics. All ten rendered audio streams are within 0.04 seconds of their source duration; this duration check does not establish that damaged packets decoded faithfully. Review these two cases before interpreting their results.
 
@@ -38,6 +44,8 @@ Use one video per case. Retain dated observations rather than replacing an earli
 | usaf-band-st-louis-blues-march-1997-e57e500bea9c | usaf-band-st-louis-blues-march-1997.mp3 | Claimed | [YouTube](https://youtu.be/x6kuD9IF5lA) | — |
 | usaf-falconaires-st-louis-blues-1996-92c4c498a92b | usaf-falconaires-st-louis-blues-1996.mp3 | Claimed | [YouTube](https://youtu.be/Qv_Mqk2Pgo8) | — |
 | st-louis-blues-wip-synthesized-af18b74fb812 | Modern WIP synthesized playback, combined score | No automatic claim reported | — | — |
+| victor-military-band-joe-turner-blues-medley-1916-loc-979f383efedf | Victor Military Band, Joe Turner blues medley including St. Louis blues (1916), LOC MP3 | No automatic claim reported | — | — |
+| handys-memphis-blues-band-st-louis-blues-1922-loc-excerpt-b33238fb3abd | Handy’s Memphis Blues Band (1922), 30-second LOC excerpt via Wayback | Not uploaded | — | — |
 
 Status values: No automatic claim reported; Not uploaded; Checks pending; No claim observed; Claimed; Processing failed; Taken down. Use “No claim observed” only after checking Studio and recording when the check occurred.
 
@@ -46,6 +54,8 @@ Status values: No automatic claim reported; Not uploaded; Checks pending; No cla
 - **Jimmy Joy and St. Anthony Hotel Orchestra (1925)** — OKeh 40539, matrix 9377, take A. [UCSB catalog record](https://adp.library.ucsb.edu/index.php/matrix/detail/2000201513); [UCSB’s U.S. public-domain assessment](https://www.library.ucsb.edu/1925-recordings-digitized-ucsb-entering-public-domain-january-1-2026). Audio currently unavailable: UCSB’s player and direct MP3 returned HTTP 403 on October 5, 2026. No audio obtained, video prepared, or upload made. Pending acquisition of the recording before creating a test case.
 
 ## Results reported so far
+
+On October 5, 2026, the uploader reported uploading the Victor Military Band 1916 medley video with no automatic triggers so far. Video URL, exact upload/check times, and completion of YouTube’s Checks step have not been documented. Across the twelve uploads reported so far, six have automatic claims reported and six have no automatic claim reported.
 
 As reported by the uploader in conversation on 2026-10-05, **6 of 11 videos received automatic claims**. All eleven were uploaded on 2026-10-05, as reported by the uploader. The other five have no automatic claim reported; exact check times and completion of checks have not been documented. The six claimed videos have been matched to URLs using uploader-supplied yt-dlp title output. Exact upload/check times, claim coverage outside blocked territories, and individual dispute submission dates remain to be recorded.
 

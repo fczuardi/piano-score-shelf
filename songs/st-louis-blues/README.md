@@ -85,6 +85,8 @@ Sheet music and a historical reference recording for study.
 - [United States Air Force Band — The St. Louis Blues March (1994 MP3)](./inputs/usaf-band-st-louis-blues-march-1994.mp3) — SHA-256 `a80ecebc85155097c7d6e08c4520373d7f7a3379dab4464d71a7ea0dc407e4a0`; acquired from [S19](#source-s19).
 - [The Falconaires — St. Louis Blues (1996 MP3)](./inputs/usaf-falconaires-st-louis-blues-1996.mp3) — SHA-256 `92c4c498a92b08dc46d9dfa317ac0bdf7ae582fab5f50ee6fd647e09e5927acc`; acquired from [S20](#source-s20).
 - [US Air Force Band of Mid-America — St. Louis Blues March (MP3)](./inputs/usaf-band-st-louis-blues-march-1997.mp3) — SHA-256 `e57e500bea9c1eedbfdd2fb2879aed657bbab5c94aa83911210da499d0797f90`; acquired from [S22](#source-s22).
+- [Victor Military Band — Joe Turner blues medley including St. Louis blues (1916, LOC MP3)](./inputs/victor-military-band-joe-turner-blues-medley-1916-loc.mp3) — SHA-256 `979f383efedf3c3981300ea24e869e321688c4d0e0dd89a6b78712114d6fc80c`; acquired from [S27](#source-s27).
+- [Handy’s Memphis Blues Band — St. Louis Blues (1922, 30-second LOC excerpt)](./inputs/handys-memphis-blues-band-st-louis-blues-1922-loc-excerpt.mp3) — SHA-256 `b33238fb3abd17919f71796a605133d267414ecaef248eb7c2b3029363a6651f`; acquired from [S29](#source-s29).
 
 ## Research record
 
@@ -109,11 +111,16 @@ Research conducted: 2026-10-05. Every URL used as evidence is listed below with 
 - W. C. Handy performed St. Louis Blues on The Ed Sullivan Show on February 6, 1949. [S15](#source-s15)
 - Marion Harris recorded St. Louis Blues with an orchestra conducted by Charles Prince in New York City on April 16, 1920; Columbia issued it as A2944. [S16](#source-s16)
 - Jimmy Joy and the St. Anthony Hotel Orchestra recorded St. Louis blues in Dallas in September 1925; OKeh issued it as catalog 40539, matrix 9377, take A. UCSB Library lists it as public domain in the United States as of January 1, 2026. [S25](#source-s25) [S26](#source-s26)
+- Victor Military Band, conducted by Edward T. King, recorded the Joe Turner blues medley in Camden, New Jersey on October 19, 1916: Victor 18174, matrix B-18495, take 5. LOC lists St. Louis blues as an alternate title. The recording is included in LOC’s public-domain-assessed National Jukebox Data Package. [S27](#source-s27) [S28](#source-s28)
+- LOC’s Registry essay identifies Handy’s Memphis Blues Band’s St. Louis Blues as recorded in New York in January 1922, opening with the tango bridge and ending with Ole Miss Blues. The LOC listening page supplies a 30-second excerpt. UCSB’s Black Swan discography documents matrix 970 take 2 on Black Swan 2053 by May 20, 1922, corresponding to Paramount 20098; the excerpt’s specific take is not documented. [S30](#source-s30) [S29](#source-s29) [S31](#source-s31)
+- SIUE’s library catalog lists W. C. Handy’s Ole Miss Rag as published by Pace & Handy Music Co. in Memphis in 1916. LOC’s Registry essay identifies Ole Miss Blues as the ending of Handy’s 1922 St. Louis Blues performance. [S33](#source-s33) [S30](#source-s30)
 
 ## Reviewed public-domain recordings
 
 These recordings are documented as public domain in the United States.
 
+- **Handy's Memphis Blues Band** — 1922-01 — [local audio](./inputs/handys-memphis-blues-band-st-louis-blues-1922-loc-excerpt.mp3) · [source record](#source-s29) — LOC National Recording Registry excerpt from Handy’s January 1922 New York session; 30 seconds, not the full recording. Retrieved from an April 5, 2025 Wayback capture of LOC’s MP3 because the live endpoint returned HTTP 403. The session’s St. Louis Blues was issued on Paramount 20098, matrix 970; UCSB’s Black Swan discography documents the corresponding Black Swan 2053 issue, take 2, by May 20, 1922. LOC does not identify the excerpt’s exact take or source disc. Publication evidence supports a U.S. public-domain assessment for this historical session; the specific take remains unverified.
+- **Victor Military Band** — 1916-10-19 — [local audio](./inputs/victor-military-band-joe-turner-blues-medley-1916-loc.mp3) · [source record](#source-s27) — Joe Turner blues medley, including St. Louis blues; the full medley is provided. Conducted by Edward T. King, recorded in Camden, New Jersey; Victor 18174, matrix B-18495, take 5. LOC lists St. Louis blues as an alternate title. The MP3 is from LOC’s National Jukebox Data Package, whose recordings LOC assesses as public domain based on their metadata dates.
 - **Original Dixieland Jazz Band with Al Bernard** — 1921-05-25 — [local audio](./inputs/original-dixieland-jazz-band-st-louis-blues-1921.wav) · [source record](#source-s9)
 - **Ted Lewis Jazz Band** — 1922-12-07 — [local audio](./inputs/ted-lewis-jazz-band-st-louis-blues-1922.wav) · [source record](#source-s11)
 - **Bessie Smith with Louis Armstrong** — 1925-01-14 — [local audio](./inputs/bessie-smith-louis-armstrong-st-louis-blues-1925.mp3) · [source record](#source-s13) — Louis Armstrong accompanies Smith on cornet. Wikimedia Commons identifies this recording as public domain in the United States under the Classics Protection and Access Act.
@@ -135,7 +142,7 @@ These recordings are documented as public domain in the United States.
 
 ## Rights note
 
-The evidence supports US public-domain use of the score editions and the 1921, 1922, 1925, 1994, 1996, and 1997 recordings listed as reviewed here. IMSLP marks file #716402 and its 1914 Handy Bros. material Public Domain; the downloaded file contains two six-page issues that are displayed separately. Brown marks its 1918 Pace & Handy issue No Copyright - United States. Duke marks its six-image Rudy Vallée promotional edition as Free Re-Use and No Copyright - United States, with attribution to Duke University Libraries. Wikimedia Commons identifies J. Lawrence Cook's 1930 arrangement as public domain in the United States because its copyright was not renewed. The Library of Congress states that US sound recordings published from 1923 through 1946 are protected for 100 years; the 1925 recordings therefore entered the US public domain on January 1, 2026. Project Gutenberg also explicitly identifies the Ferera and Paaluhi recording as public domain in the USA. Strong evidence supports US public-domain status for the three Air Force tracks because the Air Force distributes them through its Public Domain Music collection. For the 1997 track, Commons additionally records the Air Force's representation that its transcription, performance, and recording are official-duty federal works. These are evidence-based conclusions, not unconditional legal guarantees; Commons notes that the Air Force-supplied metadata was not necessarily independently verified. UCSB Library explicitly lists Jimmy Joy and the St. Anthony Hotel Orchestra's 1925 OKeh 40539 recording as public domain in the United States as of January 1, 2026; its DAHR record identifies matrix 9377, take A, recorded in Dallas in September 1925. Recording and publication dates are distinct. Copyright status may differ outside the United States.
+The evidence supports US public-domain use of the score editions and the 1916, 1921, 1922, 1925, 1994, 1996, and 1997 recordings listed as reviewed here. IMSLP marks file #716402 and its 1914 Handy Bros. material Public Domain; the downloaded file contains two six-page issues that are displayed separately. Brown marks its 1918 Pace & Handy issue No Copyright - United States. Duke marks its six-image Rudy Vallée promotional edition as Free Re-Use and No Copyright - United States, with attribution to Duke University Libraries. Wikimedia Commons identifies J. Lawrence Cook's 1930 arrangement as public domain in the United States because its copyright was not renewed. The Library of Congress states that US sound recordings published from 1923 through 1946 are protected for 100 years; the 1925 recordings therefore entered the US public domain on January 1, 2026. Project Gutenberg also explicitly identifies the Ferera and Paaluhi recording as public domain in the USA. Strong evidence supports US public-domain status for the three Air Force tracks because the Air Force distributes them through its Public Domain Music collection. For the 1997 track, Commons additionally records the Air Force's representation that its transcription, performance, and recording are official-duty federal works. These are evidence-based conclusions, not unconditional legal guarantees; Commons notes that the Air Force-supplied metadata was not necessarily independently verified. UCSB Library explicitly lists Jimmy Joy and the St. Anthony Hotel Orchestra's 1925 OKeh 40539 recording as public domain in the United States as of January 1, 2026; its DAHR record identifies matrix 9377, take A, recorded in Dallas in September 1925. LOC’s National Jukebox Data Package includes the 1916 Victor Military Band Joe Turner blues medley containing St. Louis blues, and assesses the dataset recordings as public domain based on their metadata dates. For Handy’s January 1922 session, LOC supplies a Registry excerpt and historical identification, while UCSB’s Black Swan discography documents a corresponding issue by May 20, 1922. This supports a U.S. public-domain assessment under the pre-1923 publication rule; LOC does not specify the excerpt’s exact take. Recording and publication dates are distinct. Copyright status may differ outside the United States.
 
 ## Sources
 
@@ -380,6 +387,68 @@ The evidence supports US public-domain use of the score editions and the 1921, 1
 - Retrieved: 2026-10-05
 - Rights: [Public domain in the United States as of January 1, 2026 — explicit UCSB Library assessment](https://www.library.ucsb.edu/1925-recordings-digitized-ucsb-entering-public-domain-january-1-2026)
 - Note: UCSB states that the listed recordings are public domain as of January 1, 2026 and have been digitized or hosted by the library. The list includes St. Louis blues by Jimmy Joy and St. Anthony Hotel Orchestra, OKeh 40539, linking to DAHR matrix record 2000201513.
+
+<a id="source-s27"></a>
+
+### S27. Library of Congress: Joe Turner blues medley — Victor Military Band (jukebox-19795)
+
+- [live page](https://www.loc.gov/item/jukebox-19795/)
+- Retrieved: 2026-10-05
+- [Artifact download URL](https://data.labs.loc.gov/jukebox/audio/jukebox-19795_1.mp3) · [saved artifact](./inputs/victor-military-band-joe-turner-blues-medley-1916-loc.mp3)
+- Attribution: Library of Congress, National Jukebox; Victor Military Band; Edward T. King, conductor; W. C. Handy, composer
+- Note: LOC catalog and dataset metadata identify Victor 18174, matrix B-18495, take 5, recorded October 19, 1916 in Camden, New Jersey. The catalog lists St. Louis blues as an alternate title. The local MP3 is an unmodified copy of LOC’s dataset transfer; size 2,921,163 bytes and MD5 b8dab8133fa0c3a2bfd98aa76ec72bbc match the dataset manifest. A complete copy downloaded during research was reused after a new download stalled. The catalog retains a Sony/EMI courtesy notice; the dataset supplies the separate public-domain assessment.
+
+<a id="source-s28"></a>
+
+### S28. Library of Congress: National Jukebox Data Package
+
+- [live page](https://data.labs.loc.gov/jukebox/)
+- Retrieved: 2026-10-05
+- Rights: [LOC assumes all recordings included in this dataset are public domain based on the dates in their item metadata; assessment applies to United States use.](https://data.labs.loc.gov/jukebox/)
+- Note: Dataset contains 5,882 LOC-held Victor recordings dated 1900–1922. Its rights statement explains that recordings published before January 1, 1923 entered the public domain January 1, 2022. Supporting metadata: https://data.labs.loc.gov/jukebox/metadata.json ; file size and MD5 manifest: https://data.labs.loc.gov/jukebox/manifest.json . Recording dates are distinct from publication dates.
+
+<a id="source-s29"></a>
+
+### S29. Library of Congress: Listen to Registry Titles — Handy’s Memphis Blues Band (1922)
+
+- [live page](https://www.loc.gov/programs/national-recording-preservation-board/recording-registry/listen-to-registry-titles/) · [Wayback snapshot](https://web.archive.org/web/20250405113647/https://tile.loc.gov/storage-services/media/recordedsound/St-Louis-Blues_Handys-Memphis-Blues-Band.mp3)
+- Retrieved: 2026-10-05
+- [Artifact download URL](https://tile.loc.gov/storage-services/media/recordedsound/St-Louis-Blues_Handys-Memphis-Blues-Band.mp3) · [saved artifact](./inputs/handys-memphis-blues-band-st-louis-blues-1922-loc-excerpt.mp3)
+- Attribution: Library of Congress, National Recording Registry; Handy’s Memphis Blues Band; W. C. Handy, composer
+- Note: An archived LOC listening page links this exact MP3 under Handy’s Memphis Blues Band (1922). Downloaded the unchanged 535,486-byte MP3 from Wayback capture 20250405113647 after live LOC returned HTTP 403. Response and archived-origin lengths agree; FFprobe reports 30.013356 seconds. This is an excerpt; exact take, source disc and transfer processing are unspecified. Placeholder album/genre/year tags are not provenance evidence.
+
+<a id="source-s30"></a>
+
+### S30. Library of Congress: St. Louis Blues — Handy’s Memphis Blues Band (1922), Registry essay by David Freeland
+
+- [live page](https://www.loc.gov/static/programs/national-recording-preservation-board/documents/St-Louis-Blues_Freeland.pdf)
+- Retrieved: 2026-10-05
+- Note: Registry selection added in 2023. Essay identifies the January 1922 Paramount session in New York and describes the instrumental performance, opening with the bridge and ending with Ole Miss Blues. The essay is historical identification, not a standalone rights statement.
+
+<a id="source-s31"></a>
+
+### S31. UCSB-hosted Black Swan discography: catalog 2053, matrix 970 take 2
+
+- [live page](https://adp-assets.library.ucsb.edu/BLACKSWAN.pdf)
+- Retrieved: 2026-10-05
+- Note: UCSB’s indexed entry and the downloaded publisher mirror (PDF page 53) give first known mention May 20, 1922 (NWBP/TE), St. Louis Blues introducing Ole Miss Blues by Handy’s Memphis Blues Band, matrix 970 take 2, source issue Paramount 20098, corresponding Black Swan 2053. Publisher mirror: https://mainspringpress.org/wp-content/uploads/2026/01/BLACK-SWAN_ed1-v2.pdf . This establishes a pre-1923 issue for the identified session; no specific take is assigned to the LOC excerpt.
+
+<a id="source-s32"></a>
+
+### S32. U.S. Copyright Office: Classics Protection and Access Act — recording terms
+
+- [live page](https://www.copyright.gov/music-modernization/pre1972-soundrecordings/)
+- Retrieved: 2026-10-05
+- Rights: U.S. protection period for recordings first published before 1923 ended December 31, 2021.
+- Note: Applied to the documented 1922 historical issue; recording and publication dates are distinct. Not a worldwide clearance statement.
+
+<a id="source-s33"></a>
+
+### S33. Southern Illinois University Edwardsville: Rivers Project Music Collection — Ole Miss Rag
+
+- [live page](https://www.siue.edu/lovejoy-library/musiclistening/special_collections/title/rivers_project/rivers.htm)
+- Retrieved: 2026-10-05
+- Note: Catalog lists Ole Miss Rag by W. C. Handy, published in Memphis by Pace & Handy Music Co. in 1916, and a distinct 1923 Ole Miss Blues edition. Supports early composition provenance for the interpolation described in the Registry essay.
 
 ## Unreviewed research leads
 

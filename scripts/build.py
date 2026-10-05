@@ -215,7 +215,7 @@ def render_site_song(data):
         related = [artifact for artifact in data["artifacts"] if artifact["acquired_from"] == primary["acquired_from"]]
         wav = next((artifact for artifact in related if artifact["file"].lower().endswith(".wav")), None)
         mp3 = next((artifact for artifact in related if artifact["file"].lower().endswith(".mp3")), None)
-        label = f"{recording['performer']} ({recording['date'][:4]})"
+        label = recording.get("audio_label", f"{recording['performer']} ({recording['date'][:4]})")
         audio_items.append((label, wav, mp3))
     listening = data.get("listening", {})
     listening_ids = [url.rstrip("/").rsplit("/", 1)[-1] for url in listening.get("urls", [])]
