@@ -1,0 +1,205 @@
+{
+  "research_date": "2026-10-05",
+  "jurisdiction": "United States",
+  "scope": "Institutional provenance and US public-domain evidence; no worldwide clearance or Content ID outcome prediction. No player entries changed.",
+  "sources": [
+    {
+      "url": "https://data.labs.loc.gov/jukebox/",
+      "basis": "LOC says all 5,882 dataset recordings are assumed public domain based on their metadata dates. The dataset includes only LOC-held Victor material and excludes other repositories."
+    },
+    {
+      "url": "https://www.library.ucsb.edu/1925-recordings-digitized-ucsb-entering-public-domain-january-1-2026",
+      "basis": "UCSB explicitly identifies listed recordings as public domain from January 1, 2026, with DAHR links."
+    },
+    {
+      "url": "https://www.library.ucsb.edu/special-collections/performing-arts/victor",
+      "basis": "Institutional description of DAHR; database also streams in-copyright material, so institutional custody alone is insufficient."
+    },
+    {
+      "url": "https://www.copyright.gov/music-modernization/pre1972-soundrecordings/",
+      "basis": "US sound-recording term rules depend on first publication."
+    }
+  ],
+  "new_st_louis_blues_candidates": [
+    {
+      "performer": "Victor Military Band",
+      "recording_date": "1916-10-19",
+      "title": "Joe Turner blues medley, including St. Louis blues",
+      "catalog": "Victor 18174",
+      "matrix": "B-18495",
+      "take": "5",
+      "catalog_url": "https://www.loc.gov/item/jukebox-19795/",
+      "audio_url": "https://data.labs.loc.gov/jukebox/audio/jukebox-19795_1.mp3",
+      "assessment": "Strong US evidence: LOC public-domain-assessed dataset. New medley performance absent from existing credits. Download size and MD5 verified against LOC manifest."
+    },
+    {
+      "performer": "Handy's Memphis Blues Band",
+      "recording_date": "January 1922",
+      "title": "St. Louis Blues",
+      "source_url": "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/St-Louis-Blues_Freeland.pdf",
+      "listening_source_url": "https://www.loc.gov/programs/national-recording-preservation-board/recording-registry/listen-to-registry-titles/?loclr=blognsh",
+      "assessment": "Strong historical candidate: LOC Registry identifies 1922 recording and lists MP3. Distinct from listed 1939 Handy performance. Direct MP3 retrieval, transfer identity, original issue/publication documentation remain to be checked."
+    },
+    {
+      "performer": "Jimmy Joy and St. Anthony Hotel Orchestra",
+      "recording_date": "September 1925",
+      "title": "St. Louis blues",
+      "catalog": "OKeh 40539",
+      "matrix": "9377",
+      "take": "A",
+      "catalog_url": "https://adp.library.ucsb.edu/index.php/matrix/detail/2000201513",
+      "rights_evidence_url": "https://www.library.ucsb.edu/1925-recordings-digitized-ucsb-entering-public-domain-january-1-2026",
+      "assessment": "Strong institutional US public-domain assessment: UCSB explicit 2026 list. DAHR provides audio and disc-based identification. Audio file has not been downloaded; cached catalog still shows Sony notice, so retain dated explicit PD assessment alongside item record."
+    },
+    {
+      "performer": "Esther Bigeou",
+      "recording_date": "1921-10-05",
+      "title": "The St. Louis blues",
+      "catalog": "OKeh 8026",
+      "matrix": "S-70224",
+      "catalog_url": "https://adp.library.ucsb.edu/index.php/matrix/detail/2000202348",
+      "source_url": "https://www.library.ucsb.edu/joe-bussard-collection-dahr",
+      "assessment": "Promising new performance in UCSB digitized collection; original issue date and item-level public-domain assessment remain to confirm. Direct matrix page unavailable during research."
+    },
+    {
+      "performer": "Kansas City Five",
+      "recording_date": "approximately September 18–22, 1924",
+      "title": "St Louis Blues — Fox Trot",
+      "catalog": "Ajax 17078",
+      "matrix": "31711",
+      "publication_evidence": "Listed November 1924 in UCSB-hosted Ajax discography",
+      "source_url": "https://adp-assets.library.ucsb.edu/UCSB_ajax.pdf",
+      "assessment": "Publication-documented PD-age candidate; institutional audio transfer not located. This is a recording lead, not an available audio asset."
+    }
+  ],
+  "existing_performance_additional_provenance": [
+    {
+      "performer": "Bessie Smith",
+      "catalog": "Columbia France LF-218 / DF-3074",
+      "catalog_url": "https://adp.library.ucsb.edu/index.php/matrix/detail/2000030007",
+      "rights_evidence_url": "https://www.library.ucsb.edu/1925-recordings-digitized-ucsb-entering-public-domain-january-1-2026",
+      "assessment": "Already listed performance; university explicit PD assessment and alternate institutional audio lead."
+    },
+    {
+      "performer": "Ferera and Paaluhi",
+      "catalog": "Columbia 339-D",
+      "catalog_url": "https://adp.library.ucsb.edu/index.php/matrix/detail/2000030188",
+      "rights_evidence_url": "https://www.library.ucsb.edu/1925-recordings-digitized-ucsb-entering-public-domain-january-1-2026",
+      "assessment": "Possible additional session: different label/matrix record from Edison 51616. Compare dates, matrices and audio with existing Gutenberg recording before calling distinct."
+    },
+    {
+      "performer": "Ferera and Paaluhi",
+      "catalog": "Edison 51616",
+      "catalog_url": "https://adp.library.ucsb.edu/index.php/matrix/detail/2000157418",
+      "rights_evidence_url": "https://www.library.ucsb.edu/1925-recordings-digitized-ucsb-entering-public-domain-january-1-2026",
+      "assessment": "Additional institutional provenance; compare to existing Gutenberg 1925 case."
+    }
+  ],
+  "next_song_radar_ucsb_explicit_pd_list": [
+    {
+      "description": "Coal cart blues / Clarence Williams’ Blue Five ; Eva Taylor. (OKeh 8245)",
+      "catalog_url": "https://adp.library.ucsb.edu/index.php/matrix/detail/2000205858",
+      "rights_evidence_url": "https://www.library.ucsb.edu/1925-recordings-digitized-ucsb-entering-public-domain-january-1-2026",
+      "assessment": "UCSB explicitly lists as public domain as of January 1, 2026; audio file download and composition/arrangement review not completed."
+    },
+    {
+      "description": "Cold in hand blues / Louis Armstrong ; Fred Longshaw ; Bessie Smith. (Columbia (France) LF-218.)",
+      "catalog_url": "https://adp.library.ucsb.edu/index.php/matrix/detail/2000030016",
+      "rights_evidence_url": "https://www.library.ucsb.edu/1925-recordings-digitized-ucsb-entering-public-domain-january-1-2026",
+      "assessment": "UCSB explicitly lists as public domain as of January 1, 2026; audio file download and composition/arrangement review not completed."
+    },
+    {
+      "description": "Dixie Flyer blues / Bessie Smith. (Columbia 14079-D)",
+      "catalog_url": "https://adp.library.ucsb.edu/index.php/matrix/detail/2000030372",
+      "rights_evidence_url": "https://www.library.ucsb.edu/1925-recordings-digitized-ucsb-entering-public-domain-january-1-2026",
+      "assessment": "UCSB explicitly lists as public domain as of January 1, 2026; audio file download and composition/arrangement review not completed."
+    },
+    {
+      "description": "Down home blues / Ebony Four ; Ethel Waters. (Columbia 14093-D)",
+      "catalog_url": "https://adp.library.ucsb.edu/index.php/matrix/detail/2000030557",
+      "rights_evidence_url": "https://www.library.ucsb.edu/1925-recordings-digitized-ucsb-entering-public-domain-january-1-2026",
+      "assessment": "UCSB explicitly lists as public domain as of January 1, 2026; audio file download and composition/arrangement review not completed."
+    },
+    {
+      "description": "Hersal blues / Hersal Thomas. (OKeh 8227)",
+      "catalog_url": "https://adp.library.ucsb.edu/index.php/matrix/detail/2000201303",
+      "rights_evidence_url": "https://www.library.ucsb.edu/1925-recordings-digitized-ucsb-entering-public-domain-january-1-2026",
+      "assessment": "UCSB explicitly lists as public domain as of January 1, 2026; audio file download and composition/arrangement review not completed."
+    },
+    {
+      "description": "Hesitation blues / Art Gillham. (Columbia 343-D)",
+      "catalog_url": "https://adp.library.ucsb.edu/index.php/matrix/detail/2000030155",
+      "rights_evidence_url": "https://www.library.ucsb.edu/1925-recordings-digitized-ucsb-entering-public-domain-january-1-2026",
+      "assessment": "UCSB explicitly lists as public domain as of January 1, 2026; audio file download and composition/arrangement review not completed."
+    },
+    {
+      "description": "Morning dove blues / Joe Oliver ; Hersal Thomas ; Sippie Wallace. (OKeh 8205)",
+      "catalog_url": "https://adp.library.ucsb.edu/index.php/matrix/detail/2000201100",
+      "rights_evidence_url": "https://www.library.ucsb.edu/1925-recordings-digitized-ucsb-entering-public-domain-january-1-2026",
+      "assessment": "UCSB explicitly lists as public domain as of January 1, 2026; audio file download and composition/arrangement review not completed."
+    },
+    {
+      "description": "Morning dove blues / Thomas' Muscle Shoal Devils. (OKeh 8225)",
+      "catalog_url": "https://adp.library.ucsb.edu/index.php/matrix/detail/2000201307",
+      "rights_evidence_url": "https://www.library.ucsb.edu/1925-recordings-digitized-ucsb-entering-public-domain-january-1-2026",
+      "assessment": "UCSB explicitly lists as public domain as of January 1, 2026; audio file download and composition/arrangement review not completed."
+    },
+    {
+      "description": "South Street blues / Bennie Moten's Kansas City Orchestra. (OKeh 8255)",
+      "catalog_url": "https://adp.library.ucsb.edu/index.php/matrix/detail/2000201256",
+      "rights_evidence_url": "https://www.library.ucsb.edu/1925-recordings-digitized-ucsb-entering-public-domain-january-1-2026",
+      "assessment": "UCSB explicitly lists as public domain as of January 1, 2026; audio file download and composition/arrangement review not completed."
+    },
+    {
+      "description": "Struttin' the blues / Clifford's Louisville Jug Band. (OKeh 8238)",
+      "catalog_url": "https://adp.library.ucsb.edu/index.php/matrix/detail/2000201282",
+      "rights_evidence_url": "https://www.library.ucsb.edu/1925-recordings-digitized-ucsb-entering-public-domain-january-1-2026",
+      "assessment": "UCSB explicitly lists as public domain as of January 1, 2026; audio file download and composition/arrangement review not completed."
+    }
+  ],
+  "next_song_radar_loc_dataset": {
+    "csv": "early-blues-radar.csv",
+    "record_count": 55,
+    "selection": "Title contains blues; includes early jazz and popular songs with blues in title, not a genre classification.",
+    "metadata_url": "https://data.labs.loc.gov/jukebox/metadata.json",
+    "manifest_url": "https://data.labs.loc.gov/jukebox/manifest.json",
+    "priority_titles": [
+      "The Memphis blues",
+      "Yellow dog blues",
+      "Hesitation blues",
+      "Royal Garden blues",
+      "Jazz me blues"
+    ]
+  },
+  "additional_vocal_blues_leads": [
+    {
+      "title": "Down hearted blues",
+      "performer": "Bessie Smith with Clarence Williams",
+      "date": "1923",
+      "url": "https://www.loc.gov/item/jukebox-670189/",
+      "source": "UCSB original recording at LOC; release corroborated by Registry essay."
+    },
+    {
+      "title": "Crazy Blues",
+      "performer": "Mamie Smith",
+      "date": "1920",
+      "url": "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/CrazyBlues.pdf",
+      "assessment": "Historical release evidence; locate and verify institutional audio download."
+    },
+    {
+      "title": "See See Rider Blues",
+      "performer": "Ma Rainey",
+      "date": "1924",
+      "url": "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/Ma%20Rainey.pdf",
+      "assessment": "Historical release lead; verify first issue date and institutional audio."
+    }
+  ],
+  "workflow": [
+    "Identify exact performance using label, catalog, matrix and take.",
+    "Keep recording and publication dates separate; retain institution explicit PD assessment or first-publication evidence.",
+    "Check composition and any separately identifiable arrangement.",
+    "Prefer institution-provided audio, record download URL and cryptographic hash.",
+    "Treat later transfers as comparison cases until performance identity is established."
+  ],
+  "access_limitations": "Some LOC catalog/API and DAHR item pages rejected automated requests. Used official LOC dataset and UCSB published lists where available; missing checks remain explicit."
+}

@@ -12,7 +12,7 @@
         {% if page.extra.score_editions %}<li><a href="#scores">Scores</a></li>{% endif %}
         {% if page.extra.arrangements %}<li><a href="#arrangements">Arrangements and transcriptions</a></li>{% endif %}
         {% if page.extra.creative_commons_works %}<li><a href="#creative-commons">Creative Commons adaptations</a></li>{% endif %}
-        {% if page.extra.audio_items %}<li><a href="#listen">Listen</a></li>{% endif %}
+        {% if page.extra.audio_items or page.extra.external_audio_items %}<li><a href="#listen">Listen</a></li>{% endif %}
         {% if page.extra.external_media %}<li><a href="#watch-performance">Watch a performance</a></li>{% endif %}
         <li><a href="#research-record">Research record</a></li>
         <li><a href="#documented-facts">Documented facts</a></li>
@@ -112,7 +112,7 @@
         {% endfor %}
       </section>
     {% endif %}
-    {% if page.extra.audio_items %}
+    {% if page.extra.audio_items or page.extra.external_audio_items %}
       <h2 id="listen">Listen</h2>
       {% for recording in page.extra.audio_items %}
         <p>{{ recording.label }}</p>
@@ -125,6 +125,19 @@
             <a href="{{ get_url(path=recording.mp3_path) }}">Download {{ recording.label }}</a>
           {% endif %}
         </audio>
+      {% endfor %}
+      {% for recording in page.extra.external_audio_items %}
+        <p>{{ recording.label }}</p>
+        <iframe
+          title="{{ recording.label }} — UCSB Library audio player"
+          src="{{ recording.embed_url }}"
+          width="550"
+          height="285"
+          style="max-width: 100%; border: 0;"
+          loading="lazy"
+          allow="autoplay"
+        ></iframe>
+        <p><a href="{{ recording.url }}">Listen and view the recording at UCSB Library</a></p>
       {% endfor %}
     {% endif %}
     {% if page.extra.external_media %}

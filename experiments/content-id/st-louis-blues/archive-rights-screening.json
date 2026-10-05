@@ -1,0 +1,750 @@
+{
+  "researched_on": "2026-10-05",
+  "scope": "US sound-recording public-domain screening; not worldwide clearance or a legal determination",
+  "inventory_note": "Current CREDITS.toml has 38 listening entries; items can be transfers or reissues of the same performance.",
+  "legal_sources": [
+    "https://www.copyright.gov/music-modernization/pre1972-soundrecordings/",
+    "https://americanhistory.si.edu/collections/object/nmah_1055145"
+  ],
+  "items": [
+    {
+      "player_index": 1,
+      "player_label": "W. C. Handy",
+      "url": "https://archive.org/details/78_st-louis-blues_wc-handy_gbia0376191a",
+      "metadata_url": "https://archive.org/metadata/78_st-louis-blues_wc-handy_gbia0376191a",
+      "archive_date": null,
+      "archive_creators": "W.C. Handy",
+      "archive_publisher": "Artti",
+      "matrix_and_catalog_fields": [
+        "ARTTI-119-A",
+        "119-A"
+      ],
+      "archive_rights": null,
+      "archive_licenseurl": null,
+      "assessment": "Unresolved: identify original performance and first publication; no affirmative public-domain evidence found in this screening."
+    },
+    {
+      "player_index": 2,
+      "player_label": "Barclay Allen Rhythm Four",
+      "url": "https://archive.org/details/78_st-louis-blues_barclay-allen-rhythm-four-handy-b-allen-s-black-s-fridkin-m-mah_gbia0037081b",
+      "metadata_url": "https://archive.org/metadata/78_st-louis-blues_barclay-allen-rhythm-four-handy-b-allen-s-black-s-fridkin-m-mah_gbia0037081b",
+      "archive_date": "1948-04",
+      "archive_creators": [
+        "Barclay Allen Rhythm Four",
+        "Handy",
+        "B. Allen",
+        "S. Black",
+        "S. Fridkin",
+        "M. Mahone"
+      ],
+      "archive_publisher": "Van-Es",
+      "matrix_and_catalog_fields": [
+        "1001-B-RE-2",
+        "1001-B"
+      ],
+      "archive_rights": null,
+      "archive_licenseurl": null,
+      "assessment": "Metadata date is later than 1925; no US expiration-by-age basis established for 2026. Date may be recording rather than publication."
+    },
+    {
+      "player_index": 3,
+      "player_label": "Raymond Burke and his New Orleans Jazz Band",
+      "url": "https://archive.org/details/78_st.-louis-blues_raymond-burke-and-his-new-orleans-jazz-band-thomas-jefferson-handy_gbia0003777b",
+      "metadata_url": "https://archive.org/metadata/78_st.-louis-blues_raymond-burke-and-his-new-orleans-jazz-band-thomas-jefferson-handy_gbia0003777b",
+      "archive_date": null,
+      "archive_creators": [
+        "Raymond Burke and his New Orleans Jazz Band",
+        "Thomas Jefferson",
+        "Handy",
+        "Jack Delaney",
+        "Raymond Burke",
+        "Phil Darois",
+        "Johnny Edwards",
+        "Roy Zimmerman"
+      ],
+      "archive_publisher": "Southland",
+      "matrix_and_catalog_fields": [
+        "9021-B 2630",
+        "9021-B"
+      ],
+      "archive_rights": null,
+      "archive_licenseurl": null,
+      "assessment": "Unresolved: identify original performance and first publication; no affirmative public-domain evidence found in this screening."
+    },
+    {
+      "player_index": 4,
+      "player_label": "Brooks Brothers",
+      "url": "https://archive.org/details/78_st-louis-blues_brooks-brothers-handy_gbia0353901a",
+      "metadata_url": "https://archive.org/metadata/78_st-louis-blues_brooks-brothers-handy_gbia0353901a",
+      "archive_date": null,
+      "archive_creators": [
+        "BROOKS BROTHERS",
+        "Handy"
+      ],
+      "archive_publisher": "Diamond",
+      "matrix_and_catalog_fields": [
+        "2006-A",
+        "2006-A"
+      ],
+      "archive_rights": null,
+      "archive_licenseurl": null,
+      "assessment": "Unresolved: identify original performance and first publication; no affirmative public-domain evidence found in this screening."
+    },
+    {
+      "player_index": 5,
+      "player_label": "Kay Starr and The All Stars",
+      "url": "https://archive.org/details/78_st.-louis-blues_kay-starr-and-the-all-stars-kay-starr-w.-c.-handy_gbia0007050b",
+      "metadata_url": "https://archive.org/metadata/78_st.-louis-blues_kay-starr-and-the-all-stars-kay-starr-w.-c.-handy_gbia0007050b",
+      "archive_date": "1949-04",
+      "archive_creators": [
+        "Kay Starr and The All Stars",
+        "Kay Starr",
+        "W. C. Handy"
+      ],
+      "archive_publisher": "Crystalette",
+      "matrix_and_catalog_fields": [
+        "S-1809",
+        "CR-603"
+      ],
+      "archive_rights": null,
+      "archive_licenseurl": null,
+      "assessment": "Metadata date is later than 1925; no US expiration-by-age basis established for 2026. Date may be recording rather than publication."
+    },
+    {
+      "player_index": 6,
+      "player_label": "Esquire Boys",
+      "url": "https://archive.org/details/78_st-louis-blues_esquire-boys-wc-handy_gbia0321827b",
+      "metadata_url": "https://archive.org/metadata/78_st-louis-blues_esquire-boys-wc-handy_gbia0321827b",
+      "archive_date": "1954",
+      "archive_creators": [
+        "ESQUIRE BOYS",
+        "W.C. Handy"
+      ],
+      "archive_publisher": "Guyden",
+      "matrix_and_catalog_fields": [
+        "705B",
+        "705-B"
+      ],
+      "archive_rights": null,
+      "archive_licenseurl": null,
+      "assessment": "Metadata date is later than 1925; no US expiration-by-age basis established for 2026. Date may be recording rather than publication."
+    },
+    {
+      "player_index": 7,
+      "player_label": "Jimmy and Mildred Mulcay",
+      "url": "https://archive.org/details/78_st-louis-blues_jimmy-and-mildred-mulcay-murray-kellner-w-c-handy_gbia0321746a",
+      "metadata_url": "https://archive.org/metadata/78_st-louis-blues_jimmy-and-mildred-mulcay-murray-kellner-w-c-handy_gbia0321746a",
+      "archive_date": null,
+      "archive_creators": [
+        "JIMMY and MILDRED MULCAY",
+        "Murray Kellner",
+        "W. C. Handy"
+      ],
+      "archive_publisher": "Sonora",
+      "matrix_and_catalog_fields": [
+        "1838",
+        "1153-A"
+      ],
+      "archive_rights": null,
+      "archive_licenseurl": null,
+      "assessment": "Unresolved: identify original performance and first publication; no affirmative public-domain evidence found in this screening."
+    },
+    {
+      "player_index": 8,
+      "player_label": "Broadway Broadcasters — Azul de St. Louis",
+      "url": "https://archive.org/details/78_st-louis-blues-azul-de-st-louis_broadway-broadcasters-wc-handy_gbia0349331a",
+      "metadata_url": "https://archive.org/metadata/78_st-louis-blues-azul-de-st-louis_broadway-broadcasters-wc-handy_gbia0349331a",
+      "archive_date": "1922",
+      "archive_creators": [
+        "Broadway Broadcasters",
+        "W.C. Handy"
+      ],
+      "archive_publisher": "Cameo",
+      "matrix_and_catalog_fields": [
+        "2357B2",
+        "1149"
+      ],
+      "archive_rights": null,
+      "archive_licenseurl": null,
+      "assessment": "Hold: Archive metadata says 1922, but Cameo 1149 / matrix 2357 matches 1927 discography entries. Do not rely on the Archive date."
+    },
+    {
+      "player_index": 9,
+      "player_label": "Minnie Mouse",
+      "url": "https://archive.org/details/78_st-louis-blues_minnie-mouse-mickey-mouse_gbia0381449a",
+      "metadata_url": "https://archive.org/metadata/78_st-louis-blues_minnie-mouse-mickey-mouse_gbia0381449a",
+      "archive_date": null,
+      "archive_creators": [
+        "MINNIE MOUSE",
+        "Mickey Mouse"
+      ],
+      "archive_publisher": "Mickey Mouse Club",
+      "matrix_and_catalog_fields": [
+        "DBR-7",
+        "DBR-74A"
+      ],
+      "archive_rights": null,
+      "archive_licenseurl": null,
+      "assessment": "Unresolved: identify original performance and first publication; no affirmative public-domain evidence found in this screening."
+    },
+    {
+      "player_index": 10,
+      "player_label": "F. Weir — Part 2",
+      "url": "https://archive.org/details/78_st-louis-blues-part-2_f-weir-billy-munn-j-sasson-m-burman-l-hutchinson-w-phil_gbia0210887b",
+      "metadata_url": "https://archive.org/metadata/78_st-louis-blues-part-2_f-weir-billy-munn-j-sasson-m-burman-l-hutchinson-w-phil_gbia0210887b",
+      "archive_date": "1942",
+      "archive_creators": [
+        "F. Weir",
+        "Billy Munn",
+        "J. Sasson",
+        "M. Burman",
+        "L. Hutchinson",
+        "W. Phillips",
+        "Jaap Sajet",
+        "L. Newberry",
+        "W. C. Handy"
+      ],
+      "archive_publisher": "His Master's Voice",
+      "matrix_and_catalog_fields": [
+        "OEA9448",
+        "B.9250"
+      ],
+      "archive_rights": null,
+      "archive_licenseurl": null,
+      "assessment": "Metadata date is later than 1925; no US expiration-by-age basis established for 2026. Date may be recording rather than publication."
+    },
+    {
+      "player_index": 11,
+      "player_label": "Darnell Howard's Frisco Footwarmers",
+      "url": "https://archive.org/details/78_st-louis-blues_darnell-howards-frisco-footwarmers-bob-scobey-jack-buck-darnell-ho_gbia0210894b",
+      "metadata_url": "https://archive.org/metadata/78_st-louis-blues_darnell-howards-frisco-footwarmers-bob-scobey-jack-buck-darnell-ho_gbia0210894b",
+      "archive_date": "1950",
+      "archive_creators": [
+        "DARNELL HOWARD'S FRISCO FOOTWARMERS",
+        "Bob Scobey",
+        "Jack Buck",
+        "Darnell Howard",
+        "Burt Bales",
+        "Clancy Hayes",
+        "Squire Girsback",
+        "Gordon Edwards",
+        "W. C. Handy"
+      ],
+      "archive_publisher": "Jazz Man",
+      "matrix_and_catalog_fields": [
+        "CPM-1041",
+        "34"
+      ],
+      "archive_rights": null,
+      "archive_licenseurl": null,
+      "assessment": "Metadata date is later than 1925; no US expiration-by-age basis established for 2026. Date may be recording rather than publication."
+    },
+    {
+      "player_index": 12,
+      "player_label": "Maurice Rocco and His Rockin' Rhythm",
+      "url": "https://archive.org/details/78_st-louis-blues_maurice-rocco-and-his-rockin-rhythm-cozy-cole-and-billy-taylor-han_gbia0206655b",
+      "metadata_url": "https://archive.org/metadata/78_st-louis-blues_maurice-rocco-and-his-rockin-rhythm-cozy-cole-and-billy-taylor-han_gbia0206655b",
+      "archive_date": "1945",
+      "archive_creators": [
+        "MAURICE ROCCO AND HIS ROCKIN' RHYTHM",
+        "COZY COLE AND BILLY TAYLOR",
+        "HANDY"
+      ],
+      "archive_publisher": "Guild",
+      "matrix_and_catalog_fields": [
+        "A.G.634-A",
+        "102 B"
+      ],
+      "archive_rights": null,
+      "archive_licenseurl": null,
+      "assessment": "Metadata date is later than 1925; no US expiration-by-age basis established for 2026. Date may be recording rather than publication."
+    },
+    {
+      "player_index": 13,
+      "player_label": "Blake Reynolds",
+      "url": "https://archive.org/details/78_st-louis-blues_blake-reynolds-wc-handy_gbia0208716b",
+      "metadata_url": "https://archive.org/metadata/78_st-louis-blues_blake-reynolds-wc-handy_gbia0208716b",
+      "archive_date": null,
+      "archive_creators": [
+        "BLAKE REYNOLDS",
+        "W.C. Handy"
+      ],
+      "archive_publisher": "Mac Gregor",
+      "matrix_and_catalog_fields": [
+        "CPM-10-1133",
+        "1029-B"
+      ],
+      "archive_rights": null,
+      "archive_licenseurl": null,
+      "assessment": "Unresolved: identify original performance and first publication; no affirmative public-domain evidence found in this screening."
+    },
+    {
+      "player_index": 14,
+      "player_label": "F. Weir — Part 1",
+      "url": "https://archive.org/details/78_st-louis-blues-part-1_f-weir-billy-munn-j-sasson-m-burman-l-hutchinson-w-phil_gbia0210887a",
+      "metadata_url": "https://archive.org/metadata/78_st-louis-blues-part-1_f-weir-billy-munn-j-sasson-m-burman-l-hutchinson-w-phil_gbia0210887a",
+      "archive_date": "1942",
+      "archive_creators": [
+        "F. Weir",
+        "Billy Munn",
+        "J. Sasson",
+        "M. Burman",
+        "L. Hutchinson",
+        "W. Phillips",
+        "Jaap Sajet",
+        "L. Newberry",
+        "W. C. Handy"
+      ],
+      "archive_publisher": "His Master's Voice",
+      "matrix_and_catalog_fields": [
+        "OEA9447",
+        "B.9250"
+      ],
+      "archive_rights": null,
+      "archive_licenseurl": null,
+      "assessment": "Metadata date is later than 1925; no US expiration-by-age basis established for 2026. Date may be recording rather than publication."
+    },
+    {
+      "player_index": 15,
+      "player_label": "Al Raymond and the Raytones",
+      "url": "https://archive.org/details/78_st-louis-blues_al-raymond-and-the-raytones-w-c-handy_gbia0458267a",
+      "metadata_url": "https://archive.org/metadata/78_st-louis-blues_al-raymond-and-the-raytones-w-c-handy_gbia0458267a",
+      "archive_date": null,
+      "archive_creators": [
+        "Al Raymond and the Raytones",
+        "W. C. Handy"
+      ],
+      "archive_publisher": "Prime",
+      "matrix_and_catalog_fields": [
+        "5629A",
+        "5629-A"
+      ],
+      "archive_rights": null,
+      "archive_licenseurl": null,
+      "assessment": "Unresolved: identify original performance and first publication; no affirmative public-domain evidence found in this screening."
+    },
+    {
+      "player_index": 16,
+      "player_label": "W. C. Handy",
+      "url": "https://archive.org/details/78_st-louis-blues_w-c-handy-w-c-handy_gbia0561918a",
+      "metadata_url": "https://archive.org/metadata/78_st-louis-blues_w-c-handy-w-c-handy_gbia0561918a",
+      "archive_date": null,
+      "archive_creators": [
+        "W. C. HANDY",
+        "W. C. Handy"
+      ],
+      "archive_publisher": "Varsity",
+      "matrix_and_catalog_fields": [
+        "US-1223-1",
+        "8163"
+      ],
+      "archive_rights": null,
+      "archive_licenseurl": null,
+      "assessment": "Unresolved: identify original performance and first publication; no affirmative public-domain evidence found in this screening."
+    },
+    {
+      "player_index": 17,
+      "player_label": "Handy / Paul Weston",
+      "url": "https://archive.org/details/78_st-louis-blues_handy-paul-weston_gbia0532985a",
+      "metadata_url": "https://archive.org/metadata/78_st-louis-blues_handy-paul-weston_gbia0532985a",
+      "archive_date": null,
+      "archive_creators": [
+        "HANDY",
+        "Paul Weston"
+      ],
+      "archive_publisher": "Recorded by Jo Stafford",
+      "matrix_and_catalog_fields": [
+        "RR22270",
+        "RR 22270"
+      ],
+      "archive_rights": null,
+      "archive_licenseurl": null,
+      "assessment": "Unresolved: identify original performance and first publication; no affirmative public-domain evidence found in this screening."
+    },
+    {
+      "player_index": 18,
+      "player_label": "Esquire Boys — St. Louie Blues",
+      "url": "https://archive.org/details/78_st-louie-blues_esquire-boys-w-c-handy_gbia0363282b",
+      "metadata_url": "https://archive.org/metadata/78_st-louie-blues_esquire-boys-w-c-handy_gbia0363282b",
+      "archive_date": "1954",
+      "archive_creators": [
+        "ESQUIRE BOYS",
+        "W. C. Handy"
+      ],
+      "archive_publisher": "Guyden",
+      "matrix_and_catalog_fields": [
+        "705B",
+        "705-B"
+      ],
+      "archive_rights": null,
+      "archive_licenseurl": null,
+      "assessment": "Metadata date is later than 1925; no US expiration-by-age basis established for 2026. Date may be recording rather than publication."
+    },
+    {
+      "player_index": 19,
+      "player_label": "Dallas Bartley and the Band That Comes On",
+      "url": "https://archive.org/details/78_st-louis-blues_dallas-bartley-and-the-band-that-comes-on-annie-laurie-w-c-hand_gbia0447962b",
+      "metadata_url": "https://archive.org/metadata/78_st-louis-blues_dallas-bartley-and-the-band-that-comes-on-annie-laurie-w-c-hand_gbia0447962b",
+      "archive_date": "1946",
+      "archive_creators": [
+        "DALLAS BARTLEY (And The Band That Comes On)",
+        "Annie Laurie",
+        "W. C. Handy"
+      ],
+      "archive_publisher": "Cosmo",
+      "matrix_and_catalog_fields": [
+        "6076-3",
+        "484"
+      ],
+      "archive_rights": null,
+      "archive_licenseurl": null,
+      "assessment": "Metadata date is later than 1925; no US expiration-by-age basis established for 2026. Date may be recording rather than publication."
+    },
+    {
+      "player_index": 20,
+      "player_label": "Handy / John Bennett",
+      "url": "https://archive.org/details/78_st-louis-blues_handy-john-bennett_gbia0016659a",
+      "metadata_url": "https://archive.org/metadata/78_st-louis-blues_handy-john-bennett_gbia0016659a",
+      "archive_date": "1928-06",
+      "archive_creators": [
+        "Handy",
+        "John Bennett"
+      ],
+      "archive_publisher": "Madison",
+      "matrix_and_catalog_fields": [
+        "3070A",
+        "1642"
+      ],
+      "archive_rights": null,
+      "archive_licenseurl": null,
+      "assessment": "Metadata date is later than 1925; no US expiration-by-age basis established for 2026. Date may be recording rather than publication."
+    },
+    {
+      "player_index": 21,
+      "player_label": "Los Bambucos",
+      "url": "https://archive.org/details/78_st-louis-blues_los-bambucos-william-c-handy_gbia0038284b",
+      "metadata_url": "https://archive.org/metadata/78_st-louis-blues_los-bambucos-william-c-handy_gbia0038284b",
+      "archive_date": null,
+      "archive_creators": [
+        "Los Bambucos",
+        "William C. Handy"
+      ],
+      "archive_publisher": "Pampa",
+      "matrix_and_catalog_fields": [
+        "MAI 553",
+        "PM 14007 B"
+      ],
+      "archive_rights": null,
+      "archive_licenseurl": null,
+      "assessment": "Unresolved: identify original performance and first publication; no affirmative public-domain evidence found in this screening."
+    },
+    {
+      "player_index": 22,
+      "player_label": "Richard Maltby and Orchestra — St. Louis Blues Mambo",
+      "url": "https://archive.org/details/78_st.-louis-blues-mambo_richard-maltby-and-orchestra-w.-c.-handy_gbia0008119a",
+      "metadata_url": "https://archive.org/metadata/78_st.-louis-blues-mambo_richard-maltby-and-orchestra-w.-c.-handy_gbia0008119a",
+      "archive_date": "1954",
+      "archive_creators": [
+        "Richard Maltby and Orchestra",
+        "W. C. Handy"
+      ],
+      "archive_publisher": "X",
+      "matrix_and_catalog_fields": [
+        "E4LB 4781 1S",
+        "X-0042"
+      ],
+      "archive_rights": null,
+      "archive_licenseurl": null,
+      "assessment": "Metadata date is later than 1925; no US expiration-by-age basis established for 2026. Date may be recording rather than publication."
+    },
+    {
+      "player_index": 23,
+      "player_label": "Noro Morales and His Rhythm Sextet — St. Louis Blues Mambo",
+      "url": "https://archive.org/details/noro-morales-and-his-rhythm-sextet-st.-louis-blues-mambo-columbia-39601-co-47057",
+      "metadata_url": "https://archive.org/metadata/noro-morales-and-his-rhythm-sextet-st.-louis-blues-mambo-columbia-39601-co-47057",
+      "archive_date": "1951",
+      "archive_creators": [
+        "Noro Morales And His Rhythm Sextet",
+        "W.C. Handy"
+      ],
+      "archive_publisher": null,
+      "matrix_and_catalog_fields": [],
+      "archive_rights": null,
+      "archive_licenseurl": null,
+      "assessment": "Metadata date is later than 1925; no US expiration-by-age basis established for 2026. Date may be recording rather than publication."
+    },
+    {
+      "player_index": 24,
+      "player_label": "Unknown performer",
+      "url": "https://archive.org/details/78_st-louis-blues_gbia0420733a",
+      "metadata_url": "https://archive.org/metadata/78_st-louis-blues_gbia0420733a",
+      "archive_date": null,
+      "archive_creators": null,
+      "archive_publisher": "Statler",
+      "matrix_and_catalog_fields": [
+        "1015",
+        "S 101-A"
+      ],
+      "archive_rights": null,
+      "archive_licenseurl": null,
+      "assessment": "Unresolved: identify original performance and first publication; no affirmative public-domain evidence found in this screening."
+    },
+    {
+      "player_index": 25,
+      "player_label": "Art Hodes",
+      "url": "https://archive.org/details/78_st-louis-blues_art-hodes-handy_gbia0191622b",
+      "metadata_url": "https://archive.org/metadata/78_st-louis-blues_art-hodes-handy_gbia0191622b",
+      "archive_date": "1944-09-29",
+      "archive_creators": [
+        "ART HODES",
+        "Handy"
+      ],
+      "archive_publisher": "Black & White",
+      "matrix_and_catalog_fields": [
+        "2-B",
+        "2B-(4)"
+      ],
+      "archive_rights": null,
+      "archive_licenseurl": null,
+      "assessment": "Metadata date is later than 1925; no US expiration-by-age basis established for 2026. Date may be recording rather than publication."
+    },
+    {
+      "player_index": 26,
+      "player_label": "Art Hodes",
+      "url": "https://archive.org/details/78_st-louis-blues_art-hodes-handy_gbia0022770b",
+      "metadata_url": "https://archive.org/metadata/78_st-louis-blues_art-hodes-handy_gbia0022770b",
+      "archive_date": "1942-07-17",
+      "archive_creators": [
+        "Art Hodes",
+        "Handy"
+      ],
+      "archive_publisher": "Black & White",
+      "matrix_and_catalog_fields": [
+        "2-B",
+        "2 B"
+      ],
+      "archive_rights": null,
+      "archive_licenseurl": null,
+      "assessment": "Metadata date is later than 1925; no US expiration-by-age basis established for 2026. Date may be recording rather than publication."
+    },
+    {
+      "player_index": 27,
+      "player_label": "Art Hodes",
+      "url": "https://archive.org/details/78_st-louis-blues_art-hodes-handy_gbia0388488b",
+      "metadata_url": "https://archive.org/metadata/78_st-louis-blues_art-hodes-handy_gbia0388488b",
+      "archive_date": "1942",
+      "archive_creators": [
+        "ART HODES",
+        "Handy"
+      ],
+      "archive_publisher": "Black & White",
+      "matrix_and_catalog_fields": [
+        "2-B",
+        "2-B"
+      ],
+      "archive_rights": null,
+      "archive_licenseurl": null,
+      "assessment": "Metadata date is later than 1925; no US expiration-by-age basis established for 2026. Date may be recording rather than publication."
+    },
+    {
+      "player_index": 28,
+      "player_label": "Judy Canova",
+      "url": "https://archive.org/details/78_st-louis-blues_judy-canova_gbia0340717b",
+      "metadata_url": "https://archive.org/metadata/78_st-louis-blues_judy-canova_gbia0340717b",
+      "archive_date": null,
+      "archive_creators": "JUDY CANOVA",
+      "archive_publisher": "Sterling",
+      "matrix_and_catalog_fields": [
+        "SR-106-A",
+        "SR-106-B"
+      ],
+      "archive_rights": null,
+      "archive_licenseurl": null,
+      "assessment": "Unresolved: identify original performance and first publication; no affirmative public-domain evidence found in this screening."
+    },
+    {
+      "player_index": 29,
+      "player_label": "Freeman Clark",
+      "url": "https://archive.org/details/78_st-louis-blues_freeman-clark-w-c-handy_gbia0220921a",
+      "metadata_url": "https://archive.org/metadata/78_st-louis-blues_freeman-clark-w-c-handy_gbia0220921a",
+      "archive_date": null,
+      "archive_creators": [
+        "FREEMAN CLARK",
+        "W. C. Handy"
+      ],
+      "archive_publisher": "Linden",
+      "matrix_and_catalog_fields": [
+        "2932-2",
+        "36A"
+      ],
+      "archive_rights": null,
+      "archive_licenseurl": null,
+      "assessment": "Unresolved: identify original performance and first publication; no affirmative public-domain evidence found in this screening."
+    },
+    {
+      "player_index": 30,
+      "player_label": "Rosa Linda",
+      "url": "https://archive.org/details/78_st-louis-blues_rosa-linda-w-c-handy_gbia0168046a",
+      "metadata_url": "https://archive.org/metadata/78_st-louis-blues_rosa-linda-w-c-handy_gbia0168046a",
+      "archive_date": "1946",
+      "archive_creators": [
+        "Rosa Linda",
+        "W. C. Handy"
+      ],
+      "archive_publisher": "ARA",
+      "matrix_and_catalog_fields": [
+        "ARA1058",
+        "4512-A"
+      ],
+      "archive_rights": null,
+      "archive_licenseurl": null,
+      "assessment": "Metadata date is later than 1925; no US expiration-by-age basis established for 2026. Date may be recording rather than publication."
+    },
+    {
+      "player_index": 31,
+      "player_label": "Unknown performer",
+      "url": "https://archive.org/details/78_st-louis-blues_gbia0454780a",
+      "metadata_url": "https://archive.org/metadata/78_st-louis-blues_gbia0454780a",
+      "archive_date": null,
+      "archive_creators": null,
+      "archive_publisher": "Statler",
+      "matrix_and_catalog_fields": [
+        "SR-101A-RE",
+        "S 101 A"
+      ],
+      "archive_rights": null,
+      "archive_licenseurl": null,
+      "assessment": "Unresolved: identify original performance and first publication; no affirmative public-domain evidence found in this screening."
+    },
+    {
+      "player_index": 32,
+      "player_label": "Lloyd Sullivan",
+      "url": "https://archive.org/details/78_st-louis-blues_lloyd-sullivan-handy_gbia0036692b",
+      "metadata_url": "https://archive.org/metadata/78_st-louis-blues_lloyd-sullivan-handy_gbia0036692b",
+      "archive_date": "1947",
+      "archive_creators": [
+        "Lloyd Sullivan",
+        "Handy"
+      ],
+      "archive_publisher": "Tempo",
+      "matrix_and_catalog_fields": [
+        "AM 01796",
+        "TR 722-B"
+      ],
+      "archive_rights": null,
+      "archive_licenseurl": null,
+      "assessment": "Metadata date is later than 1925; no US expiration-by-age basis established for 2026. Date may be recording rather than publication."
+    },
+    {
+      "player_index": 33,
+      "player_label": "Boyd Raeburn and His Orchestra",
+      "url": "https://archive.org/details/78_st-louis-blues_boyd-raeburn-and-his-orchestra-ginnie-powell-ginnie-powell-w-c-ha_gbia0447296b",
+      "metadata_url": "https://archive.org/metadata/78_st-louis-blues_boyd-raeburn-and-his-orchestra-ginnie-powell-ginnie-powell-w-c-ha_gbia0447296b",
+      "archive_date": "1947-08-14",
+      "archive_creators": [
+        "BOYD RAEBURN And His Orchestra",
+        "GINNIE POWELL",
+        "Ginnie Powell",
+        "W. C. Handy",
+        "Johnny Richards"
+      ],
+      "archive_publisher": "Atlantic",
+      "matrix_and_catalog_fields": [
+        "A49",
+        "861"
+      ],
+      "archive_rights": null,
+      "archive_licenseurl": null,
+      "assessment": "Metadata date is later than 1925; no US expiration-by-age basis established for 2026. Date may be recording rather than publication."
+    },
+    {
+      "player_index": 34,
+      "player_label": "Cassino Simpson",
+      "url": "https://archive.org/details/78_st-louis-blues_cassino-simpson-laura-rucker-handy_gbia0387048b",
+      "metadata_url": "https://archive.org/metadata/78_st-louis-blues_cassino-simpson-laura-rucker-handy_gbia0387048b",
+      "archive_date": null,
+      "archive_creators": [
+        "CASSINO SIMPSON",
+        "LAURA RUCKER",
+        "HANDY"
+      ],
+      "archive_publisher": "S D",
+      "matrix_and_catalog_fields": [
+        "CRC9128A",
+        "SD-102 B"
+      ],
+      "archive_rights": null,
+      "archive_licenseurl": null,
+      "assessment": "Unresolved: identify original performance and first publication; no affirmative public-domain evidence found in this screening."
+    },
+    {
+      "player_index": 35,
+      "player_label": "The Gene Krupa Trio",
+      "url": "https://archive.org/details/78_st-louis-blues_the-gene-krupa-trio-teddy-napoleon-charlie-venture-norman-granz-hand_gbia7036598a",
+      "metadata_url": "https://archive.org/metadata/78_st-louis-blues_the-gene-krupa-trio-teddy-napoleon-charlie-venture-norman-granz-hand_gbia7036598a",
+      "archive_date": null,
+      "archive_creators": [
+        "THE GENE KRUPA TRIO",
+        "Teddy Napoleon",
+        "Charlie Venture",
+        "Norman Granz",
+        "Handy"
+      ],
+      "archive_publisher": "Karusell",
+      "matrix_and_catalog_fields": [
+        "726",
+        "1027"
+      ],
+      "archive_rights": null,
+      "archive_licenseurl": null,
+      "assessment": "Unresolved: identify original performance and first publication; no affirmative public-domain evidence found in this screening."
+    },
+    {
+      "player_index": 36,
+      "player_label": "Bessie Smith — The St. Louis Blues",
+      "url": "https://archive.org/details/the-st-louis-blues",
+      "metadata_url": "https://archive.org/metadata/the-st-louis-blues",
+      "archive_date": "1925-01-14",
+      "archive_creators": "Bessie Smith",
+      "archive_publisher": null,
+      "matrix_and_catalog_fields": [],
+      "archive_rights": null,
+      "archive_licenseurl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "assessment": "Best conditional candidate: Smithsonian confirms original 1925 Columbia 14064-D release. Archive describes French reissue DF 3074 and modern restoration, with CC BY-NC 4.0. Verify same historical performance; separate underlying recording expiration from uploader licensing. Already-tested performance, different transfer."
+    },
+    {
+      "player_index": 37,
+      "player_label": "Art Tatum",
+      "url": "https://archive.org/details/9433stlouisbluesarttatum",
+      "metadata_url": "https://archive.org/metadata/9433stlouisbluesarttatum",
+      "archive_date": "1933-03-21",
+      "archive_creators": "Art Tatum",
+      "archive_publisher": null,
+      "matrix_and_catalog_fields": [],
+      "archive_rights": null,
+      "archive_licenseurl": null,
+      "assessment": "Metadata date is later than 1925; no US expiration-by-age basis established for 2026. Date may be recording rather than publication."
+    },
+    {
+      "player_index": 38,
+      "player_label": "W. C. Handy and Orchestra — 1939 recording (Philharmonic FR-81)",
+      "url": "https://archive.org/details/78_st-louis-blues_w-c-handy_gbia0030859a",
+      "metadata_url": "https://archive.org/metadata/78_st-louis-blues_w-c-handy_gbia0030859a",
+      "archive_date": null,
+      "archive_creators": "W. C. Handy",
+      "archive_publisher": "Philharmonic",
+      "matrix_and_catalog_fields": [
+        "1223-1",
+        "FR-81-A"
+      ],
+      "archive_rights": null,
+      "archive_licenseurl": null,
+      "assessment": "Unresolved: identify original performance and first publication; no affirmative public-domain evidence found in this screening."
+    }
+  ],
+  "additional_sources": [
+    "https://78discography.com/Cameo1000.htm",
+    "https://mainspringpress.org/wp-content/uploads/2026/01/RUST_JRR-6.pdf",
+    "https://creativecommons.org/licenses/by-nc/4.0/"
+  ]
+}

@@ -88,7 +88,7 @@ Sheet music and a historical reference recording for study.
 
 ## Research record
 
-Research conducted: 2026-10-03. Every URL used as evidence is listed below with its retrieval date and external archive links when available.
+Research conducted: 2026-10-05. Every URL used as evidence is listed below with its retrieval date and external archive links when available.
 
 ## Documented facts
 
@@ -108,6 +108,7 @@ Research conducted: 2026-10-03. Every URL used as evidence is listed below with 
 - Frank Ferera and John Paaluhi recorded The St. Louis Blues as a Hawaiian guitar duet on September 4, 1925. [S24](#source-s24)
 - W. C. Handy performed St. Louis Blues on The Ed Sullivan Show on February 6, 1949. [S15](#source-s15)
 - Marion Harris recorded St. Louis Blues with an orchestra conducted by Charles Prince in New York City on April 16, 1920; Columbia issued it as A2944. [S16](#source-s16)
+- Jimmy Joy and the St. Anthony Hotel Orchestra recorded St. Louis blues in Dallas in September 1925; OKeh issued it as catalog 40539, matrix 9377, take A. UCSB Library lists it as public domain in the United States as of January 1, 2026. [S25](#source-s25) [S26](#source-s26)
 
 ## Reviewed public-domain recordings
 
@@ -120,6 +121,7 @@ These recordings are documented as public domain in the United States.
 - **United States Air Force Band** — 1994 — [local audio](./inputs/usaf-band-st-louis-blues-march-1994.mp3) · [source record](#source-s19) — Track 10 of We Remember, Disc 2. The embedded metadata credits W. C. Handy and identifies the performer, album, track number, and year. Strong evidence supports US public-domain status because the Air Force distributes this recording through its Public Domain Music collection; this is not an unconditional legal guarantee or a claim about other jurisdictions.
 - **The Falconaires** — 1996 — [local audio](./inputs/usaf-falconaires-st-louis-blues-1996.mp3) · [source record](#source-s20) — Track 1 of That Long Long Road. The embedded metadata identifies the performer, album, track number, and year. Strong evidence supports US public-domain status because the Air Force distributes this recording through its Public Domain Music collection; this is not an unconditional legal guarantee or a claim about other jurisdictions.
 - **United States Air Force Band of Mid-America, Shades of Blue** — 1997-01-28 — [local audio](./inputs/usaf-band-st-louis-blues-march-1997.mp3) · [source record](#source-s22) — Recorded January 28–31, 1997. Strong evidence supports US public-domain status: the Air Force distributes the track through its Public Domain Music collection, and Wikimedia Commons records the Air Force's representation that the transcription, performance, and recording are official-duty federal works. This is an evidence-based US conclusion, not an unconditional legal guarantee or a claim about other jurisdictions. The local file is Commons' 2022 fixed revision (SHA-256 e57e500bea9c1eedbfdd2fb2879aed657bbab5c94aa83911210da499d0797f90). The Defense.gov file is byte-identical to Commons' original 2021 upload (SHA-256 e4ed79423feb70445a681a516f9706ce925d5b4a2e5110c39a8f72749f6ff349). In an uploader-supplied YouTube Studio screenshot dated 2026-10-03, Content ID identifies a 14-second use of this track (video time 2:41:23–2:41:37) as St. Louis Blues March by Glenn Miller Orchestra, claimed by PONYCANYON, UMG on behalf of GRP; the uploader's dispute is under review. Content ID is an automated matching and claims system, not a determination of copyright ownership; the claim does not change the documented identity or federal-work provenance of this distinct 1997 USAF recording.
+- **Jimmy Joy and St. Anthony Hotel Orchestra** — 1925-09 — [source record](#source-s25) — Recorded in Dallas in September 1925; OKeh 40539, matrix 9377, take A. UCSB Library explicitly lists this recording as public domain in the United States as of January 1, 2026. [Listen at UCSB Library](https://adp.library.ucsb.edu/index.php/matrix/detail/2000201513).
 
 ## Watch a performance
 
@@ -133,7 +135,7 @@ These recordings are documented as public domain in the United States.
 
 ## Rights note
 
-The evidence supports US public-domain use of the score editions and the 1921, 1922, 1925, 1994, 1996, and 1997 recordings listed as reviewed here. IMSLP marks file #716402 and its 1914 Handy Bros. material Public Domain; the downloaded file contains two six-page issues that are displayed separately. Brown marks its 1918 Pace & Handy issue No Copyright - United States. Duke marks its six-image Rudy Vallée promotional edition as Free Re-Use and No Copyright - United States, with attribution to Duke University Libraries. Wikimedia Commons identifies J. Lawrence Cook's 1930 arrangement as public domain in the United States because its copyright was not renewed. The Library of Congress states that US sound recordings published from 1923 through 1946 are protected for 100 years; the 1925 recordings therefore entered the US public domain on January 1, 2026. Project Gutenberg also explicitly identifies the Ferera and Paaluhi recording as public domain in the USA. Strong evidence supports US public-domain status for the three Air Force tracks because the Air Force distributes them through its Public Domain Music collection. For the 1997 track, Commons additionally records the Air Force's representation that its transcription, performance, and recording are official-duty federal works. These are evidence-based conclusions, not unconditional legal guarantees; Commons notes that the Air Force-supplied metadata was not necessarily independently verified. Recording and publication dates are distinct. Copyright status may differ outside the United States.
+The evidence supports US public-domain use of the score editions and the 1921, 1922, 1925, 1994, 1996, and 1997 recordings listed as reviewed here. IMSLP marks file #716402 and its 1914 Handy Bros. material Public Domain; the downloaded file contains two six-page issues that are displayed separately. Brown marks its 1918 Pace & Handy issue No Copyright - United States. Duke marks its six-image Rudy Vallée promotional edition as Free Re-Use and No Copyright - United States, with attribution to Duke University Libraries. Wikimedia Commons identifies J. Lawrence Cook's 1930 arrangement as public domain in the United States because its copyright was not renewed. The Library of Congress states that US sound recordings published from 1923 through 1946 are protected for 100 years; the 1925 recordings therefore entered the US public domain on January 1, 2026. Project Gutenberg also explicitly identifies the Ferera and Paaluhi recording as public domain in the USA. Strong evidence supports US public-domain status for the three Air Force tracks because the Air Force distributes them through its Public Domain Music collection. For the 1997 track, Commons additionally records the Air Force's representation that its transcription, performance, and recording are official-duty federal works. These are evidence-based conclusions, not unconditional legal guarantees; Commons notes that the Air Force-supplied metadata was not necessarily independently verified. UCSB Library explicitly lists Jimmy Joy and the St. Anthony Hotel Orchestra's 1925 OKeh 40539 recording as public domain in the United States as of January 1, 2026; its DAHR record identifies matrix 9377, take A, recorded in Dallas in September 1925. Recording and publication dates are distinct. Copyright status may differ outside the United States.
 
 ## Sources
 
@@ -360,6 +362,24 @@ The evidence supports US public-domain use of the score editions and the 1921, 1
 - Retrieved: 2026-10-02
 - [Artifact download URL](https://www.gutenberg.org/files/10249/10249-m/10249-m-001.mp3) · [saved artifact](./inputs/ferera-paaluhi-st-louis-blues-1925-gutenberg.mp3)
 - Note: Project Gutenberg identifies the recording as public domain in the USA; provenance and redistribution terms are documented in its linked readme.
+
+<a id="source-s25"></a>
+
+### S25. UCSB Library DAHR: St. Louis blues — Jimmy Joy and St. Anthony Hotel Orchestra
+
+- [live page](https://adp.library.ucsb.edu/index.php/matrix/detail/2000201513)
+- Retrieved: 2026-10-05
+- Attribution: Audio from the UCSB Library; performed by Jimmy Joy and St. Anthony Hotel Orchestra; composition by W. C. Handy
+- Note: DAHR identifies OKeh 40539, matrix 9377, take A, recorded in Dallas in September 1925. The record supplies an embeddable UCSB player for take 862014. Its cached page still displays a Sony Music Entertainment notice; the separate UCSB 2026 public-domain list supplies the dated rights assessment. Audio is embedded from UCSB rather than downloaded locally.
+
+<a id="source-s26"></a>
+
+### S26. UCSB Library: 1925 recordings entering the public domain on January 1, 2026
+
+- [live page](https://www.library.ucsb.edu/1925-recordings-digitized-ucsb-entering-public-domain-january-1-2026)
+- Retrieved: 2026-10-05
+- Rights: [Public domain in the United States as of January 1, 2026 — explicit UCSB Library assessment](https://www.library.ucsb.edu/1925-recordings-digitized-ucsb-entering-public-domain-january-1-2026)
+- Note: UCSB states that the listed recordings are public domain as of January 1, 2026 and have been digitized or hosted by the library. The list includes St. Louis blues by Jimmy Joy and St. Anthony Hotel Orchestra, OKeh 40539, linking to DAHR matrix record 2000201513.
 
 ## Unreviewed research leads
 

@@ -351,6 +351,13 @@ def render_site_song(data):
             for label, wav, mp3 in audio_items
         ],
         "]",
+        "external_audio_items = [",
+        *[
+            f"  {{ label = {json.dumps(recording['performer'] + ' (' + recording['date'][:4] + ')')}, embed_url = {json.dumps(recording['embed_url'])}, url = {json.dumps(source_by_id[recording['source']]['url'])} }},"
+            for recording in data.get("reviewed_recordings", [])
+            if recording.get("embed_url")
+        ],
+        "]",
         f"listening_note = {json.dumps(listening.get('note', ''))}",
         "listening_items = [",
         *[
