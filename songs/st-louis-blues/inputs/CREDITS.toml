@@ -92,7 +92,9 @@ performer = "Victor Military Band"
 date = "1916-10-19"
 source = "victor-military-band-1916-loc"
 local_artifact = "recording-1916-victor-military-band-mp3"
-note = "Joe Turner blues medley, including St. Louis blues; the full medley is provided. Conducted by Edward T. King, recorded in Camden, New Jersey; Victor 18174, matrix B-18495, take 5. LOC lists St. Louis blues as an alternate title. The MP3 is from LOC’s National Jukebox Data Package, whose recordings LOC assesses as public domain based on their metadata dates."
+seek_seconds = 97
+seek_label = "Play St. Louis Blues from 1:37"
+note = "Joe Turner blues medley, including St. Louis blues; the full medley is provided. St. Louis blues begins at 1:37, as identified by the transcriber. Conducted by Edward T. King, recorded in Camden, New Jersey; Victor 18174, matrix B-18495, take 5. LOC lists St. Louis blues as an alternate title. The MP3 is from LOC’s National Jukebox Data Package, whose recordings LOC assesses as public domain based on their metadata dates."
 
 [[reviewed_recordings]]
 title = "St. Louis blues"
@@ -1181,7 +1183,7 @@ url = "https://www.loc.gov/item/jukebox-19795/"
 retrieved = "2026-10-05"
 download_url = "https://data.labs.loc.gov/jukebox/audio/jukebox-19795_1.mp3"
 attribution = "Library of Congress, National Jukebox; Victor Military Band; Edward T. King, conductor; W. C. Handy, composer"
-snapshot_note = "LOC catalog and dataset metadata identify Victor 18174, matrix B-18495, take 5, recorded October 19, 1916 in Camden, New Jersey. The catalog lists St. Louis blues as an alternate title. The local MP3 is an unmodified copy of LOC’s dataset transfer; size 2,921,163 bytes and MD5 b8dab8133fa0c3a2bfd98aa76ec72bbc match the dataset manifest. A complete copy downloaded during research was reused after a new download stalled. The catalog retains a Sony/EMI courtesy notice; the dataset supplies the separate public-domain assessment."
+snapshot_note = "LOC catalog and dataset metadata identify Victor 18174, matrix B-18495, take 5, recorded October 19, 1916 in Camden, New Jersey. The catalog lists St. Louis blues as an alternate title. The local MP3 is an unmodified copy of LOC’s dataset transfer; size 2,921,163 bytes and MD5 b8dab8133fa0c3a2bfd98aa76ec72bbc match the dataset manifest. A complete copy downloaded during research was reused after a new download stalled. The corresponding source WAV is https://tile.loc.gov/storage-services/master/mbrsrs/mbrsjukebox/dlc_victor_18174_01_b18495_05/dlc_victor_18174_01_b18495_05.wav ; retrieval returned HTTP 403 on October 5, 2026, so no WAV is hosted locally. The catalog retains a Sony/EMI courtesy notice; the dataset supplies the separate public-domain assessment."
 
 [[sources]]
 id = "loc-jukebox-data-package"

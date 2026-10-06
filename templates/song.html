@@ -116,7 +116,7 @@
       <h2 id="listen">Listen</h2>
       {% for recording in page.extra.audio_items %}
         <p>{{ recording.label }}</p>
-        <audio controls preload="metadata">
+        <audio id="recording-{{ loop.index }}" controls preload="metadata">
           {% if recording.wav_path %}<source src="{{ get_url(path=recording.wav_path) }}" type="audio/wav">{% endif %}
           {% if recording.mp3_path %}<source src="{{ get_url(path=recording.mp3_path) }}" type="audio/mpeg">{% endif %}
           {% if recording.wav_path %}
@@ -125,7 +125,75 @@
             <a href="{{ get_url(path=recording.mp3_path) }}">Download {{ recording.label }}</a>
           {% endif %}
         </audio>
+        {% if recording.seek_seconds %}
+          <p><a class="recording-seek" data-player="recording-{{ loop.index }}" data-seconds="{{ recording.seek_seconds }}" href="{{ get_url(path=recording.mp3_path) }}#t={{ recording.seek_seconds }}">{{ recording.seek_label }}</a></p>
+        {% endif %}
       {% endfor %}
+      <script>
+        const seekAudioLoads = new WeakMap();
+        document.querySelectorAll(".recording-seek").forEach(link => {
+          link.addEventListener("click", async event => {
+            const player = document.getElementById(link.dataset.player);
+            if (!player) return;
+            event.preventDefault();
+            if (link.getAttribute("aria-busy") === "true") return;
+            player.pause();
+            const label = link.textContent;
+            link.textContent = "Loading audio…";
+            link.setAttribute("aria-busy", "true");
+            try {
+              // A complete local Blob supports seeking even when the server ignores Range.
+              if (!seekAudioLoads.has(player)) {
+                const load = async () => {
+                  const response = await fetch(link.href.split("#")[0]);
+                  if (!response.ok) throw new Error("Audio download failed");
+                  const url = URL.createObjectURL(await response.blob());
+                  await new Promise((resolve, reject) => {
+                    const cleanup = () => {
+                      player.removeEventListener("loadedmetadata", loaded);
+                      player.removeEventListener("error", failed);
+                    };
+                    const loaded = () => { cleanup(); resolve(); };
+                    const failed = () => { cleanup(); URL.revokeObjectURL(url); reject(new Error("Audio loading failed")); };
+                    player.addEventListener("loadedmetadata", loaded);
+                    player.addEventListener("error", failed);
+                    player.src = url;
+                    player.load();
+                  });
+                  window.addEventListener("pagehide", () => URL.revokeObjectURL(url), { once: true });
+                };
+                seekAudioLoads.set(player, load().catch(error => {
+                  seekAudioLoads.delete(player);
+                  throw error;
+                }));
+              }
+              await seekAudioLoads.get(player);
+              const seconds = Number(link.dataset.seconds);
+              if (Math.abs(player.currentTime - seconds) >= 0.05) {
+                await new Promise((resolve, reject) => {
+                  const cleanup = () => {
+                    player.removeEventListener("seeked", sought);
+                    player.removeEventListener("error", failed);
+                  };
+                  const sought = () => { cleanup(); resolve(); };
+                  const failed = () => { cleanup(); reject(new Error("Audio seek failed")); };
+                  player.addEventListener("seeked", sought);
+                  player.addEventListener("error", failed);
+                  player.currentTime = seconds;
+                });
+              }
+              await player.play();
+            } catch (error) {
+              if (player.error) seekAudioLoads.delete(player);
+              player.focus();
+              link.title = "Playback could not start automatically. Use the audio player controls.";
+            } finally {
+              link.textContent = label;
+              link.removeAttribute("aria-busy");
+            }
+          });
+        });
+      </script>
     {% endif %}
     {% if page.extra.external_media %}
       <section aria-labelledby="watch-performance">

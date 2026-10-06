@@ -6,7 +6,7 @@ kind = "faithful modern engraving"
 status = "work-in-progress"
 started = "2026-10-02"
 transcriber = "Fabricio C Zuardi"
-current_scope = "Piano entered and reviewed through measure 52, with chorus piano in progress; vocal, lyric, and harmony work extends to the ending"
+current_scope = "Full voice and piano transcription with source D-tuning ukulele diagrams; final publication review pending"
 canonical_format = "MusicXML 4.0"
 canonical_file = "st-louis-blues.musicxml"
 working_file = "st-louis-blues.mscz"
@@ -136,3 +136,43 @@ witness = "A, score page 4, first system"
 reading = "Short upper slur from A-sharp4 to B4, alongside the longer lower slur."
 action = "Transcriber added the short upper slur; saved and synced correction verified."
 rationale = "Both arcs appear in the primary witness; the longer lower slur is retained."
+
+[[revisions]]
+date = "2026-10-05"
+editor = "Fabricio C Zuardi; reviewed by Codex"
+status = "reviewed"
+scope = "Piano, measures 56–59"
+witness = "A, score page 4, third system"
+note = "Checked the saved MuseScore file and synced MusicXML against the primary witness: pitches, accidentals, durations, lower-voice accompaniment, sustained G ties, measure 57 rests, C4 tie across measures 58–59, D4 tie within measure 59, and left-hand chord ties and slur. No corrections found. Low right-hand C4 and D4 notes are retained even where they differ from the vocal melody. Vocal text and ukulele diagrams were outside this piano review."
+
+[[revisions]]
+date = "2026-10-05"
+editor = "Fabricio C Zuardi; diagrams completed by Codex"
+status = "work-in-progress"
+scope = "Historical ukulele fretboard diagrams throughout the score"
+witness = "A"
+note = "Retained the transcriber's first two diagrams and added the remaining 60 with four strings and no nut. Added the source A-minor entry at measure 54 and a D-tuning label (A–D–F-sharp–B). Copied source fingerings, including variants and apparent chord-label inconsistencies, rather than replacing them with modern GCEA shapes. MuseScore rendered the updated file and exported canonical MusicXML; 62 diagrams verified and all note pitches, durations, voices and staff assignments preserved. Transcriber reports repeat-tie playback sounds correct; final ending slur placement was checked in the supplied screenshot."
+
+[[decisions]]
+measure = 54
+location = "ukulele harmony and fretboard diagrams"
+witness = "A, score page 4"
+reading = "Source Ami diagram appears at the start of measure 54 and again in measure 55."
+action = "Added the missing measure 54 harmony and copied both printed fingerings."
+rationale = "Preserve the source's labels and fingering geometry, including apparent discrepancies: Ami uses the same fingering as A7, Cmi7 repeats the Cmi shape, and several chorus C diagrams omit the fourth-string dot seen in earlier C diagrams. These are retained as historical readings, not silently normalized chord advice."
+
+[[decisions]]
+measure = 9
+location = "MusicXML fretboard export, throughout the edition"
+witness = "A"
+reading = "Strings without finger dots or mute marks are played open in these historical D-tuning diagrams."
+action = "Add explicit open-string circles to unfretted strings in the MuseScore diagrams; ordinary MusicXML export encodes them with fret 0."
+rationale = "The transcriber chose explicit open-string markers to preserve sounding-string semantics through ordinary MusicXML export. Circles are an editorial clarification of the source’s unmarked strings; four strings and no nut remain the native diagram settings."
+
+[[revisions]]
+date = "2026-10-05"
+editor = "Fabricio C Zuardi; final diagram adjustments by Codex"
+status = "work-in-progress"
+scope = "Explicit open-string markers and measure 15 G diagram"
+witness = "A"
+note = "Added 90 explicit open-string circles to the initial 62 diagrams and verified ordinary MuseScore MusicXML export preserves fret-0 entries without post-processing. Replaced the above-staff G lyric in measure 15 with a proper harmony and matching D-tuning diagram, bringing the total to 63 diagrams. Native diagrams retain four strings and no nut. Final publication review remains pending."

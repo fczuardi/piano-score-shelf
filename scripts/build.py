@@ -131,7 +131,7 @@ def render_song(data):
         lines.append(f"- {fact['text']} {citations}")
     if data.get("reviewed_recordings"):
         lines += ["", "## Reviewed public-domain recordings", "", "These recordings are documented as public domain in the United States.", ""]
-        for recording in data["reviewed_recordings"]:
+        for recording in sorted(data["reviewed_recordings"], key=lambda item: item["date"]):
             source = source_number[recording["source"]]
             links = [f"[source record](#source-s{source})"]
             if recording.get("local_artifact"):
@@ -216,7 +216,7 @@ def render_site_song(data):
         wav = next((artifact for artifact in related if artifact["file"].lower().endswith(".wav")), None)
         mp3 = next((artifact for artifact in related if artifact["file"].lower().endswith(".mp3")), None)
         label = recording.get("audio_label", f"{recording['performer']} ({recording['date'][:4]})")
-        audio_items.append((label, wav, mp3))
+        audio_items.append((label, wav, mp3, recording.get("seek_seconds", 0), recording.get("seek_label", "")))
     listening = data.get("listening", {})
     listening_ids = [url.rstrip("/").rsplit("/", 1)[-1] for url in listening.get("urls", [])]
     listening_labels = listening.get("labels", [])
@@ -347,8 +347,8 @@ def render_site_song(data):
         "]",
         "audio_items = [",
         *[
-            f"  {{ label = {json.dumps(label)}, wav_path = {json.dumps('songs/' + slug + '/inputs/' + wav['file']) if wav else 'false'}, mp3_path = {json.dumps('songs/' + slug + '/inputs/' + mp3['file']) if mp3 else 'false'} }},"
-            for label, wav, mp3 in audio_items
+            f"  {{ label = {json.dumps(label)}, wav_path = {json.dumps('songs/' + slug + '/inputs/' + wav['file']) if wav else 'false'}, mp3_path = {json.dumps('songs/' + slug + '/inputs/' + mp3['file']) if mp3 else 'false'}, seek_seconds = {seek_seconds}, seek_label = {json.dumps(seek_label)} }},"
+            for label, wav, mp3, seek_seconds, seek_label in audio_items
         ],
         "]",
         f"listening_note = {json.dumps(listening.get('note', ''))}",
@@ -381,7 +381,7 @@ def render_site_song(data):
     if data.get("reviewed_recordings"):
         artifact_by_id = {artifact["id"]: artifact for artifact in data["artifacts"]}
         lines += ["", "## Reviewed public-domain recordings", "", "These recordings are documented as public domain in the United States.", ""]
-        for recording in data["reviewed_recordings"]:
+        for recording in sorted(data["reviewed_recordings"], key=lambda item: item["date"]):
             source = source_number[recording["source"]]
             links = [f"[source record](#source-s{source})"]
             if recording.get("local_artifact"):
