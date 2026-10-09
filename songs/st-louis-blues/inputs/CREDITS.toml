@@ -28,7 +28,7 @@ note = "Six-page 1918 voice-and-piano issue published by Pace & Handy Music Co. 
 title = "Handy Bros. revised edition"
 source = "score-archive"
 artifacts = ["score-pdf-page-1", "score-pdf-page-2", "score-pdf-page-3", "score-pdf-page-4"]
-note = "Four-page revised edition with ukulele arrangement. These JPEGs are display derivatives rendered from the preserved PDF at 150 DPI with Poppler pdftoppm; the PDF remains the canonical downloaded artifact."
+note = "Four-page revised edition for voice and piano with ukulele chord diagrams in D tuning; exact printing date unverified. The cover explicitly says Revised Edition and Ukulele Arrangement and promotes Marion Harris's Columbia record 2944, recorded in 1920, so this is not an original 1914 printing. The first music page prints Copyright MCMXIV by W. C. Handy and Handy Bros. Music Co., Inc., 1547 Broadway, N.Y.C.; that copyright date does not establish the date of this revised printing. No 1942 renewal notice or Abner Silver credit was found on these four pages. These JPEGs are display derivatives rendered from the preserved PDF at 150 DPI with Poppler pdftoppm; the PDF remains the canonical downloaded artifact."
 
 [[score_editions]]
 title = "Rudy Vallée promotional edition"
@@ -260,7 +260,7 @@ urls = [
 
 [[artifacts]]
 id = "score"
-label = "Sheet music (PDF)"
+label = "Handy Bros. revised edition (PDF; printing date unverified)"
 file = "handy-st-louis-blues.pdf"
 sha256 = "5eca837a94e7f242613246e7dd5b6d21820ca4f54bdffb3cf7729db8c9184e85"
 acquired_from = "score-archive"
@@ -875,7 +875,7 @@ text = "The locally preserved 1997 Air Force recording is Wikimedia Commons' fix
 sources = ["usaf-band-defense", "usaf-band-commons"]
 
 [[facts]]
-text = "The score was published by Handy Bros. Music Co. on September 11, 1914."
+text = "The composition was first published on September 11, 1914. This date does not establish the printing date of the preserved revised edition."
 sources = ["score-archive", "score-rights", "copyright-catalog-1914"]
 
 [[facts]]
@@ -932,13 +932,13 @@ sources = ["marion-harris-youtube"]
 
 [[sources]]
 id = "score-archive"
-title = "Internet Archive: St. Louis Blues"
+title = "Internet Archive: St. Louis Blues revised edition (printing date unverified)"
 url = "https://archive.org/details/stlouisblues00hand"
 retrieved = "2026-10-01"
 
 [[sources]]
 id = "score-rights"
-title = "Wikimedia Commons file record for the 1914 score"
+title = "Wikimedia Commons file record for the revised score (cataloged as 1914)"
 url = "https://commons.wikimedia.org/wiki/File:W._C._Handy_-_St._Louis_Blues_(1914,_Handy_Bros.).pdf"
 retrieved = "2026-10-01"
 
