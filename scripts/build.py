@@ -114,7 +114,7 @@ def render_song(data):
                 "",
                 f"**{edition['status'].replace('-', ' ').title()}** — transcribed and engraved by {edition['transcriber']}. "
                 f"Current scope: {edition['current_scope']}. "
-                f"Dedicated under [{edition['license']}]({edition['license_url']}).",
+                + (f"Dedicated under [{edition['license']}]({edition['license_url']})." if edition.get("license") else ""),
                 "",
                 f"[MusicXML]({edition_path}/{outputs['musicxml']}) · "
                 f"[MuseScore]({edition_path}/{outputs['musescore']}) · "
@@ -246,8 +246,8 @@ def render_site_song(data):
                 "status": edition["status"].replace("-", " ").title(),
                 "transcriber": edition["transcriber"],
                 "scope": edition["current_scope"],
-                "license": edition["license"],
-                "license_url": edition["license_url"],
+                "license": edition.get("license", ""),
+                "license_url": edition.get("license_url", ""),
                 "musicxml_path": f"{base}/{outputs['musicxml']}",
                 "musescore_path": f"{base}/{outputs['musescore']}",
                 "manifest_path": f"{base}/EDITION.toml",

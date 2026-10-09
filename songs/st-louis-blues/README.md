@@ -8,7 +8,7 @@ Sheet music and a historical reference recording for study.
 
 ### St. Louis Blues — transcription of the Handy Bros. ukulele edition
 
-**Work In Progress** — transcribed and engraved by Fabricio C Zuardi. Current scope: Full voice and piano transcription with source D-tuning ukulele diagrams; final publication review pending. Dedicated under [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/).
+**Work In Progress** — transcribed and engraved by Fabricio C Zuardi. Current scope: Full voice and piano transcription with source D-tuning ukulele diagrams; final publication review pending. 
 
 [MusicXML](./editions/modern-1914/st-louis-blues.musicxml) · [MuseScore](./editions/modern-1914/st-louis-blues.mscz) · [edition manifest](./editions/modern-1914/EDITION.toml)
 

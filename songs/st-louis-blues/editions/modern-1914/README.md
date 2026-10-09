@@ -13,9 +13,9 @@ The primary witness is the four score pages of the undated Handy Bros. scenic-co
 5. Run `just edition-build` to generate PDF, per-page SVG, and MIDI derivatives.
 6. Open the generated MusicXML and MIDI independently and listen through the entire score before changing the edition status to `reviewed`.
 
-## Licensing boundary
+## Attribution and source status
 
-To the extent possible under law, the project's transcription, engraving, metadata, and editorial contributions are dedicated to the public domain under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). This dedication applies only to rights held by the transcriber. Copyright status of additions in the source edition has not been verified; third-party rights are unaffected. Fonts retain their own licenses.
+Transcribed by Fabricio C Zuardi, 2026, from the Handy Bros. edition preserved in IMSLP #716402. Source edition's publication date and rights in its additions remain unverified. Fonts retain their own licenses.
 
 The edition is published as a work in progress. Its manifest records the currently completed scope; PDF and MIDI release derivatives will follow after the musical text has been completed and reviewed.
 

@@ -10,12 +10,10 @@ current_scope = "Full voice and piano transcription with source D-tuning ukulele
 canonical_format = "MusicXML 4.0"
 canonical_file = "st-louis-blues.musicxml"
 working_file = "st-louis-blues.mscz"
-license = "CC0-1.0"
-license_url = "https://creativecommons.org/publicdomain/zero/1.0/"
 
 [rights]
-statement = "Transcription by Fabricio C Zuardi, 2026. CC0 applies only to the transcriber's own contributions, to the extent any rights exist. Copyright status of additions in the source edition has not been verified. The underlying composition is public domain in the United States; third-party rights are unaffected."
-font_plan = "Use MuseScore's Leland notation font and an open text font distributed under the SIL Open Font License 1.1. Font software retains its own license and is not relicensed under CC0."
+statement = "Transcribed by Fabricio C Zuardi, 2026, from the Handy Bros. edition preserved in IMSLP #716402. Source edition's publication date and rights in its additions remain unverified."
+font_plan = "Use MuseScore's Leland notation font and an open text font distributed under the SIL Open Font License 1.1. Font software retains its own license."
 
 [editorial_policy]
 music = "Preserve the printed pitches, rhythms, harmony, dynamics, articulations, repeats, and formal structure of the primary witness."
