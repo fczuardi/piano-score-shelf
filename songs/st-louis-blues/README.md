@@ -14,7 +14,7 @@ Sheet music and a historical reference recording for study.
 
 ## Files
 
-- [Sheet music (PDF)](./inputs/handy-st-louis-blues.pdf) — SHA-256 `5eca837a94e7f242613246e7dd5b6d21820ca4f54bdffb3cf7729db8c9184e85`; acquired from [S1](#source-s1).
+- [Handy Bros. revised edition (PDF; printing date unverified)](./inputs/handy-st-louis-blues.pdf) — SHA-256 `5eca837a94e7f242613246e7dd5b6d21820ca4f54bdffb3cf7729db8c9184e85`; acquired from [S1](#source-s1).
 - [IMSLP #716402 complete score (PDF)](./inputs/imslp-716402-first-edition-1914.pdf) — SHA-256 `3cee8621f3b990215d84ee419ff57230ddbec0ddf712a5b420621f59aaa01624`; acquired from [S3](#source-s3).
 - [IMSLP #716402 — scenic front cover](./inputs/imslp-716402-first-edition-1914-01.jpg) — SHA-256 `93ac6f8393c4e5c8cd81a0cd3d4a946b35cdad283a29f13c164258d3049372bf`; acquired from [S3](#source-s3); derived from `imslp-716402-pdf` (Poppler pdftoppm 26.08.0; page 1; JPEG; 150 DPI; quality 90; progressive and optimized).
 - [IMSLP #716402 — scenic issue score page 2](./inputs/imslp-716402-first-edition-1914-02.jpg) — SHA-256 `3b6e6ab92df47a463401b2ae5c632542f2dec2b8ae16dd06f113cda94e7f7226`; acquired from [S3](#source-s3); derived from `imslp-716402-pdf` (Poppler pdftoppm 26.08.0; page 2; JPEG; 150 DPI; quality 90; progressive and optimized).
@@ -96,7 +96,7 @@ Research conducted: 2026-10-05. Every URL used as evidence is listed below with 
 
 - W. C. Handy is the composer and lyricist. [S1](#source-s1) [S2](#source-s2) [S9](#source-s9)
 - The locally preserved 1997 Air Force recording is Wikimedia Commons' fixed 2022 revision. The Defense.gov MP3 (SHA-256 e4ed79423feb70445a681a516f9706ce925d5b4a2e5110c39a8f72749f6ff349) matches Commons' original 2021 upload byte for byte; the local fixed revision has SHA-256 e57e500bea9c1eedbfdd2fb2879aed657bbab5c94aa83911210da499d0797f90. [S21](#source-s21) [S22](#source-s22)
-- The score was published by Handy Bros. Music Co. on September 11, 1914. [S1](#source-s1) [S2](#source-s2) [S23](#source-s23)
+- The composition was first published on September 11, 1914. This date does not establish the printing date of the preserved revised edition. [S1](#source-s1) [S2](#source-s2) [S23](#source-s23)
 - IMSLP file #716402 is a 12-page scan containing a scenic-cover issue and a Paul Whiteman promotional issue, each followed by four score pages and an advertising back cover. [S3](#source-s3)
 - Rube Bloom arranged St. Louis Blues for solo piano; Alfred & Co. published the eight-page arrangement in 1928. [S4](#source-s4)
 - David Edward Kemp arranged St. Louis Blues for soprano, alto, tenor, and bass recorders and licensed the score and parts under CC BY-SA 4.0. [S5](#source-s5)
@@ -148,14 +148,14 @@ The evidence supports US public-domain use of the score editions and the 1916, 1
 
 <a id="source-s1"></a>
 
-### S1. Internet Archive: St. Louis Blues
+### S1. Internet Archive: St. Louis Blues revised edition (printing date unverified)
 
 - [live page](https://archive.org/details/stlouisblues00hand)
 - Retrieved: 2026-10-01
 
 <a id="source-s2"></a>
 
-### S2. Wikimedia Commons file record for the 1914 score
+### S2. Wikimedia Commons file record for the revised score (cataloged as 1914)
 
 - [live page](https://commons.wikimedia.org/wiki/File:W._C._Handy_-_St._Louis_Blues_(1914,_Handy_Bros.).pdf)
 - Retrieved: 2026-10-01
