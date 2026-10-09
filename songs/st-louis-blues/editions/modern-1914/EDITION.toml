@@ -1,6 +1,6 @@
 [edition]
 id = "modern-1914"
-title = "St. Louis Blues — modern study edition"
+title = "St. Louis Blues — transcription of the Handy Bros. ukulele edition"
 composer = "W. C. Handy"
 kind = "faithful modern engraving"
 status = "work-in-progress"
@@ -14,7 +14,7 @@ license = "CC0-1.0"
 license_url = "https://creativecommons.org/publicdomain/zero/1.0/"
 
 [rights]
-statement = "CC0 applies to this project's transcription, engraving, metadata, and editorial contributions. It does not alter rights in the underlying composition where that work remains protected. The underlying composition is public domain in the United States; its status may differ elsewhere."
+statement = "Transcription by Fabricio C Zuardi, 2026. CC0 applies only to the transcriber's own contributions, to the extent any rights exist. Copyright status of additions in the source edition has not been verified. The underlying composition is public domain in the United States; third-party rights are unaffected."
 font_plan = "Use MuseScore's Leland notation font and an open text font distributed under the SIL Open Font License 1.1. Font software retains its own license and is not relicensed under CC0."
 
 [editorial_policy]
@@ -28,7 +28,7 @@ measure_numbers = "Number measures continuously from the opening piano introduct
 [[witnesses]]
 id = "A"
 role = "primary"
-description = "1914 Handy Bros. scenic-cover issue; four score pages between the cover and advertisement."
+description = "Handy Bros. scenic-cover issue in IMSLP file #716402, score pages 2–5. The source prints a 1914 copyright notice; its actual publication date has not been established."
 source_id = "imslp-score-716402"
 artifact_ids = [
   "imslp-716402-page-2",
