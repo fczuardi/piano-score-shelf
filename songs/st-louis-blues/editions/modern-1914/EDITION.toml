@@ -3,10 +3,10 @@ id = "modern-1914"
 title = "St. Louis Blues — transcription of the Handy Bros. ukulele edition"
 composer = "W. C. Handy"
 kind = "faithful modern engraving"
-status = "work-in-progress"
+status = "complete"
 started = "2026-10-02"
 transcriber = "Fabricio C Zuardi"
-current_scope = "Full voice and piano transcription with source D-tuning ukulele diagrams; final publication review pending"
+current_scope = "Complete voice and piano transcription with source D-tuning ukulele diagrams"
 canonical_format = "MusicXML 4.0"
 canonical_file = "st-louis-blues.musicxml"
 working_file = "st-louis-blues.mscz"
@@ -48,7 +48,7 @@ artifact_ids = [
 ]
 
 [outputs]
-pdf = "build/st-louis-blues-modern-1914.pdf"
+pdf = "st-louis-blues-modern-1914.pdf"
 svg_prefix = "build/pages/st-louis-blues-modern-1914"
 midi = "build/st-louis-blues-modern-1914.mid"
 musicxml = "st-louis-blues.musicxml"
@@ -174,3 +174,11 @@ status = "work-in-progress"
 scope = "Explicit open-string markers and measure 15 G diagram"
 witness = "A"
 note = "Added 90 explicit open-string circles to the initial 62 diagrams and verified ordinary MuseScore MusicXML export preserves fret-0 entries without post-processing. Replaced the above-staff G lyric in measure 15 with a proper harmony and matching D-tuning diagram, bringing the total to 63 diagrams. Native diagrams retain four strings and no nut. Final publication review remains pending."
+
+[[revisions]]
+date = "2026-10-10"
+editor = "Fabricio C Zuardi"
+status = "complete"
+scope = "Full voice and piano transcription with historical lyrics and source D-tuning ukulele diagrams"
+witness = "A; B consulted for collation"
+note = "Transcriber declared the modern edition complete. Release derivatives include PDF, MIDI, and SVG alongside the canonical MusicXML and editable MuseScore source."

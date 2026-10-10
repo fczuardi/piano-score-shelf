@@ -8,38 +8,26 @@
     <nav aria-labelledby="contents-heading">
       <h2 id="contents-heading">Contents</h2>
       <ul>
-        {% if page.extra.modern_editions %}<li><a href="#modern-editions">Modern editions</a></li>{% endif %}
         {% if page.extra.score_editions %}<li><a href="#scores">Scores</a></li>{% endif %}
         {% if page.extra.arrangements %}<li><a href="#arrangements">Arrangements and transcriptions</a></li>{% endif %}
         {% if page.extra.creative_commons_works %}<li><a href="#creative-commons">Creative Commons adaptations</a></li>{% endif %}
+        {% if page.extra.modern_editions %}<li><a href="#modern-editions">Modern editions</a></li>{% endif %}
         {% if page.extra.audio_items %}<li><a href="#listen">Listen</a></li>{% endif %}
+        {% if page.extra.listening_items %}<li><a href="#other-recordings">Hear other recordings</a></li>{% endif %}
         {% if page.extra.external_media %}<li><a href="#watch-performance">Watch a performance</a></li>{% endif %}
+        {% if page.extra.movies %}<li><a href="#movies">Movies</a></li>{% endif %}
+        {% if page.extra.books %}<li><a href="#books">Books</a></li>{% endif %}
+        {% if page.extra.albums %}<li><a href="#albums">Albums</a></li>{% endif %}
         <li><a href="#research-record">Research record</a></li>
         <li><a href="#documented-facts">Documented facts</a></li>
         {% if page.extra.has_reviewed_recordings %}<li><a href="#reviewed-public-domain-recordings">Reviewed public-domain recordings</a></li>{% endif %}
         <li><a href="#rights-note">Rights note</a></li>
-        {% if page.extra.listening_items %}<li><a href="#other-recordings">Hear other recordings</a></li>{% endif %}
         <li><a href="#files">Files</a></li>
         <li><a href="#sources">Sources</a></li>
         {% if page.extra.has_unreviewed_leads %}<li><a href="#unreviewed-research-leads">Unreviewed research leads</a></li>{% endif %}
         <li><a href="#provenance">Provenance</a></li>
       </ul>
     </nav>
-    {% if page.extra.modern_editions %}
-      <section aria-labelledby="modern-editions">
-        <h2 id="modern-editions">Modern editions</h2>
-        {% for edition in page.extra.modern_editions %}
-          <h3>{{ edition.title }}</h3>
-          <p><strong>{{ edition.status }}</strong> — transcribed and engraved by {{ edition.transcriber }}.</p>
-          <p>Current scope: {{ edition.scope }}. {% if edition.license %}Dedicated under <a href="{{ edition.license_url }}">{{ edition.license }}</a>.{% endif %}</p>
-          <ul>
-            <li><a href="{{ get_url(path=edition.musicxml_path) }}">MusicXML</a></li>
-            <li><a href="{{ get_url(path=edition.musescore_path) }}">MuseScore source</a></li>
-            <li><a href="{{ get_url(path=edition.manifest_path) }}">Edition manifest and provenance</a></li>
-          </ul>
-        {% endfor %}
-      </section>
-    {% endif %}
     {% if page.extra.score_editions %}
       <section aria-labelledby="scores">
         <h2 id="scores">Scores</h2>
@@ -109,6 +97,22 @@
               {% endfor %}
             </ol>
           {% endif %}
+        {% endfor %}
+      </section>
+    {% endif %}
+    {% if page.extra.modern_editions %}
+      <section aria-labelledby="modern-editions">
+        <h2 id="modern-editions">Modern editions</h2>
+        {% for edition in page.extra.modern_editions %}
+          <h3>{{ edition.title }}</h3>
+          <p><strong>{{ edition.status }}</strong> — transcribed and engraved by {{ edition.transcriber }}.</p>
+          <p>Current scope: {{ edition.scope }}. {% if edition.license %}Dedicated under <a href="{{ edition.license_url }}">{{ edition.license }}</a>.{% endif %}</p>
+          <ul>
+            <li><a href="{{ get_url(path=edition.pdf_path) }}">PDF</a></li>
+            <li><a href="{{ get_url(path=edition.musicxml_path) }}">MusicXML</a></li>
+            <li><a href="{{ get_url(path=edition.musescore_path) }}">MuseScore source</a></li>
+            <li><a href="{{ get_url(path=edition.manifest_path) }}">Edition manifest and provenance</a></li>
+          </ul>
         {% endfor %}
       </section>
     {% endif %}
@@ -195,19 +199,9 @@
         });
       </script>
     {% endif %}
-    {% if page.extra.external_media %}
-      <section aria-labelledby="watch-performance">
-        <h2 id="watch-performance">Watch a performance</h2>
-        {% for media in page.extra.external_media %}
-          <h3><a href="{{ media.url }}">{{ media.title }}</a></h3>
-          <p>{{ media.rights_note }}</p>
-        {% endfor %}
-      </section>
-    {% endif %}
     {% if page.extra.listening_items %}
       {% set content_parts = page.content | split(pat="<p>ARCHIVE_PLAYER_INSERTION_POINT_7D3E</p>") %}
       {% set first_recording = page.extra.listening_items | first %}
-      {{ content_parts[0] | safe }}
       <section aria-labelledby="other-recordings">
         <h2 id="other-recordings">Hear other recordings</h2>
         <p>{{ page.extra.listening_note }}</p>
@@ -252,6 +246,54 @@
           archiveThumbnail.alt = "Cover image for " + label;
         });
       </script>
+    {% endif %}
+    {% if page.extra.external_media %}
+      <section aria-labelledby="watch-performance">
+        <h2 id="watch-performance">Watch a performance</h2>
+        {% for media in page.extra.external_media %}
+          <h3><a href="{{ media.url }}">{{ media.title }}</a></h3>
+          <p>{{ media.rights_note }}</p>
+        {% endfor %}
+      </section>
+    {% endif %}
+    {% if page.extra.movies %}
+      <section aria-labelledby="movies">
+        <h2 id="movies">Movies</h2>
+        {% for movie in page.extra.movies %}
+          <h3><a href="{{ movie.url }}">{{ movie.title }}</a> ({{ movie.date }})</h3>
+          <p>{{ movie.description }}</p>
+          <p><a class="watch-link" href="{{ movie.url }}">Watch on {{ movie.provider }}</a></p>
+          <p>{{ movie.availability_note }}
+          {% for source_number in movie.source_numbers %}<a href="#source-s{{ source_number }}">Source S{{ source_number }}</a>{% if not loop.last %}; {% endif %}{% endfor %}.</p>
+        {% endfor %}
+      </section>
+    {% endif %}
+    {% if page.extra.books %}
+      <section aria-labelledby="books">
+        <h2 id="books">Books</h2>
+        {% for resource in page.extra.books %}
+          <h3><a href="{{ resource.url }}">{{ resource.title }}</a> ({{ resource.date }})</h3>
+          <p>{{ resource.description }}</p>
+          <p><a class="watch-link" href="{{ resource.url }}">{{ resource.link_label }}</a></p>
+          <p>{{ resource.availability_note }}
+          {% for source_number in resource.source_numbers %}<a href="#source-s{{ source_number }}">Source S{{ source_number }}</a>{% if not loop.last %}; {% endif %}{% endfor %}.</p>
+        {% endfor %}
+      </section>
+    {% endif %}
+    {% if page.extra.albums %}
+      <section aria-labelledby="albums">
+        <h2 id="albums">Albums</h2>
+        {% for resource in page.extra.albums %}
+          <h3><a href="{{ resource.url }}">{{ resource.title }}</a> ({{ resource.date }})</h3>
+          <p>{{ resource.description }}</p>
+          <p><a class="watch-link" href="{{ resource.url }}">{{ resource.link_label }}</a></p>
+          <p>{{ resource.availability_note }}
+          {% for source_number in resource.source_numbers %}<a href="#source-s{{ source_number }}">Source S{{ source_number }}</a>{% if not loop.last %}; {% endif %}{% endfor %}.</p>
+        {% endfor %}
+      </section>
+    {% endif %}
+    {% if page.extra.listening_items %}
+      {{ content_parts[0] | safe }}
       {{ content_parts[1] | safe }}
     {% else %}
       {{ page.content | safe }}

@@ -3,26 +3,32 @@ slug = "st-louis-blues"
 title = "St. Louis Blues"
 creators = ["W. C. Handy"]
 summary = "Sheet music and a historical reference recording for study."
-research_date = "2026-10-05"
-rights_note = "The evidence supports US public-domain use of the score editions and the 1916, 1921, 1922, 1925, 1994, 1996, and 1997 recordings listed as reviewed here. IMSLP marks file #716402 and its 1914 Handy Bros. material Public Domain; the downloaded file contains two six-page issues that are displayed separately. Brown marks its 1918 Pace & Handy issue No Copyright - United States. Duke marks its six-image Rudy Vallée promotional edition as Free Re-Use and No Copyright - United States, with attribution to Duke University Libraries. Wikimedia Commons identifies J. Lawrence Cook's 1930 arrangement as public domain in the United States because its copyright was not renewed. The Library of Congress states that US sound recordings published from 1923 through 1946 are protected for 100 years; the 1925 recordings therefore entered the US public domain on January 1, 2026. Project Gutenberg also explicitly identifies the Ferera and Paaluhi recording as public domain in the USA. Strong evidence supports US public-domain status for the three Air Force tracks because the Air Force distributes them through its Public Domain Music collection. For the 1997 track, Commons additionally records the Air Force's representation that its transcription, performance, and recording are official-duty federal works. These are evidence-based conclusions, not unconditional legal guarantees; Commons notes that the Air Force-supplied metadata was not necessarily independently verified. UCSB Library explicitly lists Jimmy Joy and the St. Anthony Hotel Orchestra's 1925 OKeh 40539 recording as public domain in the United States as of January 1, 2026; its DAHR record identifies matrix 9377, take A, recorded in Dallas in September 1925. LOC’s National Jukebox Data Package includes the 1916 Victor Military Band Joe Turner blues medley containing St. Louis blues, and assesses the dataset recordings as public domain based on their metadata dates. For Handy’s January 1922 session, LOC supplies a Registry excerpt and historical identification, while UCSB’s Black Swan discography documents a corresponding issue by May 20, 1922. This supports a U.S. public-domain assessment under the pre-1923 publication rule; LOC does not specify the excerpt’s exact take. Recording and publication dates are distinct. Copyright status may differ outside the United States."
+research_date = "2026-10-10"
+rights_note = "The evidence supports US public-domain use of the score editions and the 1916, 1921, 1922, 1925, 1994, 1996, and 1997 recordings listed as reviewed here. Washington University in St. Louis and the Internet Archive mark the preserved 1914 Pace & Handy Memphis issue with the Public Domain Mark. IMSLP marks file #716402 and its Handy Bros. material Public Domain; the downloaded file contains two later six-page issues that are displayed separately. Brown marks its 1918 Pace & Handy issue No Copyright - United States. Duke marks its six-image Rudy Vallée promotional edition as Free Re-Use and No Copyright - United States, with attribution to Duke University Libraries. Wikimedia Commons identifies J. Lawrence Cook's 1930 arrangement as public domain in the United States because its copyright was not renewed. The Library of Congress states that US sound recordings published from 1923 through 1946 are protected for 100 years; the 1925 recordings therefore entered the US public domain on January 1, 2026. Project Gutenberg also explicitly identifies the Ferera and Paaluhi recording as public domain in the USA. Strong evidence supports US public-domain status for the three Air Force tracks because the Air Force distributes them through its Public Domain Music collection. For the 1997 track, Commons additionally records the Air Force's representation that its transcription, performance, and recording are official-duty federal works. These are evidence-based conclusions, not unconditional legal guarantees; Commons notes that the Air Force-supplied metadata was not necessarily independently verified. UCSB Library explicitly lists Jimmy Joy and the St. Anthony Hotel Orchestra's 1925 OKeh 40539 recording as public domain in the United States as of January 1, 2026; its DAHR record identifies matrix 9377, take A, recorded in Dallas in September 1925. LOC’s National Jukebox Data Package includes the 1916 Victor Military Band Joe Turner blues medley containing St. Louis blues, and assesses the dataset recordings as public domain based on their metadata dates. For Handy’s January 1922 session, LOC supplies a Registry excerpt and historical identification, while UCSB’s Black Swan discography documents a corresponding issue by May 20, 1922. This supports a U.S. public-domain assessment under the pre-1923 publication rule; LOC does not specify the excerpt’s exact take. The 1929 film is linked from the Library of Congress rather than hosted locally, with its US public-domain assessment documented separately. The 1958 Paramount film remains copyrighted and is only linked to a third-party YouTube upload; no copy is downloaded, hosted, or offered for redistribution by this project. Recording and publication dates are distinct. Copyright status may differ outside the United States."
 
 [[score_editions]]
-title = "Handy Bros. scenic-cover issue"
-source = "imslp-score-716402"
-artifacts = ["imslp-716402-page-1", "imslp-716402-page-2", "imslp-716402-page-3", "imslp-716402-page-4", "imslp-716402-page-5", "imslp-716402-page-6"]
-note = "The first six pages of IMSLP #716402: scenic front cover, four score pages, and an advertising back cover. IMSLP catalogs the containing PDF as a 1914 first edition."
-
-[[score_editions]]
-title = "Paul Whiteman promotional issue"
-source = "imslp-score-716402"
-artifacts = ["imslp-716402-page-7", "imslp-716402-page-8", "imslp-716402-page-9", "imslp-716402-page-10", "imslp-716402-page-11", "imslp-716402-page-12"]
-note = "The second six pages bundled in IMSLP #716402: Paul Whiteman front cover, four score pages, and an advertising back cover. It is kept distinct from the scenic-cover issue even though IMSLP distributes both in one PDF."
+title = "Pace & Handy 1914 Memphis issue — apparent first edition"
+source = "washington-university-first-edition"
+artifacts = ["washu-first-edition-page-1", "washu-first-edition-page-2", "washu-first-edition-page-3", "washu-first-edition-page-4", "washu-first-edition-page-5", "washu-first-edition-page-6"]
+note = "Six-page voice-and-piano issue published by Pace & Handy Music Co. in Memphis in 1914. The cover retains the Memphis imprint, and the first music page prints only the original MCMXIV copyright—not the 1918 copyright-transfer line found in Brown's later New York issue. The scan matches Fred E. Fuld's published description of the first edition, and a reproduced Handy interview says its first title page was deep blue with white lettering. Neither source establishes that this particular physical copy belongs to the first printing, so it is described here as an apparent first edition with its precise impression unverified. The scan is preserved by the Gaylord Music Library, Washington University in St. Louis."
 
 [[score_editions]]
 title = "Pace & Handy issue"
 source = "brown-score"
 artifacts = ["brown-score-page-1", "brown-score-page-2", "brown-score-page-3", "brown-score-page-4", "brown-score-page-5", "brown-score-page-6"]
 note = "Six-page 1918 voice-and-piano issue published by Pace & Handy Music Co. Brown's record describes it as played by Handy's orchestra and marks it No Copyright - United States."
+
+[[score_editions]]
+title = "Handy Bros. scenic-cover issue"
+source = "imslp-score-716402"
+artifacts = ["imslp-716402-page-1", "imslp-716402-page-2", "imslp-716402-page-3", "imslp-716402-page-4", "imslp-716402-page-5", "imslp-716402-page-6"]
+note = "The first six pages of IMSLP #716402: scenic front cover, four score pages, and an advertising back cover. IMSLP labels the containing PDF 'First edition' and dates it 1914, apparently using the composition's copyright date. Visual evidence shows that this Handy Bros. issue is later: it includes a ukulele arrangement and postdates the original Pace & Handy Memphis issue. Its precise publication date remains unverified."
+
+[[score_editions]]
+title = "Paul Whiteman promotional issue"
+source = "imslp-score-716402"
+artifacts = ["imslp-716402-page-7", "imslp-716402-page-8", "imslp-716402-page-9", "imslp-716402-page-10", "imslp-716402-page-11", "imslp-716402-page-12"]
+note = "The second six pages bundled in IMSLP #716402: Paul Whiteman front cover, four score pages, and an advertising back cover. It is kept distinct from the scenic-cover issue even though IMSLP distributes both in one PDF."
 
 [[score_editions]]
 title = "Handy Bros. revised edition"
@@ -170,6 +176,60 @@ url = "https://www.youtube.com/watch?v=3UmD5Maujxc"
 source = "marion-harris-youtube"
 rights_note = "The underlying 1920 recording is public domain in the United States. This external transfer declares no Creative Commons license and is linked from YouTube rather than hosted by this project."
 
+[[movies]]
+title = "St. Louis Blues"
+date = "1929"
+provider = "the Library of Congress"
+url = "https://www.loc.gov/item/2023602002/"
+description = "Sixteen-minute musical short directed by Dudley Murphy and starring Bessie Smith, with James P. Johnson, the Hall Johnson Choir, and an all-Black cast. The film was selected for the National Film Registry."
+availability_note = "The link opens the Library of Congress catalog page and its viewing options; the project does not host the film. Wikimedia Commons identifies this film as public domain in the United States."
+sources = ["loc-bessie-film-1929", "commons-bessie-film-1929"]
+
+[[movies]]
+title = "St. Louis Blues"
+date = "1958"
+provider = "YouTube"
+url = "https://youtu.be/MK7pvh8oGDM?si=zYLzqPk_loQKiADJ"
+description = "Paramount Pictures biographical musical about W. C. Handy, directed by Allen Reisner and starring Nat King Cole, Eartha Kitt, Cab Calloway, Ella Fitzgerald, Mahalia Jackson, and Ruby Dee."
+availability_note = "Copyrighted external media. This is a third-party YouTube viewing copy, not a project-hosted file; its availability may change. Portions of its soundtrack are muted, apparently through YouTube's Content ID system. Linking does not grant permission to copy or redistribute the film."
+sources = ["afi-st-louis-blues-1958", "youtube-st-louis-blues-1958"]
+
+[[movies]]
+title = "Flirty Birdy"
+date = "1945"
+provider = "YouTube at 1:50"
+url = "https://www.youtube.com/watch?v=uWZLY1UKpow&t=110s"
+description = "Tom and Jerry animated short directed by William Hanna and Joseph Barbera, with music by Scott Bradley. Its score quotes W. C. Handy's St. Louis Blues during Tom's dance in disguise; in the linked copy, the passage runs from 1:50 to 2:51."
+availability_note = "Copyrighted external media. The link opens the supplied third-party YouTube copy at 1:50; the project does not download or host the cartoon. YouTube identifies this 3:15 upload as Part 1, so it is documented here as the available scene rather than represented as the complete short. Its availability may change."
+sources = ["iad-flirty-birdy", "loc-flirty-birdy-copyright", "youtube-flirty-birdy"]
+
+[[movies]]
+title = "W. C. Handy"
+date = "1967"
+provider = "YouTube"
+url = "https://youtu.be/Eyz0BL5LsAA?si=vgbSyAx45JrQpyad"
+description = "Thirteen-minute educational documentary about W. C. Handy, produced by Vignette Films, one of the first Black-owned film companies. The supplied YouTube copy identifies Steve Allen as narrator and dates the film to 1967."
+availability_note = "Copyrighted external media. This is a third-party YouTube viewing copy, not a project-hosted file; its availability may change. The uploader's fair-use statement is the uploader's own assertion and is not a license to copy or redistribute the film."
+sources = ["criterion-wc-handy-film", "youtube-wc-handy-1967"]
+
+[[books]]
+title = "Father of the Blues: An Autobiography"
+date = "1941"
+url = "https://archive.org/details/fatherofbluesaut00wcha_0"
+link_label = "Read or borrow at Internet Archive"
+description = "W. C. Handy's autobiography, edited by Arna Bontemps with a foreword by Abbe Niles and published by the Macmillan Company. Its chapter list includes “St. Louis Blues and Solvent Bank.”"
+availability_note = "External Internet Archive access copy; the project does not download or host the book. Availability and borrowing or download options are controlled by Internet Archive. No public-domain or redistribution claim is made here."
+sources = ["internet-archive-father-of-the-blues", "smithsonian-father-of-the-blues"]
+
+[[albums]]
+title = "Father of the Blues: A Musical Autobiography"
+date = "1953; 1980 reissue"
+url = "https://www.youtube.com/watch?v=U1UrzxsmcpI"
+link_label = "Listen on YouTube"
+description = "W. C. Handy narrates and performs in a musical autobiography drawn from sessions recorded April 12, 1952 and December 7, 1953. The program includes two performances of St. Louis Blues, the second with Katherine Handy Lewis on vocals. The linked Discogs release is DRG Records SL 5192, a 1980 LP reissue of the 1953 album."
+availability_note = "Copyrighted external media. The 46:33 YouTube upload and Discogs catalog record are linked for reference; the project does not download or host the audio. Their availability may change, and linking does not grant permission to copy or redistribute the recording."
+sources = ["discogs-father-of-the-blues-lp", "youtube-father-of-the-blues-lp"]
+
 [[leads]]
 url = "https://en.wikisource.org/wiki/St._Louis_Blues"
 added = "2026-10-01"
@@ -257,6 +317,68 @@ urls = [
   "https://archive.org/details/9433stlouisbluesarttatum",
   "https://archive.org/details/78_st-louis-blues_w-c-handy_gbia0030859a",
 ]
+
+[[artifacts]]
+id = "washu-first-edition-pdf"
+label = "Washington University 1914 Pace & Handy Memphis issue (PDF; apparent first edition)"
+file = "washington-university-pace-handy-first-edition-1914.pdf"
+sha256 = "807e41fd812858cebf5193144833d18fa94b8ce72375e747354ff28575dfb4a1"
+acquired_from = "washington-university-first-edition"
+download_url = "https://archive.org/download/b10377633/b10377633.pdf"
+
+[[artifacts]]
+id = "washu-first-edition-page-1"
+label = "Washington University 1914 Memphis issue — front cover"
+file = "washington-university-pace-handy-first-edition-1914-1.jpg"
+sha256 = "5caa597c7ff1236988efa1fc916454bdca0178c292762e429a0ccdf143dea380"
+acquired_from = "washington-university-first-edition"
+derived_from = "washu-first-edition-pdf"
+derivation = "Poppler pdftoppm 26.08.0; page 1; JPEG; 150 DPI; quality 90; progressive and optimized"
+
+[[artifacts]]
+id = "washu-first-edition-page-2"
+label = "Washington University 1914 Memphis issue — score page 2"
+file = "washington-university-pace-handy-first-edition-1914-2.jpg"
+sha256 = "6614cd6e3ff2aa088afc8588c72ef63f5fa25c8eb480d866c26877015d1775e2"
+acquired_from = "washington-university-first-edition"
+derived_from = "washu-first-edition-pdf"
+derivation = "Poppler pdftoppm 26.08.0; page 2; JPEG; 150 DPI; quality 90; progressive and optimized"
+
+[[artifacts]]
+id = "washu-first-edition-page-3"
+label = "Washington University 1914 Memphis issue — score page 3"
+file = "washington-university-pace-handy-first-edition-1914-3.jpg"
+sha256 = "0f169617fa6013250e21f01ffa3d1baced93ad4efbb6e9b5bdfd40bcd2370afb"
+acquired_from = "washington-university-first-edition"
+derived_from = "washu-first-edition-pdf"
+derivation = "Poppler pdftoppm 26.08.0; page 3; JPEG; 150 DPI; quality 90; progressive and optimized"
+
+[[artifacts]]
+id = "washu-first-edition-page-4"
+label = "Washington University 1914 Memphis issue — score page 4"
+file = "washington-university-pace-handy-first-edition-1914-4.jpg"
+sha256 = "a18bcc9b8a5f2f4f8e479d848673c29ac4c5cd0946279faff1204ad688d4b8ce"
+acquired_from = "washington-university-first-edition"
+derived_from = "washu-first-edition-pdf"
+derivation = "Poppler pdftoppm 26.08.0; page 4; JPEG; 150 DPI; quality 90; progressive and optimized"
+
+[[artifacts]]
+id = "washu-first-edition-page-5"
+label = "Washington University 1914 Memphis issue — score page 5"
+file = "washington-university-pace-handy-first-edition-1914-5.jpg"
+sha256 = "9a33d6fb418fd8b89acf5940ba941e2785b50f01a44956827b7b14b5862d3f0e"
+acquired_from = "washington-university-first-edition"
+derived_from = "washu-first-edition-pdf"
+derivation = "Poppler pdftoppm 26.08.0; page 5; JPEG; 150 DPI; quality 90; progressive and optimized"
+
+[[artifacts]]
+id = "washu-first-edition-page-6"
+label = "Washington University 1914 Memphis issue — advertising back cover"
+file = "washington-university-pace-handy-first-edition-1914-6.jpg"
+sha256 = "f8880851712965a13c41c50fc35ff1da1ca9e30a50cafa0e7653381fc0e3cd97"
+acquired_from = "washington-university-first-edition"
+derived_from = "washu-first-edition-pdf"
+derivation = "Poppler pdftoppm 26.08.0; page 6; JPEG; 150 DPI; quality 90; progressive and optimized"
 
 [[artifacts]]
 id = "score"
@@ -876,7 +998,11 @@ sources = ["usaf-band-defense", "usaf-band-commons"]
 
 [[facts]]
 text = "The composition was first published on September 11, 1914. This date does not establish the printing date of the preserved revised edition."
-sources = ["score-archive", "score-rights", "copyright-catalog-1914"]
+sources = ["washington-university-first-edition", "copyright-catalog-1914"]
+
+[[facts]]
+text = "The Gaylord Music Library at Washington University in St. Louis preserves a six-page 1914 Pace & Handy Memphis issue. Its cover and first music page identify Memphis as the place of publication; unlike Brown's 1918 New York issue, it has no 1918 copyright-transfer line, record catalog numbers, or 'As played by Handy's Orchestra' heading. The copy matches Fuld's bibliographic description of the first edition, while a reproduced Handy interview describes the first title page as deep blue with white lettering. This supports—but does not conclusively establish—the identification as a first edition; the precise printing or impression of the Washington University copy remains unverified."
+sources = ["washington-university-first-edition", "brown-score", "fuld-world-famous-music", "handy-first-cover-interview"]
 
 [[facts]]
 text = "IMSLP file #716402 is a 12-page scan containing a scenic-cover issue and a Paul Whiteman promotional issue, each followed by four score pages and an advertising back cover."
@@ -931,6 +1057,17 @@ text = "Marion Harris recorded St. Louis Blues with an orchestra conducted by Ch
 sources = ["marion-harris-youtube"]
 
 [[sources]]
+id = "washington-university-first-edition"
+title = "Gaylord Music Library, Washington University in St. Louis: The Saint Louis blues (b10377633)"
+url = "https://archive.org/details/b10377633"
+retrieved = "2026-10-10"
+download_url = "https://archive.org/download/b10377633/b10377633.pdf"
+rights = "Public Domain Mark 1.0"
+rights_url = "https://creativecommons.org/publicdomain/mark/1.0/"
+attribution = "Gaylord Music Library, Washington University in St. Louis"
+snapshot_note = "Washington University catalogs this as a 1914 six-page score for medium voice and piano, published in Memphis by Pace & Handy Music Co. The scan itself retains the Memphis imprint and original MCMXIV copyright without the 1918 transfer statement printed in Brown's later New York issue. Its identification as an apparent first edition is a bibliographic inference documented separately, not an edition statement in Washington University's catalog."
+
+[[sources]]
 id = "score-archive"
 title = "Internet Archive: St. Louis Blues revised edition (printing date unverified)"
 url = "https://archive.org/details/stlouisblues00hand"
@@ -949,7 +1086,7 @@ url = "https://imslp.org/wiki/St._Louis_Blues_(Handy,_W._C.)"
 retrieved = "2026-10-02"
 download_url = "https://s9.imslp.org/files/imglnks/usimg/8/8f/IMSLP716402-PMLP67902-SheetMusic_31198.pdf"
 rights = "Public Domain"
-snapshot_note = "IMSLP describes #716402 as a 12-page first-edition scan from Mississippi State University, published by Handy Bros. Music Co. in 1914. Visual inspection shows two separately covered six-page issues bundled in the PDF; they are presented as separate galleries here."
+snapshot_note = "IMSLP describes #716402 as a 1914 first-edition scan from Mississippi State University. The PDF actually contains two separately covered later promotional issues, each published by Handy Bros. Music Co.; visual evidence therefore conflicts with IMSLP's edition label and date. The catalog description is retained here as attributed source metadata, not accepted as the date or edition state of either physical copy. The two issues are presented as separate galleries."
 
 [[sources]]
 id = "imslp-bloom-arrangement"
@@ -1248,3 +1385,147 @@ snapshot_note = "Catalog lists Ole Miss Rag by W. C. Handy, published in Memphis
 [[facts]]
 text = "SIUE’s library catalog lists W. C. Handy’s Ole Miss Rag as published by Pace & Handy Music Co. in Memphis in 1916. LOC’s Registry essay identifies Ole Miss Blues as the ending of Handy’s 1922 St. Louis Blues performance."
 sources = ["ole-miss-siue-catalog", "handy-1922-loc-essay"]
+
+[[sources]]
+id = "fuld-world-famous-music"
+title = "James J. Fuld: The Book of World-Famous Music, 3rd edition — St. Louis Blues entry"
+url = "https://www.worldradiohistory.com/BOOKSHELF-ARH/Radio-Programming/The-Book-of-World-Famous-Music-Fuld-3rd-1985.pdf"
+retrieved = "2026-10-10"
+snapshot_note = "The entry on page 527 dates publication to September 11, 1914 and describes the first edition as having a blue-and-white cover with the phrases 'The First Successful Blues Published' and 'The Most Widely Known Ragtime Composition,' identifying Handy as composer of The Memphis Blues, showing a 50-cent price, placing the music on pages 2–5, crediting copyright to the composer, and advertising Your Easy Rider on the back cover. Those features match the Washington University copy. The match supports an apparent-first-edition identification but does not establish its precise printing or impression."
+
+[[sources]]
+id = "handy-first-cover-interview"
+title = "American Blues Scene: Behind the Keys — Finding the Father of the Blues"
+url = "https://www.americanbluesscene.com/2011/07/behind-the-keys-finding-the-father-of-the-blues/"
+retrieved = "2026-10-10"
+snapshot_note = "The article reproduces an interview in which Handy recalls that the song's first title page was deep blue with white lettering and discusses the original printing. This is a secondary online reproduction of Handy's statement and corroborates the cover characteristic; it does not identify the Washington University copy's precise printing."
+
+[[facts]]
+text = "The Library of Congress preserves a sixteen-minute 1929 musical short of St. Louis Blues, directed by Dudley Murphy and starring Bessie Smith; the film was selected for the National Film Registry."
+sources = ["loc-bessie-film-1929"]
+
+[[facts]]
+text = "Paramount Pictures produced the 1958 St. Louis Blues biographical musical, directed by Allen Reisner and starring Nat King Cole. AFI records a 1958 Paramount copyright registration, LP10305."
+sources = ["afi-st-louis-blues-1958"]
+
+[[facts]]
+text = "The 1945 MGM Tom and Jerry short Flirty Birdy, directed by William Hanna and Joseph Barbera with music by Scott Bradley, quotes St. Louis Blues. In the supplied YouTube copy, the passage runs from 1:50 to 2:51."
+sources = ["iad-flirty-birdy", "youtube-flirty-birdy"]
+
+[[facts]]
+text = "Vignette Films produced a thirteen-minute educational film about W. C. Handy. The supplied YouTube listing dates it to 1967 and identifies Steve Allen as narrator."
+sources = ["criterion-wc-handy-film", "youtube-wc-handy-1967"]
+
+[[facts]]
+text = "Macmillan published W. C. Handy's Father of the Blues: An Autobiography in 1941; Arna Bontemps edited it and Abbe Niles supplied the foreword."
+sources = ["internet-archive-father-of-the-blues", "smithsonian-father-of-the-blues"]
+
+[[facts]]
+text = "W. C. Handy's Father of the Blues musical autobiography was originally issued in 1953 from sessions recorded in 1952 and 1953. The documented 1980 DRG LP reissue includes two St. Louis Blues tracks, one featuring Katherine Handy Lewis."
+sources = ["discogs-father-of-the-blues-lp"]
+
+[[sources]]
+id = "loc-bessie-film-1929"
+title = "Library of Congress: St. Louis blues (1929)"
+url = "https://www.loc.gov/item/2023602002/"
+retrieved = "2026-10-10"
+download_url = "https://tile.loc.gov/storage-services/service/mbrs/ntscrm/00063365/00063365.mp4"
+rights = "Library of Congress rights advisory: the Library is not aware of US copyright or other restrictions in the vast majority of this collection, but users remain responsible for legal assessment"
+rights_url = "https://www.loc.gov/item/2023602002/"
+attribution = "Library of Congress, Motion Picture, Broadcasting and Recorded Sound Division; Bessie Smith; Dudley Murphy"
+snapshot_note = "LOC identifies the film as a 1929, sixteen-minute black-and-white short produced by Radio Pictures and distributed by RKO, directed and screenwritten by Dudley Murphy, and featuring Bessie Smith. The catalog page notes its National Film Registry selection. The site links to LOC's catalog page and does not preserve a local copy."
+
+[[sources]]
+id = "commons-bessie-film-1929"
+title = "Wikimedia Commons: St. Louis Blues (1929 film)"
+url = "https://commons.wikimedia.org/wiki/File:St._Louis_Blues.webm"
+retrieved = "2026-10-10"
+rights = "Public domain in the United States"
+rights_url = "https://commons.wikimedia.org/wiki/File:St._Louis_Blues.webm"
+snapshot_note = "Commons identifies the Library of Congress as the source and marks the film public domain in the United States. This supports the US rights description but is not a worldwide clearance statement."
+
+[[sources]]
+id = "afi-st-louis-blues-1958"
+title = "AFI Catalog: St. Louis Blues (1958)"
+url = "https://catalog.afi.com/Film/53491-ST.-LOUIS-BLUES"
+retrieved = "2026-10-10"
+rights = "Copyrighted motion picture; no permission to copy or redistribute is asserted"
+snapshot_note = "AFI identifies the 93–94 minute 1958 Paramount Pictures biography and musical, directed by Allen Reisner, and lists the principal cast. Its catalog records copyright claimant Paramount Pictures Corp., registration date April 5, 1958, and registration LP10305."
+
+[[sources]]
+id = "youtube-st-louis-blues-1958"
+title = "YouTube: St. Louis Blues (1958) — Silver Shadows Cinema"
+url = "https://youtu.be/MK7pvh8oGDM?si=zYLzqPk_loQKiADJ"
+retrieved = "2026-10-10"
+rights = "Copyrighted external media; no permission to copy or redistribute is asserted"
+snapshot_note = "Public third-party YouTube upload observed with a running time of 1:33:02. The supplied viewing copy has portions of its soundtrack muted, apparently through YouTube's Content ID system. It is linked externally only; it was not downloaded or reuploaded by this project, and its continued availability is outside the project's control."
+
+[[sources]]
+id = "iad-flirty-birdy"
+title = "Internet Animation Database: Flirty Birdy"
+url = "https://www.intanibase.com/iad_entries/entry?shortID=3453"
+retrieved = "2026-10-10"
+snapshot_note = "The catalog identifies Flirty Birdy as an MGM Tom and Jerry short released September 22, 1945; credits directors Bill Hanna and Joe Barbera, producer Fred Quimby, and music by Scott Bradley; and lists W. C. Handy's The Saint Louis Blues among its music sources."
+
+[[sources]]
+id = "loc-flirty-birdy-copyright"
+title = "Library of Congress: Motion Picture Copyright Descriptions Collection — Flirty Birdy"
+url = "https://tile.loc.gov/storage-services/service/gdc/gdcfindingaidpdfs/mi020004/mi020004.pdf"
+retrieved = "2026-10-10"
+rights = "Copyright registration documented; this project asserts no permission to copy or redistribute the film"
+snapshot_note = "The finding aid lists Flirty Birdy (1945), an MGM Tom and Jerry cartoon, in box 807 with claimant The Vitaphone Corp. and registration LP13505. This documents the original registration but is not, by itself, a complete renewal or current-ownership determination."
+
+[[sources]]
+id = "youtube-flirty-birdy"
+title = "YouTube: Tom and Jerry — Flirty Birdy (1945), Part 1"
+url = "https://www.youtube.com/watch?v=uWZLY1UKpow&t=110s"
+retrieved = "2026-10-10"
+rights = "Copyrighted external media; no permission to copy or redistribute is asserted"
+snapshot_note = "Public third-party YouTube upload observed with a running time of 3:15 and a title identifying it as Part 1. In this copy, St. Louis Blues is heard from 1:50 through 2:51. The site links directly to 1:50; it does not download or host the video, and continued availability is outside the project's control."
+
+[[sources]]
+id = "criterion-wc-handy-film"
+title = "The Criterion Channel: W. C. Handy"
+url = "https://www.criterionchannel.com/floyd-norman-an-animated-life/videos/w-c-handy"
+retrieved = "2026-10-10"
+rights = "Copyrighted streaming media; no permission to copy or redistribute is asserted"
+snapshot_note = "Criterion describes W. C. Handy as a thirteen-minute educational film produced by Vignette Films, one of the first Black-owned film companies, whose members included Leo Sullivan, Norman Edelen, Richard Allen, and Floyd Norman."
+
+[[sources]]
+id = "youtube-wc-handy-1967"
+title = "YouTube: W. C. Handy Documentary (1967), narrated by Steve Allen"
+url = "https://youtu.be/Eyz0BL5LsAA?si=vgbSyAx45JrQpyad"
+retrieved = "2026-10-10"
+rights = "Copyrighted external media; no permission to copy or redistribute is asserted"
+snapshot_note = "Public third-party YouTube upload observed with a running time of 13:47. Its title dates the documentary to 1967, and its description identifies Steve Allen as narrator and asserts fair use. That uploader statement is documented as metadata, not adopted as a legal conclusion or redistribution license. The project links externally and does not download or host the video."
+
+[[sources]]
+id = "internet-archive-father-of-the-blues"
+title = "Internet Archive: Father of the Blues — An Autobiography"
+url = "https://archive.org/details/fatherofbluesaut00wcha_0"
+retrieved = "2026-10-10"
+rights = "Access copy hosted by Internet Archive; no public-domain or redistribution claim is made by this project"
+snapshot_note = "Internet Archive metadata identifies the 1941 Macmillan Company book by W. C. Handy, edited by Arna Bontemps with a foreword by Abbe Niles. The scanned copy has 352 images and includes a chapter titled St. Louis Blues and Solvent Bank. Access remains external; no book files were copied into the repository."
+
+[[sources]]
+id = "smithsonian-father-of-the-blues"
+title = "Smithsonian Libraries and Archives: Father of the Blues — catalog record"
+url = "https://www.si.edu/object/father-blues-autobiography-wc-handy-edited-arna-bontemps-foreword-abbe-niles%3Asiris_sil_421798"
+retrieved = "2026-10-10"
+snapshot_note = "The Smithsonian catalog confirms the title, authorship and editorial credits, and states that the work was originally published in New York by Macmillan in 1941."
+
+[[sources]]
+id = "discogs-father-of-the-blues-lp"
+title = "Discogs: W. C. Handy — Father of the Blues (DRG Records SL 5192)"
+url = "https://www.discogs.com/release/5986517-W-C-Handy-Father-Of-The-Blues"
+retrieved = "2026-10-10"
+rights = "Cataloged as copyrighted and phonographically copyrighted by DRG Records Incorporated; no permission to copy or redistribute is asserted"
+snapshot_note = "Discogs identifies this as a US vinyl LP released by DRG Records in 1980, catalog SL 5192. Its notes say the musical autobiography was originally issued in 1953 and preserves sessions from April 12, 1952 and December 7, 1953. Tracks B6 and B7 are St. Louis Blues; B7 features Katherine Handy Lewis. Discogs marks the community-contributed release data as Needs Vote, so it is treated as catalog evidence rather than an authoritative rights clearance."
+
+[[sources]]
+id = "youtube-father-of-the-blues-lp"
+title = "YouTube: W. C. Handy — Father of the Blues, full LP"
+url = "https://www.youtube.com/watch?v=U1UrzxsmcpI"
+retrieved = "2026-10-10"
+rights = "Copyrighted external media; no permission to copy or redistribute is asserted"
+snapshot_note = "Public third-party upload by Mossy Vinyl Clubhouse observed with a running time of 46:33. It is linked externally only; the project does not download or host the recording, and continued availability is outside the project's control."

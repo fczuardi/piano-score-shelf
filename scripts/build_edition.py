@@ -28,7 +28,9 @@ def main():
     if not executable:
         raise SystemExit("MuseScore is required. On this system: sudo pacman -S musescore")
     environment = os.environ.copy()
-    environment["QT_QPA_PLATFORM"] = "offscreen"
+    # MuseScore 4 / Qt 6 aborts while creating the offscreen event dispatcher on
+    # this build; the minimal backend remains headless and exports successfully.
+    environment["QT_QPA_PLATFORM"] = "minimal"
 
     canonical = directory / data["edition"]["canonical_file"]
     if args.sync_only:
@@ -36,9 +38,10 @@ def main():
         if not working.exists():
             raise SystemExit(f"MuseScore working file not found: {working.relative_to(ROOT)}")
         subprocess.run(
-            [executable, "--export-to", str(canonical), str(working)],
+            [executable, "--export-to", str(canonical.relative_to(ROOT)), str(working.relative_to(ROOT))],
             check=True,
             env=environment,
+            cwd=ROOT,
         )
         return
     if not canonical.exists():
@@ -58,9 +61,10 @@ def main():
     ]
     for target in targets:
         subprocess.run(
-            [executable, "--export-to", str(target), str(canonical)],
+            [executable, "--export-to", str(target.relative_to(ROOT)), str(canonical.relative_to(ROOT))],
             check=True,
             env=environment,
+            cwd=ROOT,
         )
 
 

@@ -1,6 +1,6 @@
 # St. Louis Blues — transcription of the Handy Bros. ukulele edition
 
-This directory contains a work-in-progress transcription of the Handy Bros. scenic-cover ukulele edition preserved in IMSLP #716402. Its publication date is unverified; 1914 dates the underlying composition, not necessarily this edition. The uncompressed MusicXML file is the canonical digital score. MuseScore, PDF, SVG, and MIDI files are working or generated derivatives.
+This directory contains a complete transcription of the Handy Bros. scenic-cover ukulele edition preserved in IMSLP #716402. Its publication date is unverified; 1914 dates the underlying composition, not necessarily this edition. The uncompressed MusicXML file is the canonical digital score. MuseScore, PDF, SVG, and MIDI files are editable or generated derivatives.
 
 The primary witness is the four score pages of the undated Handy Bros. scenic-cover issue preserved under `../../inputs/`. Brown University Library's 1918 Pace & Handy issue is the first collation witness. [`EDITION.toml`](EDITION.toml) records the exact artifact identifiers, editorial policy, output names, and every future intervention.
 
@@ -17,6 +17,6 @@ The primary witness is the four score pages of the undated Handy Bros. scenic-co
 
 Transcribed by Fabricio C Zuardi, 2026, from the Handy Bros. edition preserved in IMSLP #716402. Source edition's publication date and rights in its additions remain unverified. Fonts retain their own licenses.
 
-The edition is published as a work in progress. Its manifest records the currently completed scope; PDF and MIDI release derivatives will follow after the musical text has been completed and reviewed.
+The edition is published as complete. Its manifest records the transcription history, editorial policy, witnesses, and interventions.
 
 The legacy directory name `modern-1914` is retained for link compatibility and does not date the source edition. Brown's 1918 score differs musically and is intended as the source of a separate future transcription.

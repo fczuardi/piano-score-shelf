@@ -76,6 +76,15 @@ def load_entries():
         for media in data.get("external_media", []):
             if media["source"] not in source_ids:
                 raise SystemExit(f"unknown external media source: {media['source']}")
+        for movie in data.get("movies", []):
+            unknown = set(movie["sources"]) - source_ids
+            if unknown:
+                raise SystemExit(f"unknown source(s) for movie {movie['title']}: {', '.join(sorted(unknown))}")
+        for resource_type in ("books", "albums"):
+            for resource in data.get(resource_type, []):
+                unknown = set(resource["sources"]) - source_ids
+                if unknown:
+                    raise SystemExit(f"unknown source(s) for {resource_type[:-1]} {resource['title']}: {', '.join(sorted(unknown))}")
         modern_editions = []
         for edition_record in sorted((directory / "editions").glob("*/EDITION.toml")):
             edition = tomllib.loads(edition_record.read_text())
@@ -103,23 +112,6 @@ def render_song(data):
     source_by_id = {source["id"]: source for source in data["sources"]}
     artifact_by_id = {artifact["id"]: artifact for artifact in data["artifacts"]}
     lines = [GENERATED, "", f"# {data['title']} — {', '.join(data['creators'])}", "", data["summary"]]
-    if data.get("modern_editions"):
-        lines += ["", "## Modern editions", ""]
-        for record in data["modern_editions"]:
-            edition = record["edition"]
-            outputs = record["outputs"]
-            edition_path = f"./editions/{edition['id']}"
-            lines += [
-                f"### {edition['title']}",
-                "",
-                f"**{edition['status'].replace('-', ' ').title()}** — transcribed and engraved by {edition['transcriber']}. "
-                f"Current scope: {edition['current_scope']}. "
-                + (f"Dedicated under [{edition['license']}]({edition['license_url']})." if edition.get("license") else ""),
-                "",
-                f"[MusicXML]({edition_path}/{outputs['musicxml']}) · "
-                f"[MuseScore]({edition_path}/{outputs['musescore']}) · "
-                f"[edition manifest]({edition_path}/EDITION.toml)",
-            ]
     lines += ["", "## Files", ""]
     for artifact in data["artifacts"]:
         source = source_number[artifact["acquired_from"]]
@@ -146,6 +138,17 @@ def render_song(data):
         for media in data["external_media"]:
             source = source_number[media["source"]]
             lines.append(f"- [{media['title']}]({media['url']}) — {media['rights_note']} [S{source}](#source-s{source})")
+    if data.get("movies"):
+        lines += ["", "## Movies", ""]
+        for movie in sorted(data["movies"], key=lambda item: item["date"]):
+            citations = " ".join(f"[S{source_number[source]}](#source-s{source_number[source]})" for source in movie["sources"])
+            lines.append(f"- **[{movie['title']}]({movie['url']})** ({movie['date']}) — {movie['description']} {movie['availability_note']} {citations}")
+    for resource_type, heading in (("books", "Books"), ("albums", "Albums")):
+        if data.get(resource_type):
+            lines += ["", f"## {heading}", ""]
+            for resource in data[resource_type]:
+                citations = " ".join(f"[S{source_number[source]}](#source-s{source_number[source]})" for source in resource["sources"])
+                lines.append(f"- **[{resource['title']}]({resource['url']})** ({resource['date']}) — {resource['description']} {resource['availability_note']} {citations}")
     if data.get("creative_commons_works"):
         lines += ["", "## Creative Commons adaptations", ""]
         for work in data["creative_commons_works"]:
@@ -159,6 +162,24 @@ def render_song(data):
                 f"[{work['license_name']}]({work['license_url']}); {files}. "
                 f"{work['note']} [S{source}](#source-s{source})"
             )
+    if data.get("modern_editions"):
+        lines += ["", "## Modern editions", ""]
+        for record in data["modern_editions"]:
+            edition = record["edition"]
+            outputs = record["outputs"]
+            edition_path = f"./editions/{edition['id']}"
+            lines += [
+                f"### {edition['title']}",
+                "",
+                f"**{edition['status'].replace('-', ' ').title()}** — transcribed and engraved by {edition['transcriber']}. "
+                f"Current scope: {edition['current_scope']}."
+                + (f" Dedicated under [{edition['license']}]({edition['license_url']})." if edition.get("license") else ""),
+                "",
+                f"[PDF]({edition_path}/{outputs['pdf']}) · "
+                f"[MusicXML]({edition_path}/{outputs['musicxml']}) · "
+                f"[MuseScore]({edition_path}/{outputs['musescore']}) · "
+                f"[edition manifest]({edition_path}/EDITION.toml)",
+            ]
     lines += ["", "## Rights note", "", data["rights_note"], "", "## Sources", ""]
     for index, source in enumerate(data["sources"], 1):
         links = f"[live page]({source['url']})"
@@ -248,6 +269,7 @@ def render_site_song(data):
                 "scope": edition["current_scope"],
                 "license": edition.get("license", ""),
                 "license_url": edition.get("license_url", ""),
+                "pdf_path": f"{base}/{outputs['pdf']}",
                 "musicxml_path": f"{base}/{outputs['musicxml']}",
                 "musescore_path": f"{base}/{outputs['musescore']}",
                 "manifest_path": f"{base}/EDITION.toml",
@@ -364,6 +386,40 @@ def render_site_song(data):
             for media in data.get("external_media", [])
         ],
         "]",
+        "movies = [",
+        *[
+            "  { " + ", ".join(f"{key} = {json.dumps(value)}" for key, value in {
+                "title": movie["title"],
+                "date": movie["date"],
+                "provider": movie["provider"],
+                "description": movie["description"],
+                "availability_note": movie["availability_note"],
+                "url": movie["url"],
+                "source_numbers": [source_number[source] for source in movie["sources"]],
+            }.items()) + " },"
+            for movie in sorted(data.get("movies", []), key=lambda item: item["date"])
+        ],
+        "]",
+        "books = [",
+        *[
+            "  { " + ", ".join(f"{key} = {json.dumps(value)}" for key, value in {
+                "title": book["title"], "date": book["date"], "description": book["description"],
+                "availability_note": book["availability_note"], "url": book["url"],
+                "link_label": book["link_label"], "source_numbers": [source_number[source] for source in book["sources"]],
+            }.items()) + " },"
+            for book in data.get("books", [])
+        ],
+        "]",
+        "albums = [",
+        *[
+            "  { " + ", ".join(f"{key} = {json.dumps(value)}" for key, value in {
+                "title": album["title"], "date": album["date"], "description": album["description"],
+                "availability_note": album["availability_note"], "url": album["url"],
+                "link_label": album["link_label"], "source_numbers": [source_number[source] for source in album["sources"]],
+            }.items()) + " },"
+            for album in data.get("albums", [])
+        ],
+        "]",
         "+++",
         "",
         data["summary"],
@@ -441,10 +497,11 @@ def build_site_inputs(entries, check):
             outputs = record["outputs"]
             source = record["directory"]
             edition_target = static_songs / slug / "editions" / edition["id"]
-            expected = ["EDITION.toml", outputs["musicxml"], outputs["musescore"]]
+            expected = ["EDITION.toml", outputs["pdf"], outputs["musicxml"], outputs["musescore"]]
             if not check:
                 edition_target.mkdir(parents=True, exist_ok=True)
                 for filename in expected:
+                    (edition_target / filename).parent.mkdir(parents=True, exist_ok=True)
                     shutil.copy2(source / filename, edition_target / filename)
             elif any(not (edition_target / filename).exists() for filename in expected):
                 raise SystemExit(f"generated site edition files are missing: {edition_target.relative_to(ROOT)}")
