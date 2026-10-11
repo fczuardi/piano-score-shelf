@@ -6,7 +6,7 @@ kind = "faithful modern engraving"
 status = "work-in-progress"
 started = "2026-10-10"
 transcriber = "Fabricio C Zuardi"
-current_scope = "Transcribed and reviewed through measure 27, the end of scan page 3 system 2; remaining measures are placeholders"
+current_scope = "Transcribed and reviewed through measure 48, the end of scan page 4; later source measures remain placeholders"
 canonical_format = "MusicXML 4.0"
 canonical_file = "st-louis-blues-pace-handy-1914.musicxml"
 working_file = "st-louis-blues-pace-handy-1914.mscz"
@@ -133,6 +133,30 @@ scope = "Remainder of scan page 3, system 2, measures 25-27"
 witness = "A"
 note = "Completed and reviewed the vocal line, three printed lyric verses, and piano accompaniment through measure 27. The pitches, rhythms, accidentals, ties, and two-voice writing agree with the primary witness, including the dotted vocal endings in measures 25 and 26 and the sustained vocal note tied from measure 27 into measure 28."
 
+[[revisions]]
+date = "2026-10-11"
+editor = "Fabricio C Zuardi"
+status = "work-in-progress"
+scope = "Scan page 3, system 3, measures 28-32"
+witness = "A"
+note = "Completed and reviewed the final system of scan page 3. The vocal line, three printed lyric verses, piano accompaniment, chromatic notes, and ties agree with the primary witness, including the tied repetitions in measure 29 and the vocal tie from measure 31 into measure 32. Encoded the optional '8va ad lib.' instruction as italic staff text so it remains visible without imposing an octave transposition on playback."
+
+[[revisions]]
+date = "2026-10-12"
+editor = "Fabricio C Zuardi"
+status = "work-in-progress"
+scope = "Scan page 4, system 1, measures 33-37"
+witness = "A, collated with B"
+note = "Completed and reviewed the vocal line, three printed lyric verses, and piano accompaniment through measure 37. The pitches, rhythms, courtesy F-sharp accidentals, shared-notehead voice leading, and ties agree with the primary witness. In measure 37, supplied the secondary beam omitted from the first right-hand chord; the correctly printed vocal rhythm establishes the intended sixteenth followed by dotted eighth, and witness B reproduces the omission."
+
+[[revisions]]
+date = "2026-10-12"
+editor = "Fabricio C Zuardi"
+status = "work-in-progress"
+scope = "Remainder of scan page 4, measures 38-48"
+witness = "A"
+note = "Completed and reviewed the vocal line, three printed lyric verses, and piano accompaniment through the final cadence on scan page 4. Preserved the distinct left-hand rhythms printed in measures 43-46 rather than regularizing the four-measure figure, and documented the ambiguous coincident noteheads and augmentation dots in that passage."
+
 [[decisions]]
 measure = 1
 location = "piano left hand, beat 1"
@@ -148,3 +172,19 @@ witness = "A, scan page 2, system 1"
 reading = "The source prints an eighth rest followed by a sixteenth rest."
 action = "Encode an eighth rest followed by a sixteenth rest."
 rationale = "This preserves both the combined pickup duration and the order printed in the primary witness."
+
+[[decisions]]
+measure = 37
+location = "piano right hand, beat 1"
+witness = "A, scan page 4, system 1; collated with B, scan page 4, system 1"
+reading = "The first two chords are joined by only one beam, although the dots on the second chord and the correctly printed vocal rhythm require a sixteenth followed by a dotted eighth. Witness B reproduces the omitted secondary beam."
+action = "Add a secondary beam to the first chord, encoding it as a sixteenth-note chord followed by a dotted eighth tied to a quarter-note chord."
+rationale = "The corrected values complete the 2/4 measure and match the vocal rhythm directly above while preserving the printed augmentation dots and ties."
+
+[[decisions]]
+measure = "43-46"
+location = "piano left hand"
+witness = "A, scan page 4, system 3"
+reading = "The repeated accompaniment figure contains coincident noteheads, sparsely printed augmentation dots, and subtle rhythmic differences. The moving upper voice is read as dotted eighth, sixteenth, eighth, eighth in measures 43-45, but as four eighths in measure 46. The lower voice is read as a half-note D octave in measure 43, a dotted-quarter D octave in measure 44, a quarter-note D octave in measure 45, and a dotted-quarter low D in measure 46; unprinted rests complete the latter measures."
+action = "Preserve those distinct durations in separate voices. Where the voices coincide in measure 43, use shared visual noteheads while retaining their independent rhythmic values; show the rests needed to make the later voices explicit."
+rationale = "This reading accounts for the source's hollow and filled noteheads, the placement of its dots and beams, and the complete duration of each 2/4 measure without regularizing the visibly non-identical figures."
