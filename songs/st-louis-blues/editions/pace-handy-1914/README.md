@@ -2,7 +2,7 @@
 
 This directory contains a work-in-progress transcription of the six-page Pace & Handy Music Co. issue preserved by the Gaylord Music Library at Washington University in St. Louis. The source was published in Memphis in 1914; its music occupies scan pages 2–5. The uncompressed MusicXML file is the canonical digital score, and the MuseScore file is the editable working copy.
 
-The first music page of the source (scan page 2), comprising the opening piano introduction and measures 9–18 with three lyric verses, has been transcribed and reviewed. The remaining measures are placeholders and will be replaced as transcription continues.
+The first music page of the source (scan page 2) and measures 19–27 on scan page 3 have been transcribed and reviewed. The completed passage comprises the opening piano introduction and the vocal score through the end of scan page 3's second system. The remaining measures are placeholders and will be replaced as transcription continues.
 
 ## Transcription workflow
 

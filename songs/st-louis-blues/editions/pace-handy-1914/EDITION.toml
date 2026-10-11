@@ -6,7 +6,7 @@ kind = "faithful modern engraving"
 status = "work-in-progress"
 started = "2026-10-10"
 transcriber = "Fabricio C Zuardi"
-current_scope = "Transcribed and reviewed through measure 18, the end of scan page 2 system 3; remaining measures are placeholders"
+current_scope = "Transcribed and reviewed through measure 27, the end of scan page 3 system 2; remaining measures are placeholders"
 canonical_format = "MusicXML 4.0"
 canonical_file = "st-louis-blues-pace-handy-1914.musicxml"
 working_file = "st-louis-blues-pace-handy-1914.mscz"
@@ -116,6 +116,22 @@ status = "work-in-progress"
 scope = "Lyric underlay corrections in measures 14, 17, and 18"
 witness = "A"
 note = "Completed the third-system review corrections. Encoded 'evenin’' and both occurrences of 'Cause' as single printed lyric items extended across two notes, retained the distinct verse-3 underlay 'He’d make,' and corrected the leading apostrophe in '’o-man.' The transcription is reviewed through measure 18."
+
+[[revisions]]
+date = "2026-10-11"
+editor = "Fabricio C Zuardi"
+status = "work-in-progress"
+scope = "Scan page 3, system 1 and opening of system 2, measures 19-24"
+witness = "A"
+note = "Completed and reviewed the vocal line, three printed lyric verses, and piano accompaniment through measure 24. Review found the pitches, rhythms, accidentals, voices, and ties consistent with the primary witness, including the faint augmentation dot on the vocal G in measure 21 and the shared-note two-voice texture with three ties in measure 23. A visible modern lyric extender clarifies that verse 2's 'tole' continues across its tied note without altering the musical or textual content."
+
+[[revisions]]
+date = "2026-10-11"
+editor = "Fabricio C Zuardi"
+status = "work-in-progress"
+scope = "Remainder of scan page 3, system 2, measures 25-27"
+witness = "A"
+note = "Completed and reviewed the vocal line, three printed lyric verses, and piano accompaniment through measure 27. The pitches, rhythms, accidentals, ties, and two-voice writing agree with the primary witness, including the dotted vocal endings in measures 25 and 26 and the sustained vocal note tied from measure 27 into measure 28."
 
 [[decisions]]
 measure = 1
