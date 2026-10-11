@@ -168,6 +168,14 @@ def render_song(data):
             edition = record["edition"]
             outputs = record["outputs"]
             edition_path = f"./editions/{edition['id']}"
+            release_links = []
+            if (record["directory"] / outputs["pdf"]).exists():
+                release_links.append(f"[PDF]({edition_path}/{outputs['pdf']})")
+            release_links += [
+                f"[MusicXML]({edition_path}/{outputs['musicxml']})",
+                f"[MuseScore]({edition_path}/{outputs['musescore']})",
+                f"[edition manifest]({edition_path}/EDITION.toml)",
+            ]
             lines += [
                 f"### {edition['title']}",
                 "",
@@ -175,10 +183,7 @@ def render_song(data):
                 f"Current scope: {edition['current_scope']}."
                 + (f" Dedicated under [{edition['license']}]({edition['license_url']})." if edition.get("license") else ""),
                 "",
-                f"[PDF]({edition_path}/{outputs['pdf']}) · "
-                f"[MusicXML]({edition_path}/{outputs['musicxml']}) · "
-                f"[MuseScore]({edition_path}/{outputs['musescore']}) · "
-                f"[edition manifest]({edition_path}/EDITION.toml)",
+                " · ".join(release_links),
             ]
     lines += ["", "## Rights note", "", data["rights_note"], "", "## Sources", ""]
     for index, source in enumerate(data["sources"], 1):
@@ -269,7 +274,7 @@ def render_site_song(data):
                 "scope": edition["current_scope"],
                 "license": edition.get("license", ""),
                 "license_url": edition.get("license_url", ""),
-                "pdf_path": f"{base}/{outputs['pdf']}",
+                "pdf_path": f"{base}/{outputs['pdf']}" if (record["directory"] / outputs["pdf"]).exists() else False,
                 "musicxml_path": f"{base}/{outputs['musicxml']}",
                 "musescore_path": f"{base}/{outputs['musescore']}",
                 "manifest_path": f"{base}/EDITION.toml",
@@ -497,7 +502,9 @@ def build_site_inputs(entries, check):
             outputs = record["outputs"]
             source = record["directory"]
             edition_target = static_songs / slug / "editions" / edition["id"]
-            expected = ["EDITION.toml", outputs["pdf"], outputs["musicxml"], outputs["musescore"]]
+            expected = ["EDITION.toml", outputs["musicxml"], outputs["musescore"]]
+            if (source / outputs["pdf"]).exists():
+                expected.append(outputs["pdf"])
             if not check:
                 edition_target.mkdir(parents=True, exist_ok=True)
                 for filename in expected:

@@ -11,7 +11,7 @@ edition-build song="st-louis-blues" edition="modern-1914":
     python3 scripts/build_edition.py {{song}} {{edition}}
 
 # Refresh canonical MusicXML after saving the MuseScore working file
-edition-sync song="st-louis-blues" edition="modern-1914":
+edition-sync song="st-louis-blues" edition="pace-handy-1914":
     python3 scripts/build_edition.py {{song}} {{edition}} --sync-only
 
 # List audio inputs for a Content ID experiment without writing files

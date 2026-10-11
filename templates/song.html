@@ -108,7 +108,7 @@
           <p><strong>{{ edition.status }}</strong> — transcribed and engraved by {{ edition.transcriber }}.</p>
           <p>Current scope: {{ edition.scope }}. {% if edition.license %}Dedicated under <a href="{{ edition.license_url }}">{{ edition.license }}</a>.{% endif %}</p>
           <ul>
-            <li><a href="{{ get_url(path=edition.pdf_path) }}">PDF</a></li>
+            {% if edition.pdf_path %}<li><a href="{{ get_url(path=edition.pdf_path) }}">PDF</a></li>{% endif %}
             <li><a href="{{ get_url(path=edition.musicxml_path) }}">MusicXML</a></li>
             <li><a href="{{ get_url(path=edition.musescore_path) }}">MuseScore source</a></li>
             <li><a href="{{ get_url(path=edition.manifest_path) }}">Edition manifest and provenance</a></li>

@@ -1,0 +1,134 @@
+[edition]
+id = "pace-handy-1914"
+title = "St. Louis Blues — Pace & Handy 1914 Memphis edition"
+composer = "W. C. Handy"
+kind = "faithful modern engraving"
+status = "work-in-progress"
+started = "2026-10-10"
+transcriber = "Fabricio C Zuardi"
+current_scope = "Transcribed and reviewed through measure 18, the end of scan page 2 system 3; remaining measures are placeholders"
+canonical_format = "MusicXML 4.0"
+canonical_file = "st-louis-blues-pace-handy-1914.musicxml"
+working_file = "st-louis-blues-pace-handy-1914.mscz"
+license = "CC0 1.0 Universal (transcription and editorial contributions only)"
+license_url = "https://creativecommons.org/publicdomain/zero/1.0/"
+
+[rights]
+statement = "To the extent that this transcription, engraving, editorial apparatus, and its digital files contain copyright or related rights owned by Fabricio C Zuardi, those rights are dedicated under CC0 1.0 Universal. The dedication does not apply to third-party rights. The underlying 1914 music and lyrics by W. C. Handy are public domain in the United States but may remain protected elsewhere through 2028."
+source_status = "Washington University and Internet Archive mark the scanned 1914 source with the Public Domain Mark. That designation supports United States use but is not treated here as a worldwide rights clearance."
+original_notice = "Copyright MCMXIV by W. C. Handy. Published by The Pace & Handy Music Co., Memphis, Tenn."
+original_notice_context = "Transcribed from the footer of the primary witness as historical source information. It is distinct from the CC0 dedication covering this transcription and its editorial contributions."
+font_plan = "Use MuseScore's Leland notation font and open text fonts distributed under the SIL Open Font License 1.1. Font software and other third-party components retain their own licenses and are not relicensed under CC0."
+
+[editorial_policy]
+music = "Preserve the printed pitches, rhythms, harmony, dynamics, articulations, repeats, tempo indications, and formal structure of the primary witness."
+layout = "Reflow systems and pages for modern legibility; the new layout has no evidentiary authority."
+lyrics = "Transcribe the historical lyrics as printed, including dialect spellings, and label them as a historical transcription. Any normalized or performance text must be issued as a separately identified editorial layer."
+source_features = "Preserve the dedication, title, composer credit, expressive text, and other score-level information. Do not reproduce the scanned cover artwork as part of the CC0 engraving."
+ambiguities = "Do not silently guess. Record every uncertain reading, correction, or departure from the primary witness in the decisions list."
+measure_numbers = "Number measures continuously from the opening piano introduction to support review, lessons, and synchronization data."
+playback = "Playback tempos are editorial realizations of the source's verbal tempo indications; witness A supplies no metronome values. Preserve the printed tempo text regardless of playback settings."
+
+[[witnesses]]
+id = "A"
+role = "primary"
+description = "Six-page 1914 Pace & Handy Music Co. Memphis issue preserved by the Gaylord Music Library at Washington University in St. Louis. Music appears on scanned pages 2–5."
+source_id = "washington-university-first-edition"
+catalog_id = "b10377633"
+artifact_ids = [
+  "washu-first-edition-page-2",
+  "washu-first-edition-page-3",
+  "washu-first-edition-page-4",
+  "washu-first-edition-page-5",
+]
+
+[[witnesses]]
+id = "B"
+role = "collation"
+description = "Brown University Library's 1918 Pace & Handy issue, reserved for clarifying uncertain readings and documenting later differences."
+source_id = "brown-score"
+artifact_ids = [
+  "brown-score-page-2",
+  "brown-score-page-3",
+  "brown-score-page-4",
+  "brown-score-page-5",
+]
+
+[outputs]
+pdf = "st-louis-blues-pace-handy-1914.pdf"
+svg_prefix = "build/pages/st-louis-blues-pace-handy-1914"
+midi = "build/st-louis-blues-pace-handy-1914.mid"
+musicxml = "st-louis-blues-pace-handy-1914.musicxml"
+musescore = "st-louis-blues-pace-handy-1914.mscz"
+
+[[revisions]]
+date = "2026-10-10"
+editor = "Codex, for Fabricio C Zuardi"
+status = "work-in-progress"
+scope = "Edition metadata and empty voice-and-piano score scaffold"
+witness = "A"
+note = "Created a G-major, 2/4 voice-and-piano boilerplate with source identification, editorial policy, provenance, and a prospective CC0 dedication limited to the transcriber's own contributions. The placeholder measure contains rests only; no source music has been transcribed."
+
+[[revisions]]
+date = "2026-10-10"
+editor = "Fabricio C Zuardi"
+status = "work-in-progress"
+scope = "Opening piano pickup and measure 1"
+witness = "A"
+note = "Entered the opening piano pickup and first complete measure and added editorial notes concerning the printed dedication and the shared left-hand notehead. Review found that the pickup's left-hand rests still need to be reordered as an eighth rest followed by a sixteenth rest."
+
+[[revisions]]
+date = "2026-10-10"
+editor = "Fabricio C Zuardi"
+status = "work-in-progress"
+scope = "Opening piano introduction, pickup through measure 8"
+witness = "A"
+note = "Completed and reviewed the music in the first printed system of the primary witness. Corrected the pickup's left-hand rests to an eighth rest followed by a sixteenth rest. The modern engraving reflows the introduction across two systems."
+
+[[revisions]]
+date = "2026-10-11"
+editor = "Fabricio C Zuardi"
+status = "work-in-progress"
+scope = "Scan page 2, system 2, measures 9-13"
+witness = "A"
+note = "Completed and reviewed the vocal line, three printed lyric verses, and piano accompaniment through measure 13. Added an editorial policy clarifying that numerical playback tempos are editorial realizations because the source provides verbal tempo indications without metronome values."
+
+[[revisions]]
+date = "2026-10-11"
+editor = "Fabricio C Zuardi"
+status = "work-in-progress"
+scope = "Edition metadata and editorial notes"
+witness = "A"
+note = "Recorded the source catalog identifier and original 1914 copyright and publisher notice. The score presents that notice as historical source information, separately from the CC0 dedication covering the transcription and editorial contributions."
+
+[[revisions]]
+date = "2026-10-11"
+editor = "Fabricio C Zuardi"
+status = "work-in-progress"
+scope = "Scan page 2, system 3, measures 14-18"
+witness = "A"
+note = "Completed the music and lyric underlay through measure 18. Musical review found the pitches, rhythms, voices, accidentals, slurs, and ties consistent with the primary witness, including the three-note chord ties in measures 15 and 16. Textual review identified three pending fidelity corrections: print 'evenin’' without an inserted hyphen in verse 1 of measure 14; treat 'Cause' as one printed syllable across the first two notes of verses 1 and 2 in measure 17 rather than 'Cau-se'; and use a right apostrophe in '’o-man' in verse 3 of measure 18."
+
+[[revisions]]
+date = "2026-10-11"
+editor = "Fabricio C Zuardi"
+status = "work-in-progress"
+scope = "Lyric underlay corrections in measures 14, 17, and 18"
+witness = "A"
+note = "Completed the third-system review corrections. Encoded 'evenin’' and both occurrences of 'Cause' as single printed lyric items extended across two notes, retained the distinct verse-3 underlay 'He’d make,' and corrected the leading apostrophe in '’o-man.' The transcription is reviewed through measure 18."
+
+[[decisions]]
+measure = 1
+location = "piano left hand, beat 1"
+witness = "A, scan page 2, system 1"
+reading = "A shared G notehead has opposing stems and one visibly printed augmentation dot."
+action = "Encode the upper-stem voice as a dotted eighth beamed to the following sixteenth and the lower-stem voice as a dotted quarter."
+rationale = "Both contrapuntal durations require augmentation; the single printed dot is understood to apply to the coincident notes in both voices."
+
+[[decisions]]
+measure = 0
+location = "piano left hand, pickup"
+witness = "A, scan page 2, system 1"
+reading = "The source prints an eighth rest followed by a sixteenth rest."
+action = "Encode an eighth rest followed by a sixteenth rest."
+rationale = "This preserves both the combined pickup duration and the order printed in the primary witness."

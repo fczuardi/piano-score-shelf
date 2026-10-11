@@ -168,6 +168,11 @@ These recordings are documented as public domain in the United States.
 **Complete** — transcribed and engraved by Fabricio C Zuardi. Current scope: Complete voice and piano transcription with source D-tuning ukulele diagrams.
 
 [PDF](./editions/modern-1914/st-louis-blues-modern-1914.pdf) · [MusicXML](./editions/modern-1914/st-louis-blues.musicxml) · [MuseScore](./editions/modern-1914/st-louis-blues.mscz) · [edition manifest](./editions/modern-1914/EDITION.toml)
+### St. Louis Blues — Pace & Handy 1914 Memphis edition
+
+**Work In Progress** — transcribed and engraved by Fabricio C Zuardi. Current scope: Transcribed and reviewed through measure 18, the end of scan page 2 system 3; remaining measures are placeholders. Dedicated under [CC0 1.0 Universal (transcription and editorial contributions only)](https://creativecommons.org/publicdomain/zero/1.0/).
+
+[MusicXML](./editions/pace-handy-1914/st-louis-blues-pace-handy-1914.musicxml) · [MuseScore](./editions/pace-handy-1914/st-louis-blues-pace-handy-1914.mscz) · [edition manifest](./editions/pace-handy-1914/EDITION.toml)
 
 ## Rights note
 
