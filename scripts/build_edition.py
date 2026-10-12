@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Export a modern score edition from its canonical MusicXML file."""
+"""Export score derivatives from the MuseScore working file."""
 
 import argparse
 import os
@@ -33,8 +33,8 @@ def main():
     environment["QT_QPA_PLATFORM"] = "minimal"
 
     canonical = directory / data["edition"]["canonical_file"]
+    working = directory / data["edition"]["working_file"]
     if args.sync_only:
-        working = directory / data["edition"]["working_file"]
         if not working.exists():
             raise SystemExit(f"MuseScore working file not found: {working.relative_to(ROOT)}")
         subprocess.run(
@@ -49,6 +49,8 @@ def main():
             f"canonical score not found: {canonical.relative_to(ROOT)}\n"
             "Run `just edition-sync` after saving the MuseScore working file."
         )
+    if not working.exists():
+        raise SystemExit(f"MuseScore working file not found: {working.relative_to(ROOT)}")
 
     outputs = data["outputs"]
     build = directory / "build"
@@ -61,7 +63,7 @@ def main():
     ]
     for target in targets:
         subprocess.run(
-            [executable, "--export-to", str(target.relative_to(ROOT)), str(canonical.relative_to(ROOT))],
+            [executable, "--export-to", str(target.relative_to(ROOT)), str(working.relative_to(ROOT))],
             check=True,
             env=environment,
             cwd=ROOT,
