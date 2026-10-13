@@ -14,7 +14,7 @@ ROOT = Path(__file__).resolve().parents[1]
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("song", nargs="?", default="st-louis-blues")
-    parser.add_argument("edition", nargs="?", default="modern-1914")
+    parser.add_argument("edition", nargs="?", default="handy-bros-ukulele")
     parser.add_argument("--sync-only", action="store_true")
     args = parser.parse_args()
 
@@ -58,6 +58,7 @@ def main():
     pages.mkdir(parents=True, exist_ok=True)
     targets = [
         directory / outputs["pdf"],
+        directory / outputs["audio"],
         directory / outputs["midi"],
         directory / f'{outputs["svg_prefix"]}.svg',
     ]

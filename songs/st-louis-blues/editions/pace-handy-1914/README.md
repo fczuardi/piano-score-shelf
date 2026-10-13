@@ -1,8 +1,8 @@
 # St. Louis Blues — Pace & Handy 1914 Memphis edition
 
-This directory contains a work-in-progress transcription of the six-page Pace & Handy Music Co. issue preserved by the Gaylord Music Library at Washington University in St. Louis. The source was published in Memphis in 1914; its music occupies scan pages 2–5. The uncompressed MusicXML file is the canonical digital score, and the MuseScore file is the editable working copy.
+This directory contains a complete transcription of the six-page Pace & Handy Music Co. issue preserved by the Gaylord Music Library at Washington University in St. Louis. The source was published in Memphis in 1914; its music occupies scan pages 2–5. The uncompressed MusicXML file is the canonical interchange score, and the MuseScore file is the editable engraving source used to generate presentation derivatives.
 
-The first two music pages and the opening system of the third music page (scan pages 2–4), comprising the opening piano introduction and the vocal score through measure 37, have been transcribed and reviewed. Later source measures remain placeholders.
+The complete voice-and-piano score has been transcribed and reviewed from the opening pickup through the Chorus, repeat endings, and D.C. The edition preserves the three printed pre-Chorus lyric verses, the two Chorus lyric lines, and the historical spoken interjection.
 
 ## Transcription workflow
 
@@ -11,12 +11,12 @@ The first two music pages and the opening system of the third music page (scan p
 3. Save the MuseScore file, then run `just edition-sync st-louis-blues pace-handy-1914` to refresh the canonical MusicXML.
 4. Compare every measure with witness A. Consult Brown's 1918 issue only when a reading is unclear, and record that consultation.
 5. Record corrections, alternatives, and unresolved readings as `[[decisions]]` entries in `EDITION.toml`.
-6. Use `just edition-build st-louis-blues pace-handy-1914` to generate review derivatives when useful.
+6. Use `just edition-build st-louis-blues pace-handy-1914` to generate the PDF, synthesized MP3, per-page SVG, and MIDI derivatives.
 7. Before declaring the edition complete, review the entire score visually and aurally and replace the WIP scope and status in the manifest.
 
 ## CC0 scope and source rights
 
-Fabricio C Zuardi intends to dedicate the transcription, engraving, editorial apparatus, and digital files to the public domain under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/), to the extent that he owns copyright or related rights in them.
+Fabricio C Zuardi dedicates the transcription, engraving, editorial apparatus, and digital files to the public domain under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/), to the extent that he owns copyright or related rights in them.
 
 That dedication cannot waive third-party rights. The underlying 1914 music and lyrics are public domain in the United States but may remain protected in life-plus-70 jurisdictions through December 31, 2028. Fonts and software components retain their own licenses. The scanned cover artwork is source evidence and is not incorporated into the CC0 engraving.
 

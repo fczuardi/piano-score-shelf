@@ -9,9 +9,9 @@
       <h2 id="contents-heading">Contents</h2>
       <ul>
         {% if page.extra.score_editions %}<li><a href="#scores">Scores</a></li>{% endif %}
+        {% if page.extra.modern_editions %}<li><a href="#transcriptions">Transcriptions</a></li>{% endif %}
         {% if page.extra.arrangements %}<li><a href="#arrangements">Arrangements and transcriptions</a></li>{% endif %}
         {% if page.extra.creative_commons_works %}<li><a href="#creative-commons">Creative Commons adaptations</a></li>{% endif %}
-        {% if page.extra.modern_editions %}<li><a href="#modern-editions">Modern editions</a></li>{% endif %}
         {% if page.extra.audio_items %}<li><a href="#listen">Listen</a></li>{% endif %}
         {% if page.extra.listening_items %}<li><a href="#other-recordings">Hear other recordings</a></li>{% endif %}
         {% if page.extra.external_media %}<li><a href="#watch-performance">Watch a performance</a></li>{% endif %}
@@ -44,6 +44,30 @@
               </li>
             {% endfor %}
           </ol>
+        {% endfor %}
+      </section>
+    {% endif %}
+    {% if page.extra.modern_editions %}
+      <section aria-labelledby="transcriptions">
+        <h2 id="transcriptions">Transcriptions</h2>
+        {% for edition in page.extra.modern_editions %}
+          <h3>{{ edition.title }}</h3>
+          <p><strong>{{ edition.status }}</strong> — transcribed and engraved by {{ edition.transcriber }}.</p>
+          <p>Current scope: {{ edition.scope }}. {% if edition.license %}Dedicated under <a href="{{ edition.license_url }}">{{ edition.license }}</a>.{% endif %}</p>
+          {% if edition.audio_path %}
+            <p>Synthesized performance:</p>
+            <audio controls preload="metadata">
+              <source src="{{ edition.audio_path }}" type="audio/mpeg">
+              <a href="{{ edition.audio_path }}">Download synthesized performance</a>
+            </audio>
+          {% endif %}
+          <ul>
+            {% if edition.pdf_path %}<li><a href="{{ edition.pdf_path }}">PDF</a></li>{% endif %}
+            {% if edition.audio_path %}<li><a href="{{ edition.audio_path }}">Synthesized MP3</a></li>{% endif %}
+            <li><a href="{{ edition.musicxml_path }}">MusicXML</a></li>
+            <li><a href="{{ edition.musescore_path }}">MuseScore source</a></li>
+            <li><a href="{{ edition.manifest_path }}">Edition manifest and provenance</a></li>
+          </ul>
         {% endfor %}
       </section>
     {% endif %}
@@ -97,22 +121,6 @@
               {% endfor %}
             </ol>
           {% endif %}
-        {% endfor %}
-      </section>
-    {% endif %}
-    {% if page.extra.modern_editions %}
-      <section aria-labelledby="modern-editions">
-        <h2 id="modern-editions">Modern editions</h2>
-        {% for edition in page.extra.modern_editions %}
-          <h3>{{ edition.title }}</h3>
-          <p><strong>{{ edition.status }}</strong> — transcribed and engraved by {{ edition.transcriber }}.</p>
-          <p>Current scope: {{ edition.scope }}. {% if edition.license %}Dedicated under <a href="{{ edition.license_url }}">{{ edition.license }}</a>.{% endif %}</p>
-          <ul>
-            {% if edition.pdf_path %}<li><a href="{{ get_url(path=edition.pdf_path) }}">PDF</a></li>{% endif %}
-            <li><a href="{{ get_url(path=edition.musicxml_path) }}">MusicXML</a></li>
-            <li><a href="{{ get_url(path=edition.musescore_path) }}">MuseScore source</a></li>
-            <li><a href="{{ get_url(path=edition.manifest_path) }}">Edition manifest and provenance</a></li>
-          </ul>
         {% endfor %}
       </section>
     {% endif %}

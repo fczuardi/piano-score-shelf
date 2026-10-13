@@ -1,15 +1,16 @@
 [edition]
-id = "modern-1914"
+id = "handy-bros-ukulele"
 title = "St. Louis Blues — transcription of the Handy Bros. ukulele edition"
 composer = "W. C. Handy"
-kind = "faithful modern engraving"
+kind = "faithful transcription and engraving"
+source_order = 2
 status = "complete"
 started = "2026-10-02"
 transcriber = "Fabricio C Zuardi"
 current_scope = "Complete voice and piano transcription with source D-tuning ukulele diagrams"
 canonical_format = "MusicXML 4.0"
-canonical_file = "st-louis-blues.musicxml"
-working_file = "st-louis-blues.mscz"
+canonical_file = "st-louis-blues-handy-bros-ukulele.musicxml"
+working_file = "st-louis-blues-handy-bros-ukulele.mscz"
 
 [rights]
 statement = "Transcribed by Fabricio C Zuardi, 2026, from the Handy Bros. edition preserved in IMSLP #716402. Source edition's publication date and rights in its additions remain unverified."
@@ -48,11 +49,12 @@ artifact_ids = [
 ]
 
 [outputs]
-pdf = "st-louis-blues-modern-1914.pdf"
-svg_prefix = "build/pages/st-louis-blues-modern-1914"
-midi = "build/st-louis-blues-modern-1914.mid"
-musicxml = "st-louis-blues.musicxml"
-musescore = "st-louis-blues.mscz"
+pdf = "st-louis-blues-handy-bros-ukulele.pdf"
+audio = "st-louis-blues-handy-bros-ukulele.mp3"
+svg_prefix = "build/pages/st-louis-blues-handy-bros-ukulele"
+midi = "build/st-louis-blues-handy-bros-ukulele.mid"
+musicxml = "st-louis-blues-handy-bros-ukulele.musicxml"
+musescore = "st-louis-blues-handy-bros-ukulele.mscz"
 
 [[revisions]]
 date = "2026-10-02"

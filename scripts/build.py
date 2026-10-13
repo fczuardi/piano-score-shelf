@@ -102,6 +102,12 @@ def load_entries():
                     )
             edition["directory"] = edition_record.parent
             modern_editions.append(edition)
+        modern_editions.sort(
+            key=lambda record: (
+                record["edition"].get("source_order", 9999),
+                record["edition"]["title"],
+            )
+        )
         data["modern_editions"] = modern_editions
         entries.append((directory, data))
     return entries
@@ -163,7 +169,7 @@ def render_song(data):
                 f"{work['note']} [S{source}](#source-s{source})"
             )
     if data.get("modern_editions"):
-        lines += ["", "## Modern editions", ""]
+        lines += ["", "## Transcriptions", ""]
         for record in data["modern_editions"]:
             edition = record["edition"]
             outputs = record["outputs"]
@@ -265,7 +271,7 @@ def render_site_song(data):
     for record in data.get("modern_editions", []):
         edition = record["edition"]
         outputs = record["outputs"]
-        base = f"songs/{slug}/editions/{edition['id']}"
+        base = f"editions/{edition['id']}"
         modern_editions.append(
             {
                 "title": edition["title"],
@@ -275,6 +281,7 @@ def render_site_song(data):
                 "license": edition.get("license", ""),
                 "license_url": edition.get("license_url", ""),
                 "pdf_path": f"{base}/{outputs['pdf']}" if (record["directory"] / outputs["pdf"]).exists() else False,
+                "audio_path": f"{base}/{outputs['audio']}" if (record["directory"] / outputs["audio"]).exists() else False,
                 "musicxml_path": f"{base}/{outputs['musicxml']}",
                 "musescore_path": f"{base}/{outputs['musescore']}",
                 "manifest_path": f"{base}/EDITION.toml",
@@ -505,6 +512,8 @@ def build_site_inputs(entries, check):
             expected = ["EDITION.toml", outputs["musicxml"], outputs["musescore"]]
             if (source / outputs["pdf"]).exists():
                 expected.append(outputs["pdf"])
+            if (source / outputs["audio"]).exists():
+                expected.append(outputs["audio"])
             if not check:
                 edition_target.mkdir(parents=True, exist_ok=True)
                 for filename in expected:

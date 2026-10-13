@@ -161,18 +161,18 @@ These recordings are documented as public domain in the United States.
 - **St. Louis Blues for four recorders** (2016) by David Edward Kemp — [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/); [David Kemp four-recorder arrangement — complete score (PDF)](./inputs/kemp-recorder-arrangement-score.pdf), [David Kemp four-recorder arrangement — complete parts (PDF)](./inputs/kemp-recorder-arrangement-parts.pdf). Arrangement for one soprano, one alto, one tenor, and one bass recorder. The locally hosted PDFs are unmodified; the JPEG page images are display derivatives. [S6](#source-s6)
 - **Synthesized performance of the four-recorder arrangement** (2020-11-05) by Dadvid — [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/); [Dadvid synthesized performance of David Kemp's arrangement (MP3)](./inputs/dadvid-kemp-recorder-arrangement-synthesized.mp3). IMSLP describes this as a synthesized MIDI performance, but the distributed artifact is an MP3. The locally hosted file is unmodified. [S7](#source-s7)
 
-## Modern editions
+## Transcriptions
 
+### St. Louis Blues — Pace & Handy 1914 Memphis edition
+
+**Complete** — transcribed and engraved by Fabricio C Zuardi. Current scope: Complete voice-and-piano transcription of scan pages 2-5, from the opening pickup through the Chorus and its D.C. return. Dedicated under [CC0 1.0 Universal (transcription and editorial contributions only)](https://creativecommons.org/publicdomain/zero/1.0/).
+
+[PDF](./editions/pace-handy-1914/st-louis-blues-pace-handy-1914.pdf) · [MusicXML](./editions/pace-handy-1914/st-louis-blues-pace-handy-1914.musicxml) · [MuseScore](./editions/pace-handy-1914/st-louis-blues-pace-handy-1914.mscz) · [edition manifest](./editions/pace-handy-1914/EDITION.toml)
 ### St. Louis Blues — transcription of the Handy Bros. ukulele edition
 
 **Complete** — transcribed and engraved by Fabricio C Zuardi. Current scope: Complete voice and piano transcription with source D-tuning ukulele diagrams.
 
-[PDF](./editions/modern-1914/st-louis-blues-modern-1914.pdf) · [MusicXML](./editions/modern-1914/st-louis-blues.musicxml) · [MuseScore](./editions/modern-1914/st-louis-blues.mscz) · [edition manifest](./editions/modern-1914/EDITION.toml)
-### St. Louis Blues — Pace & Handy 1914 Memphis edition
-
-**Work In Progress** — transcribed and engraved by Fabricio C Zuardi. Current scope: Transcribed and reviewed through measure 48, the end of scan page 4; later source measures remain placeholders. Dedicated under [CC0 1.0 Universal (transcription and editorial contributions only)](https://creativecommons.org/publicdomain/zero/1.0/).
-
-[PDF](./editions/pace-handy-1914/st-louis-blues-pace-handy-1914.pdf) · [MusicXML](./editions/pace-handy-1914/st-louis-blues-pace-handy-1914.musicxml) · [MuseScore](./editions/pace-handy-1914/st-louis-blues-pace-handy-1914.mscz) · [edition manifest](./editions/pace-handy-1914/EDITION.toml)
+[PDF](./editions/handy-bros-ukulele/st-louis-blues-handy-bros-ukulele.pdf) · [MusicXML](./editions/handy-bros-ukulele/st-louis-blues-handy-bros-ukulele.musicxml) · [MuseScore](./editions/handy-bros-ukulele/st-louis-blues-handy-bros-ukulele.mscz) · [edition manifest](./editions/handy-bros-ukulele/EDITION.toml)
 
 ## Rights note
 

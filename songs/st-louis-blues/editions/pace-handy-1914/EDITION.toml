@@ -3,10 +3,11 @@ id = "pace-handy-1914"
 title = "St. Louis Blues — Pace & Handy 1914 Memphis edition"
 composer = "W. C. Handy"
 kind = "faithful modern engraving"
-status = "work-in-progress"
+source_order = 1
+status = "complete"
 started = "2026-10-10"
 transcriber = "Fabricio C Zuardi"
-current_scope = "Transcribed and reviewed through measure 48, the end of scan page 4; later source measures remain placeholders"
+current_scope = "Complete voice-and-piano transcription of scan pages 2-5, from the opening pickup through the Chorus and its D.C. return"
 canonical_format = "MusicXML 4.0"
 canonical_file = "st-louis-blues-pace-handy-1914.musicxml"
 working_file = "st-louis-blues-pace-handy-1914.mscz"
@@ -56,6 +57,7 @@ artifact_ids = [
 
 [outputs]
 pdf = "st-louis-blues-pace-handy-1914.pdf"
+audio = "st-louis-blues-pace-handy-1914.mp3"
 svg_prefix = "build/pages/st-louis-blues-pace-handy-1914"
 midi = "build/st-louis-blues-pace-handy-1914.mid"
 musicxml = "st-louis-blues-pace-handy-1914.musicxml"
@@ -157,6 +159,14 @@ scope = "Remainder of scan page 4, measures 38-48"
 witness = "A"
 note = "Completed and reviewed the vocal line, three printed lyric verses, and piano accompaniment through the final cadence on scan page 4. Preserved the distinct left-hand rhythms printed in measures 43-46 rather than regularizing the four-measure figure, and documented the ambiguous coincident noteheads and augmentation dots in that passage."
 
+[[revisions]]
+date = "2026-10-12"
+editor = "Fabricio C Zuardi"
+status = "complete"
+scope = "Scan page 5, Chorus, measures 49-63, and full-score review"
+witness = "A, collated with B where noted"
+note = "Completed and reviewed the Chorus, its two printed lyric lines, repeat endings, spoken interjection, D.C., and piano accompaniment. Encoded measure 49 as the one-beat Chorus pickup and measures 61 and 63 as irregular 3/8 measures under the prevailing 2/4 signature. Recorded the interpretation of the open-ended curves in measure 58 and the simplified chord-to-chord slur in measures 59-60. Corrected the closing barline to a final barline, regenerated the edition derivatives from the MuseScore working file, and completed a visual and structural review of the full score."
+
 [[decisions]]
 measure = 1
 location = "piano left hand, beat 1"
@@ -188,3 +198,27 @@ witness = "A, scan page 4, system 3"
 reading = "The repeated accompaniment figure contains coincident noteheads, sparsely printed augmentation dots, and subtle rhythmic differences. The moving upper voice is read as dotted eighth, sixteenth, eighth, eighth in measures 43-45, but as four eighths in measure 46. The lower voice is read as a half-note D octave in measure 43, a dotted-quarter D octave in measure 44, a quarter-note D octave in measure 45, and a dotted-quarter low D in measure 46; unprinted rests complete the latter measures."
 action = "Preserve those distinct durations in separate voices. Where the voices coincide in measure 43, use shared visual noteheads while retaining their independent rhythmic values; show the rests needed to make the later voices explicit."
 rationale = "This reading accounts for the source's hollow and filled noteheads, the placement of its dots and beams, and the complete duration of each 2/4 measure without regularizing the visibly non-identical figures."
+
+[[decisions]]
+measure = 58
+location = "piano left hand, chord at the end of the source system"
+witness = "A, scan page 5, system 3; collated with B, scan page 5, system 3"
+reading = "Three open-ended curves extend from the chord to the end of the system. The following chord contains different pitches, so the curves cannot be ordinary ties into measure 59. Witness B reproduces the same notation."
+action = "Encode the three curves as extended laissez vibrer ties, one for each chord tone."
+rationale = "The open-ended ties preserve the source's indication that the chord should continue resonating without falsely connecting it to different pitches in the following measure."
+
+[[decisions]]
+measure = "59-60"
+location = "piano left hand, chord-to-chord connection"
+witness = "A, scan page 5, systems 3-4"
+reading = "The source prints separate curves for the upper and lower voice-leading strands between chords containing different pitches."
+action = "Represent the two printed voice-leading curves with a single chord-to-chord slur."
+rationale = "MuseScore attaches slurs to chord events rather than individual noteheads in a single voice. A single encompassing slur preserves the intended legato connection without introducing artificial voices or misrepresenting a changing pitch as a tie."
+
+[[decisions]]
+measure = "61 and 63"
+location = "first and second endings of the Chorus"
+witness = "A, scan page 5, system 4"
+reading = "The piano rhythm makes each closing ending measure three eighth notes long although the prevailing 2/4 signature is not replaced. The vocal staff is blank in measure 61 and contains a quarter note followed by an eighth rest in measure 63."
+action = "Encode both measures with an actual duration of 3/8 while retaining the displayed 2/4 signature. Add a visible dotted-quarter rest to the otherwise blank vocal measure 61 and attach the unpitched spoken text 'Dog-gone-it!' to that rest."
+rationale = "The irregular durations preserve the barlines and complete piano rhythms printed in the source; the explicit vocal rest clarifies the modern engraving without assigning a pitch or fixed rhythm to the spoken interjection."
